@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button_fourth"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="330dp"
+        android:adjustViewBounds="true"
+        android:longClickable="false"
+        android:rotation="180"
+        android:src="@drawable/arrow1"
+        app:backgroundTint="#FFFFFF"
+        app:maxImageSize="24dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/Gill_Sans_Ultra_Bold_Condensed"
+        android:gravity="center_horizontal"
+        android:text='Materi'
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/Comic_Sans_MS"
+        android:gravity="center_horizontal"
+        android:text='Menu'
+        android:textColor="#000000"
+        android:textSize="34sp"  android:visibility="gone"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_anatomi"
+        android:layout_width="355dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/mat1"
+        android:text="Anatomi Dan Fisiologi Organ Genitalia"
+        android:fontFamily="@font/Comic_Sans_MS" />
+
+    <Button
+        android:id="@+id/bt_pubertas"
+        android:layout_width="355dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/mat2"
+        android:hapticFeedbackEnabled="false"
+        android:text="Pubertas"
+        android:fontFamily="@font/Comic_Sans_MS"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bt_menstruasi"
+        android:layout_width="355dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/mat3"
+        android:text="Menstruasi"
+        android:fontFamily="@font/Comic_Sans_MS"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bt_infeksi"
+        android:layout_width="355dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/mat4"
+        android:text="INFEKSI MENULAR SEKSUAL"
+        android:fontFamily="@font/Comic_Sans_MS" />
+
+    <Button
+        android:id="@+id/bt_pranikah"
+        android:layout_width="355dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/mat5"
+        android:text="SEKS PRANIKAH"
+        android:fontFamily="@font/Comic_Sans_MS"/>
+
+    <Button
+        android:id="@+id/bt_hamil"
+        android:layout_width="355dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/mat6"
+        android:text="KEHAMILAN TIDAK DIINGINKAN DAN ABORSI"
+        android:fontFamily="@font/Comic_Sans_MS"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bt_hygiene"
+        android:layout_width="355dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="700dp"
+        android:fontFamily="@font/Comic_Sans_MS"
+        android:shadowColor="#000000"
+        android:text="Personal hygiene (kebersihan diri)" />
+
+</RelativeLayout>

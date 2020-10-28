@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:background="@drawable/bg_mens">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:id="@+id/button_fourth"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="38dp"-->
+<!--            android:layout_marginLeft="25dp"-->
+<!--            android:layout_marginEnd="25dp"-->
+<!--            android:layout_marginRight="330dp"-->
+<!--            android:layout_marginBottom="25dp"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:longClickable="false"-->
+<!--            android:rotation="180"-->
+<!--            android:src="@drawable/arrow1" />-->
+
+            <TextView
+                android:id="@+id/judul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:font="@font/gill_sans_ultra_bold_condensed"
+                android:fontFamily="@font/Gill_Sans_Ultra_Bold_Condensed"
+                android:text="Menstruasi"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/fstTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/Comic_Sans_MS"
+                android:text="    Menstruasiadalahproses pelepasan dinding rahim yang disertai dengan pendarahan yang terjadi secara berulang setiap bulan, kecuali pada saat terjadi kehamilan. Menstruasi merupakan salah satu ciri kedewasaan perempuan yang biasanya diawali pada usia remaja 9-12 tahun walaupun terkadang ada yang lebih cepat atau lambat dari umur tersebut." />
+
+            <TextView
+                android:id="@+id/fstTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/Comic_Sans_MS"
+                android:text="    Umumnya siklus menstruasi terjadi selama 28 hari.Hari pertama terjadinya menstruasi dihitung sebagai awal dari setiap siklus. Menstruasi akan terjadi 3-7 hari." />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="     Dalam Siklus Menstruasi Terdapat Beberapa Fase Yaitu:" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="     a.	Fase Proliferasi/folikuler/ pra ovulasi (hari ke 5 pasca menstruasi –hari ke 14)
+Fase terjadinya pertumbuhan folikel didalam ovarium. Pada fase pertengahan fase folikuler, kadar hormone FSH sedikit meningkat sehingga merangsang pertumbuhan sekitar 3-30 folikel yang masing-masing terdapat 1 sel telur. Tetapi hanya 1 folikel saja yang nantinya akan terus tumbuh sedangkan yang lainnya akan hancur." />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="268dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mens1" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="     b.	Fase ovulasi (hari 14)" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="     Adanya peningkatan kadar estrogen selama fase folikel atau pra ovulasi memicu kelenjar pituitari untuk melepaskan hormone luteinizing hormone (LH). Di fase inilah proses ovulasi dimulai. Ovulasi  adalah proses ketika ovarium melepaskan satu sel telur yang matang sel telur ini kemudian bergerak ke tuba fallopi menuju rahim untuk dibuahi oleh sperma. Masa bertahan hidup sel telur di Rahim biasanya hanya sekitar 24 jam, bertemu sperma untuk dibuahi. Tetapi apabila jika sel telur tidak bertemu dan dibuahi oleh sperma maka  sel telur akan mati dan lapisan dinding  Rahim pun akan meluruh menjadi darah menstruasi. Sebaliknya jika terbuahi maka akan terjadi kehamilan. Fase ini terjadi di pertengahan siklus yaitu sekitar 2 minggu atau lebih sebelum mulai menstruasi. Saat ovulasi, biasanya wanita akan mengalami keputihan kental, lengket berwarna bening seperti putih telur dan suhu basal tubuh juga akan meningkat menjadi 37-38⁰C." />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="268dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mens2" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="268dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mens3" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="268dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mens4" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="     c.	Fase luteal (hari  15-28)" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="     Saat folikel melepaskan telurnya, bentuknya berubah menjadi korpus luteum.Korpus luteum melepaskan hormone progesterone dan estrogen yang berfungsi untuk menjaga lapisan Rahim tetap tebal dan siap sebagai tempat menempelnya sel telur yang telah dibuahi sel sperma." />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="268dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mens5" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="    d.	Fase menstruasi (hari ke 28-3)" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="268dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mens6" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="    e.	Fase regenerasi/pasca menstruasi (hari 1-5 setelah menstruasi)" />
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_play"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Video Proses Terjadinya Menstruasi" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="    Masalah-masalah yang dialami perempuan saat menstruasi" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="    •	PMS / pra mesnstruasi sindrom (mengalami perasaan tak menentu seperti gelisah, gampang marah, mudah tersinggung dan sensitif. Ada pula yang merasakan sampai sakit kepala, mual, perut kembung, cepat lelah, rasa nyeri atau bengkak di payudara dan wajah berjerawat)" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="    •	Dismenorhea (nyeri pada daerah perut, pinggang, tembus ke belakang sampai menjalar ke paha)" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="    •	Amenorea (tidak haid)" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="    • Menoragia (pengeluaran darah menstruasi yang terlalu banyak)" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="    • Metroragia (siklus haid yang tidak teratur berupa perdarahan bercak yang terjadi diluar siklus menstruasi)" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="     Tips Mengatasi Nyeri Selama Menstruasi" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="     1.	Kompres perut dengan air hangat." />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="     2.	Hindari makanan tinggi garam, gula dan lemak" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="     3.	Hindari minuman bersoda dan alkohol" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="     4.	Konsumsi ramuan herbal ( jahe,madu, kunyit)" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="     5.	Tetap beraktifitas normal / olahraga ringan" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="     6.	Hindari stress" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/Comic_Sans_MS"
+            android:text="     7.	Bila keluhan tidak teratasi dapat meminum obat penghilang rasa nyeri dan berkonsultasi dengan dokter." />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.kespropedia.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.kespropedia.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+        <action
+            android:id="@+id/action_SecondFragment_to_thirdFragment"
+            app:destination="@id/ThirdFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ThirdFragment"
+        android:name="com.example.kespropedia.ThirdFragment"
+        android:label="ThirdFragment" >
+        <action
+            android:id="@+id/action_ThirdFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.kespropedia.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_materiFragment"
+            app:destination="@id/materiFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_kuisFragment"
+            app:destination="@id/kuisFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/materiFragment"
+        android:name="com.example.kespropedia.MateriFragment"
+        android:label="MateriFragment" >
+        <action
+            android:id="@+id/action_materiFragment_to_anatomiFragment"
+            app:destination="@id/anatomiFragment" />
+        <action
+            android:id="@+id/action_materiFragment_to_pubertasFragment"
+            app:destination="@id/pubertasFragment" />
+        <action
+            android:id="@+id/action_materiFragment_to_mensFragment"
+            app:destination="@id/mensFragment" />
+        <action
+            android:id="@+id/action_materiFragment_to_hygieneFragment"
+            app:destination="@id/hygieneFragment" />
+        <action
+            android:id="@+id/action_materiFragment_to_infeksiFragment"
+            app:destination="@id/infeksiFragment" />
+        <action
+            android:id="@+id/action_materiFragment_to_aborsiFragment"
+            app:destination="@id/aborsiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kuisFragment"
+        android:name="com.example.kespropedia.KuisFragment"
+        android:label="KuisFragment" >
+        <action
+            android:id="@+id/action_kuisFragment_to_kuis1Fragment"
+            app:destination="@id/kuis1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/anatomiFragment"
+        android:name="com.example.kespropedia.AnatomiFragment"
+        android:label="AnatomiFragment" />
+    <fragment
+        android:id="@+id/pubertasFragment"
+        android:name="com.example.kespropedia.PubertasFragment"
+        android:label="PubertasFragment" />
+    <fragment
+        android:id="@+id/mensFragment"
+        android:name="com.example.kespropedia.MensFragment"
+        android:label="MensFragment" />
+    <fragment
+        android:id="@+id/hygieneFragment"
+        android:name="com.example.kespropedia.HygieneFragment"
+        android:label="HygieneFragment" />
+    <fragment
+        android:id="@+id/infeksiFragment"
+        android:name="com.example.kespropedia.InfeksiFragment"
+        android:label="InfeksiFragment" />
+    <fragment
+        android:id="@+id/aborsiFragment"
+        android:name="com.example.kespropedia.AborsiFragment"
+        android:label="AborsiFragment" />
+    <fragment
+        android:id="@+id/kuis1Fragment"
+        android:name="com.example.kespropedia.Kuis1Fragment"
+        android:label="Kuis1Fragment" >
+        <action
+            android:id="@+id/action_kuis1Fragment_to_skorFragment"
+            app:destination="@id/skorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/skorFragment"
+        android:name="com.example.kespropedia.SkorFragment"
+        android:label="SkorFragment" >
+        <action
+            android:id="@+id/action_skorFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>
