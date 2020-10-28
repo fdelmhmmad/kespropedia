@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="50dp"
-        android:fontFamily="@font/Gill_Sans_Ultra_Bold_Condensed"
+        android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
         android:gravity="center_horizontal"
         android:text='Materi'
         android:textColor="#000000"
@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="200dp"
-        android:fontFamily="@font/Comic_Sans_MS"
+        android:fontFamily="@font/comic_sans_ms"
         android:gravity="center_horizontal"
         android:text='Menu'
         android:textColor="#000000"
@@ -59,7 +59,7 @@
         android:layout_marginTop="100dp"
         android:background="@drawable/mat1"
         android:text="Anatomi Dan Fisiologi Organ Genitalia"
-        android:fontFamily="@font/Comic_Sans_MS" />
+        android:fontFamily="@font/comic_sans_ms" />
 
     <Button
         android:id="@+id/bt_pubertas"
@@ -70,7 +70,7 @@
         android:background="@drawable/mat2"
         android:hapticFeedbackEnabled="false"
         android:text="Pubertas"
-        android:fontFamily="@font/Comic_Sans_MS"
+        android:fontFamily="@font/comic_sans_ms"
         android:textColor="#FFFFFF" />
 
     <Button
@@ -81,7 +81,7 @@
         android:layout_marginTop="300dp"
         android:background="@drawable/mat3"
         android:text="Menstruasi"
-        android:fontFamily="@font/Comic_Sans_MS"
+        android:fontFamily="@font/comic_sans_ms"
         android:textColor="#FFFFFF" />
 
     <Button
@@ -92,7 +92,7 @@
         android:layout_marginTop="400dp"
         android:background="@drawable/mat4"
         android:text="INFEKSI MENULAR SEKSUAL"
-        android:fontFamily="@font/Comic_Sans_MS" />
+        android:fontFamily="@font/comic_sans_ms" />
 
     <Button
         android:id="@+id/bt_pranikah"
@@ -102,7 +102,7 @@
         android:layout_marginTop="500dp"
         android:background="@drawable/mat5"
         android:text="SEKS PRANIKAH"
-        android:fontFamily="@font/Comic_Sans_MS"/>
+        android:fontFamily="@font/comic_sans_ms"/>
 
     <Button
         android:id="@+id/bt_hamil"
@@ -112,7 +112,7 @@
         android:layout_marginTop="600dp"
         android:background="@drawable/mat6"
         android:text="KEHAMILAN TIDAK DIINGINKAN DAN ABORSI"
-        android:fontFamily="@font/Comic_Sans_MS"
+        android:fontFamily="@font/comic_sans_ms"
         android:textColor="#FFFFFF" />
 
     <Button
@@ -121,7 +121,7 @@
         android:layout_height="80dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="700dp"
-        android:fontFamily="@font/Comic_Sans_MS"
+        android:fontFamily="@font/comic_sans_ms"
         android:shadowColor="#000000"
         android:text="Personal hygiene (kebersihan diri)" />
 

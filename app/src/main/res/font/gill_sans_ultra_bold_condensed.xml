@@ -3,9 +3,9 @@
     <font
         android:fontStyle="normal"
         android:fontWeight="400"
-        android:font="@font/Gill_Sans_Ultra_Bold_Condensed" />
+        android:font="@font/gill_sans_ultra_bold_condensed_ms" />
     <font
         android:fontStyle="italic"
         android:fontWeight="400"
-        android:font="@font/Gill_Sans_Ultra_Bold_Condensed" />
+        android:font="@font/gill_sans_ultra_bold_condensed_ms" />
 </font-family>

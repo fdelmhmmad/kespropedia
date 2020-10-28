@@ -49,7 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginTop="107dp"
-        android:fontFamily="sans-serif-condensed-medium"
+        android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
         android:gravity="center"
         android:text='Kespro'
         android:textColor="#000000"
@@ -61,7 +61,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginTop="140dp"
-        android:fontFamily="sans-serif-condensed-medium"
+        android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
         android:gravity="center"
         android:text='(Kesehatan Reproduksi)'
         android:textColor="#000000"
@@ -83,7 +83,7 @@
         android:layout_marginTop="278dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:fontFamily="serif"
+        android:fontFamily="@font/comic_sans_ms"
         android:gravity="center"
         android:text='Kesehatan reproduksi adalah kesehatan secara fisik, mental dan kesejahteraan sosial secara utuh pada semua hal yang berhubungan dengan sistem dan fungsi, serta proses reproduksi dan bukan hanya kondisi yang bebas dari penyakit dan kecacatan.'
         android:textColor="#000000"

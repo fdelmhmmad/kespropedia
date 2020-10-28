@@ -3,9 +3,9 @@
     <font
         android:fontStyle="normal"
         android:fontWeight="400"
-        android:font="@font/Comic_Sans_MS" />
+        android:font="@font/comic_sans_ms" />
     <font
         android:fontStyle="italic"
         android:fontWeight="400"
-        android:font="@font/Comic_Sans_MS" />
+        android:font="@font/comic_sans_ms" />
 </font-family>
