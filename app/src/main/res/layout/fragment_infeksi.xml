@@ -2,8 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:fillViewport="false"
-    android:background="@drawable/bg_ims">
+    android:fillViewport="false">
     <LinearLayout
         android:orientation="vertical" android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,6 +13,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
+            android:textColor="#000000"
             android:text="INFEKSI MENULAR SEKSUAL"
             android:textSize="20dp"
             android:textStyle="bold"
@@ -23,6 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      Infeksi menular seksual adalah segolongan penyakit infeksi yang terutama ditularkan melalui kontak seksualbaik melalui vagina, dubur maupun mulut.Infeksi menular seksual dapat disebabkan oleh bakteri, virus, jamur, protozoa atau ektoparasit."
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
@@ -30,6 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="    Faktor resiko terkena IMS"
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
@@ -37,6 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="     a.	Melakukan hubungan seks tanpa kondom"
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
@@ -44,6 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="     b.	Berhubungan seks dengan lebih satu pasangan"
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
@@ -51,6 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      c.	Berhubungan seks dengan penderita IMS"
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
@@ -58,12 +63,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
+            android:textColor="#000000"
             android:text="      Contoh IMS"
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:textColor="#000000"
             android:fontFamily="@font/comic_sans_ms"
             android:text="      a.	Kencing nanah ( gonorrhea)"
             android:layout_gravity="left"/>
@@ -79,6 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      b.	Raja Singa ( Sifilis )"
             android:layout_gravity="left"/>
         <ImageView
@@ -93,6 +101,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      c.	Klamidia"
             android:layout_gravity="left"/>
         <ImageView
@@ -107,6 +116,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      e.	Kandidiasis vagina"
             android:layout_gravity="left"/>
         <ImageView
@@ -121,6 +131,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      f.	Trikomoniasis"
             android:layout_gravity="left"/>
         <ImageView
@@ -135,6 +146,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      g.	Herpes"
             android:layout_gravity="left"/>
         <ImageView
@@ -149,6 +161,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      h.	Kutil Kelamin"
             android:layout_gravity="left"/>
         <ImageView
@@ -163,6 +176,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      1.	Kutu Kelamin"
             android:layout_gravity="left"/>
         <ImageView
@@ -177,6 +191,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="    4.	Cara mencegah IMS"
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
@@ -184,6 +199,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="     a.	Tidak melakukan seks sebelum menikah"
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
@@ -191,6 +207,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      b.	Berhubungan seks dengan satu orang, hindari berganti-ganti pasangan"
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
@@ -198,6 +215,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      c.	Menggunakan kondom"
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
@@ -205,6 +223,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      d.	Vaksinasi"
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
@@ -212,6 +231,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      e.	Sunat pada laki-laki"
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
@@ -219,6 +239,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      f.	Hindari narkoba dan alkohol"
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
@@ -226,6 +247,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      g.	Melakukan kegiatan yang positif, dalam pengelolaan dorongan seksual yang muncul dalam diri remaja"
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
@@ -233,6 +255,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      h.	Mencari informasi yang benar dan tepat mengenai Infenksi menular seksual (IMS)"
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
@@ -240,6 +263,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      i.	Pada remaja harus mempunyai self Estem (mampu menghargai dirinya sendiri, dengan berani menolak dengan tegas bila ada yang mengajak berhubungan seks dengan alasan apapun"
             android:layout_gravity="left"/>
         <TextView android:id="@+id/fstTxt"
@@ -247,6 +271,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:textColor="#000000"
             android:text="      j.	Tidak bertukar pakaian dalam dan handuk bersama orang lain"
             android:layout_gravity="left"/>
         <Button android:layout_width="wrap_content"

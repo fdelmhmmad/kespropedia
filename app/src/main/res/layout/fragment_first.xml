@@ -19,14 +19,29 @@
         android:adjustViewBounds="true"
         android:longClickable="false"
         android:src="@drawable/arrow1"
-        app:backgroundTint="#FFFFFF"
-        app:maxImageSize="24dp" />
+        app:maxImageSize="26dp" />
+
+    <ImageView
+        android:id="@+id/unhas"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/unhas" />
+
+    <ImageView
+        android:id="@+id/kebidanan"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/kebidanan" />
 
     <TextView
         android:id="@+id/welcome"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="180dp"
         android:gravity="center"
         android:text="Welcome To"
         android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
@@ -34,41 +49,41 @@
         android:textSize="36sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/pedia"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginTop="120dp"
-        android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-        android:gravity="center"
-        android:text='"Kespro Pedia"'
-        android:textColor="#000000"
-        android:textSize="34sp"
-        android:textStyle="bold" />
+<!--    <TextView-->
+<!--        android:id="@+id/pedia"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginTop="180dp"-->
+<!--        android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"-->
+<!--        android:gravity="center"-->
+<!--        android:text='"Kespro Pedia"'-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="34sp"-->
+<!--        android:textStyle="bold" />-->
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="170dp"
-        android:layout_marginTop="200dp"
-        android:src="@drawable/pict1" />
+        android:layout_marginTop="250dp"
+        android:src="@drawable/logo" />
 
     <TextView
         android:id="@+id/by"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="400dp"
         android:gravity="center"
         android:fontFamily="@font/comic_sans_ms"
         android:text='Sponsored by'
         android:textColor="#000000"
-        android:textSize="28sp" />
+        android:textSize="22sp" />
 
     <TextView
         android:id="@+id/rina"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="490dp"
         android:gravity="center"
         android:text='Rina Inda Sari'
         android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
@@ -80,7 +95,7 @@
         android:id="@+id/indah"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_marginTop="430dp"
+        android:layout_marginTop="520dp"
         android:gravity="center"
         android:text='Indah Gusriani Malaka'
         android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
@@ -92,7 +107,7 @@
         android:id="@+id/yuyun"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="550dp"
         android:gravity="center"
         android:text='Yuyun Rinanda Kadir'
         android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"

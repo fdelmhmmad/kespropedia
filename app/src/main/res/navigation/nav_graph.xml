@@ -85,7 +85,11 @@
     <fragment
         android:id="@+id/mensFragment"
         android:name="com.example.kespropedia.MensFragment"
-        android:label="MensFragment" />
+        android:label="MensFragment" >
+        <action
+            android:id="@+id/action_mensFragment_to_ytMens"
+            app:destination="@id/ytMens" />
+    </fragment>
     <fragment
         android:id="@+id/hygieneFragment"
         android:name="com.example.kespropedia.HygieneFragment"
@@ -114,4 +118,8 @@
             android:id="@+id/action_skorFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/ytMens"
+        android:name="com.example.kespropedia.YtMens"
+        android:label="YtMens" />
 </navigation>

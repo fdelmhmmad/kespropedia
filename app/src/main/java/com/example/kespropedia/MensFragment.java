@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.fragment.NavHostFragment;
 
 public class MensFragment extends Fragment {
 
@@ -22,13 +23,12 @@ public class MensFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-
-//        view.findViewById(R.id.bt_back).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                NavHostFragment.findNavController(AnatomiFragment.this)
-//                        .navigate(R.id.action_anatomiFragment_to_materiFragment);
-//            }
-//        });
+        view.findViewById(R.id.youtube_player_mens).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MensFragment.this)
+                        .navigate(R.id.action_mensFragment_to_ytMens);
+            }
+        });
     }
 }

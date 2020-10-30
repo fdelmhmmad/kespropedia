@@ -84,6 +84,7 @@
         android:layout_height="80dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="350dp"
+        android:clickable="false"
         android:text="Perempuan yang lebih cepat mendapat haid pertama (menarche) = perempuan nakal ? "
         android:textAlignment="center" />
 

@@ -121,6 +121,7 @@
         android:layout_height="80dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="700dp"
+        android:background="@drawable/mat7"
         android:fontFamily="@font/comic_sans_ms"
         android:shadowColor="#000000"
         android:text="Personal hygiene (kebersihan diri)" />

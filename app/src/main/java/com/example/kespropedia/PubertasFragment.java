@@ -8,6 +8,11 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer;
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener;
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.YouTubePlayerListener;
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
+
 public class PubertasFragment extends Fragment {
 
     @Override
@@ -30,5 +35,6 @@ public class PubertasFragment extends Fragment {
 //                        .navigate(R.id.action_anatomiFragment_to_materiFragment);
 //            }
 //        });
+
     }
 }

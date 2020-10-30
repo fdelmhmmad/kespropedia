@@ -2,13 +2,13 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="false"
-    android:background="@drawable/bg_pube">
+    android:fillViewport="false">
     <LinearLayout
         android:orientation="vertical" android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
+        android:layout_marginRight="10dp"
+        >
 
         <TextView
             android:id="@+id/loginscrn"
@@ -17,10 +17,10 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:text="Pubertas"
-            android:textColor="#FFFFFF"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
             android:textSize="20dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="#000000"/>
 
         <TextView
             android:id="@+id/fstTxt"
@@ -31,7 +31,7 @@
             android:fontFamily="@font/comic_sans_ms"
             android:text="      Pubertas adalah masa peralihan dari anak-anak menjadi dewasa.
 		Tanda pubertas pada anak remaja laki-laki ditandai dengan mengalami mimpi basah.Mimpi basah merupakan peristiwa yang alami keluarnya cairan dan organ reproduksinya.Sehingga, secara biologis organ reproduksinya telah matang.Sedangkan  remaja  perempuan  ditandai dengan menstruasi pertama yang disebut juga menarce."
-            android:textColor="#FFFFFF" />
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/fstTxt"
@@ -41,7 +41,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:text="      Perubahan pada pubertas Anak perempuan:"
-            android:textColor="#FFFFFF" />
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/fstTxt"
@@ -51,7 +51,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:text="     1.	Perubahan fisik : suara lebih nyaring, payudara membesar, tumbuhnya rambut halus pada ketiak dan alat kelamin, pembesaran area pinggul dan bokong, kulit lebih halus."
-            android:textColor="#FFFFFF" />
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/fstTxt"
@@ -61,7 +61,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:text="     2.	Perubahan hormon : keringat berlebih dan bau badan, wajah berminyak dan jerawat."
-            android:textColor="#FFFFFF" />
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/fstTxt"
@@ -71,7 +71,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:text="     3.	Kematangan seksual : Tertarik dengan lawan jenis, memperhatikan penampilan,  mengalami menstruasi akibat sel telur tidak dibuahi dan meluruhnya darah dari vagina."
-            android:textColor="#FFFFFF" />
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/fstTxt"
@@ -81,7 +81,7 @@
             android:fontFamily="@font/comic_sans_ms"
             android:layout_marginTop="15dp"
             android:text="     Perubahan pubertas pada Anak laki-laki:"
-            android:textColor="#FFFFFF" />
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/fstTxt"
@@ -91,7 +91,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:text="     1.	Perubahan fisik : pembesaran jakun, perubahan suara, tumbuhnya rambut halus pada ketiak, dan alat kelamin,Tumbuh janggut dan kumis, bahu menjadi lebih bidang/melebar, alat kelamin (penis) membesar."
-            android:textColor="#FFFFFF" />
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/fstTxt"
@@ -101,7 +101,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:text="     2.	Perubahan hormon : keringat berlebih dan bau badan, wajah berminyak dan jerawat."
-            android:textColor="#FFFFFF" />
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/fstTxt"
@@ -111,7 +111,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:text="    3.	Kematangan seksual : Tertarik dengan lawan jenis, memperhatikan penampilan,  mengalami mimpi basah."
-            android:textColor="#FFFFFF" />
+            android:textColor="#000000" />
         <Button android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
