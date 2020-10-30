@@ -23,6 +23,9 @@
         <action
             android:id="@+id/action_SecondFragment_to_thirdFragment"
             app:destination="@id/ThirdFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
     </fragment>
     <fragment
         android:id="@+id/ThirdFragment"
@@ -31,6 +34,9 @@
         <action
             android:id="@+id/action_ThirdFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_ThirdFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
@@ -42,6 +48,9 @@
         <action
             android:id="@+id/action_homeFragment_to_kuisFragment"
             app:destination="@id/kuisFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_ThirdFragment"
+            app:destination="@id/ThirdFragment" />
     </fragment>
     <fragment
         android:id="@+id/materiFragment"
@@ -65,6 +74,12 @@
         <action
             android:id="@+id/action_materiFragment_to_aborsiFragment"
             app:destination="@id/aborsiFragment" />
+        <action
+            android:id="@+id/action_materiFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_materiFragment_to_pranikahFragment"
+            app:destination="@id/pranikahFragment" />
     </fragment>
     <fragment
         android:id="@+id/kuisFragment"
@@ -73,15 +88,26 @@
         <action
             android:id="@+id/action_kuisFragment_to_kuis1Fragment"
             app:destination="@id/kuis1Fragment" />
+        <action
+            android:id="@+id/action_kuisFragment_to_kuisActivity"
+            app:destination="@id/kuisActivity" />
     </fragment>
     <fragment
         android:id="@+id/anatomiFragment"
         android:name="com.example.kespropedia.AnatomiFragment"
-        android:label="AnatomiFragment" />
+        android:label="AnatomiFragment" >
+        <action
+            android:id="@+id/action_anatomiFragment_to_materiFragment"
+            app:destination="@id/materiFragment" />
+    </fragment>
     <fragment
         android:id="@+id/pubertasFragment"
         android:name="com.example.kespropedia.PubertasFragment"
-        android:label="PubertasFragment" />
+        android:label="PubertasFragment" >
+        <action
+            android:id="@+id/action_pubertasFragment_to_materiFragment"
+            app:destination="@id/materiFragment" />
+    </fragment>
     <fragment
         android:id="@+id/mensFragment"
         android:name="com.example.kespropedia.MensFragment"
@@ -89,19 +115,34 @@
         <action
             android:id="@+id/action_mensFragment_to_ytMens"
             app:destination="@id/ytMens" />
+        <action
+            android:id="@+id/action_mensFragment_to_materiFragment"
+            app:destination="@id/materiFragment" />
     </fragment>
     <fragment
         android:id="@+id/hygieneFragment"
         android:name="com.example.kespropedia.HygieneFragment"
-        android:label="HygieneFragment" />
+        android:label="HygieneFragment" >
+        <action
+            android:id="@+id/action_hygieneFragment_to_materiFragment"
+            app:destination="@id/materiFragment" />
+    </fragment>
     <fragment
         android:id="@+id/infeksiFragment"
         android:name="com.example.kespropedia.InfeksiFragment"
-        android:label="InfeksiFragment" />
+        android:label="InfeksiFragment" >
+        <action
+            android:id="@+id/action_infeksiFragment_to_materiFragment"
+            app:destination="@id/materiFragment" />
+    </fragment>
     <fragment
         android:id="@+id/aborsiFragment"
         android:name="com.example.kespropedia.AborsiFragment"
-        android:label="AborsiFragment" />
+        android:label="AborsiFragment" >
+        <action
+            android:id="@+id/action_aborsiFragment_to_materiFragment"
+            app:destination="@id/materiFragment" />
+    </fragment>
     <fragment
         android:id="@+id/kuis1Fragment"
         android:name="com.example.kespropedia.Kuis1Fragment"
@@ -122,4 +163,16 @@
         android:id="@+id/ytMens"
         android:name="com.example.kespropedia.YtMens"
         android:label="YtMens" />
+    <activity
+        android:id="@+id/kuisActivity"
+        android:name="com.example.kespropedia.KuisActivity"
+        android:label="KuisActivity" />
+    <fragment
+        android:id="@+id/pranikahFragment"
+        android:name="com.example.kespropedia.PranikahFragment"
+        android:label="PranikahFragment" >
+        <action
+            android:id="@+id/action_pranikahFragment_to_materiFragment"
+            app:destination="@id/materiFragment" />
+    </fragment>
 </navigation>

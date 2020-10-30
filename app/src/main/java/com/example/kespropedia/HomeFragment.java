@@ -39,12 +39,12 @@ public class HomeFragment extends Fragment {
             }
         });
 
-//        view.findViewById(R.id.bt_kuis).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                NavHostFragment.findNavController(HomeFragment.this)
-//                        .navigate(R.id.action_homeFragment_to_kuisFragment);
-//            }
-//        });
+        view.findViewById(R.id.bt_back).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(HomeFragment.this)
+                        .navigate(R.id.action_homeFragment_to_ThirdFragment);
+            }
+        });
     }
 }

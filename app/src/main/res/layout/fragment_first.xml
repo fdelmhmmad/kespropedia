@@ -9,7 +9,7 @@
     android:orientation="vertical">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/button_first"
+        android:id="@+id/bt_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
@@ -19,7 +19,8 @@
         android:adjustViewBounds="true"
         android:longClickable="false"
         android:src="@drawable/arrow1"
-        app:maxImageSize="26dp" />
+        app:backgroundTint="#FFFFFF"
+        app:maxImageSize="24dp" />
 
     <ImageView
         android:id="@+id/unhas"

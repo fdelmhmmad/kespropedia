@@ -24,12 +24,12 @@ public class HygieneFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-//        view.findViewById(R.id.bt_hamil).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                NavHostFragment.findNavController(HygieneFragment.this)
-//                        .navigate(R.id.action_materiFragment_to_hygieneFragment);
-//            }
-//        });
+        view.findViewById(R.id.bt_back).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(HygieneFragment.this)
+                        .navigate(R.id.action_hygieneFragment_to_materiFragment);
+            }
+        });
     }
 }

@@ -30,5 +30,13 @@ public class MensFragment extends Fragment {
                         .navigate(R.id.action_mensFragment_to_ytMens);
             }
         });
+
+        view.findViewById(R.id.bt_back).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MensFragment.this)
+                        .navigate(R.id.action_mensFragment_to_materiFragment);
+            }
+        });
     }
 }

@@ -26,12 +26,12 @@ public class AnatomiFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-//        view.findViewById(R.id.youtube_player_bmth).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                NavHostFragment.findNavController(AnatomiFragment.this)
-//                        .navigate(R.id.action_mensFragment_to_ytVideos);
-//            }
-//        });
+        view.findViewById(R.id.bt_back).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(AnatomiFragment.this)
+                        .navigate(R.id.action_anatomiFragment_to_materiFragment);
+            }
+        });
     }
 }

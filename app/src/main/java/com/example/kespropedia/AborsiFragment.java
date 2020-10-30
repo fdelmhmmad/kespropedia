@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.fragment.NavHostFragment;
 
 public class AborsiFragment extends Fragment {
 
@@ -23,12 +24,12 @@ public class AborsiFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-//        view.findViewById(R.id.bt_hamil).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                NavHostFragment.findNavController(HygieneFragment.this)
-//                        .navigate(R.id.action_materiFragment_to_hygieneFragment);
-//            }
-//        });
+        view.findViewById(R.id.bt_back).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(AborsiFragment.this)
+                        .navigate(R.id.action_aborsiFragment_to_materiFragment);
+            }
+        });
     }
 }

@@ -1,273 +1,274 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:fillViewport="false">
+
     <LinearLayout
-        android:orientation="vertical" android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp">
-        <TextView android:id="@+id/loginscrn"
+
+        <TextView
+            android:id="@+id/loginscrn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
+            android:text="SEKS PRANIKAH"
             android:textColor="#000000"
-            android:text="INFEKSI MENULAR SEKSUAL"
             android:textSize="20dp"
-            android:textStyle="bold"
-            android:layout_gravity="center"/>
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      Infeksi menular seksual adalah segolongan penyakit infeksi yang terutama ditularkan melalui kontak seksualbaik melalui vagina, dubur maupun mulut.Infeksi menular seksual dapat disebabkan oleh bakteri, virus, jamur, protozoa atau ektoparasit."
-            android:layout_gravity="left"/>
+            android:text="1.	Bentuk seks pranikah"
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="    Faktor resiko terkena IMS"
-            android:layout_gravity="left"/>
+            android:text="    a.	Berfantasi."
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     a.	Melakukan hubungan seks tanpa kondom"
-            android:layout_gravity="left"/>
+            android:text="    b.	Berpegangan tangan."
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     b.	Berhubungan seks dengan lebih satu pasangan"
-            android:layout_gravity="left"/>
+            android:text="    c.	Berpelukan."
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      c.	Berhubungan seks dengan penderita IMS"
-            android:layout_gravity="left"/>
+            android:text="    d.	Berciuman."
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-            android:textColor="#000000"
-            android:text="      Contoh IMS"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:textColor="#000000"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="      a.	Kencing nanah ( gonorrhea)"
-            android:layout_gravity="left"/>
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="2dp"
-            android:layout_gravity="center"
-            android:src="@drawable/ims1" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      b.	Raja Singa ( Sifilis )"
-            android:layout_gravity="left"/>
-        <ImageView
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="2dp"
-            android:layout_gravity="center"
-            android:src="@drawable/ims2" />
+            android:text="    e.	Berhubungan intim."
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/comic_sans_ms"
+            android:text="2.	Faktor penyebabnya"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      c.	Klamidia"
-            android:layout_gravity="left"/>
-        <ImageView
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="2dp"
-            android:layout_gravity="center"
-            android:src="@drawable/ims3" />
+            android:text="    a.	Hasrat/nafsu."
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      e.	Kandidiasis vagina"
-            android:layout_gravity="left"/>
-        <ImageView
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="2dp"
-            android:layout_gravity="center"
-            android:src="@drawable/ims4" />
+            android:text="    b.	Keingintahuan dan coba-coba."
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      f.	Trikomoniasis"
-            android:layout_gravity="left"/>
-        <ImageView
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="2dp"
-            android:layout_gravity="center"
-            android:src="@drawable/ims5" />
+            android:text="    c.	Informasi dan komunikasi yang kurang."
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      g.	Herpes"
-            android:layout_gravity="left"/>
-        <ImageView
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="2dp"
-            android:layout_gravity="center"
-            android:src="@drawable/ims6" />
+            android:text="    d.	Kualitas religiusitas."
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      h.	Kutil Kelamin"
-            android:layout_gravity="left"/>
-        <ImageView
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="2dp"
-            android:layout_gravity="center"
-            android:src="@drawable/ims7" />
+            android:text="    e.	Kurangnya Peran keluarga dan teman sebaya."
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/comic_sans_ms"
+            android:text="3.	Dampak seks"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      1.	Kutu Kelamin"
-            android:layout_gravity="left"/>
-        <ImageView
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="2dp"
-            android:layout_gravity="center"
-            android:src="@drawable/ims8" />
+            android:text="    a.	Psikologis = perasaan marah, cemas, depresi serta"
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="    4.	Cara mencegah IMS"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     a.	Tidak melakukan seks sebelum menikah"
-            android:layout_gravity="left"/>
+            android:text="        perasaan bersalah."
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      b.	Berhubungan seks dengan satu orang, hindari berganti-ganti pasangan"
-            android:layout_gravity="left"/>
+            android:text="    b.	Fisiologis = hamil diluar nikah, Kehamilan tidak diinginkan, "
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      c.	Menggunakan kondom"
-            android:layout_gravity="left"/>
+            android:text="        aborsi."
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      d.	Vaksinasi"
-            android:layout_gravity="left"/>
+            android:text="    c.	Sosial = dikucilkan, putus sekolah, perubahan peran"
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      e.	Sunat pada laki-laki"
-            android:layout_gravity="left"/>
+            android:text="        menjadi ibu."
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      f.	Hindari narkoba dan alkohol"
-            android:layout_gravity="left"/>
+            android:text="    d.	Fisik = Dampak seksual seperti gonorrhea, sifilis,klamidia,"
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      g.	Melakukan kegiatan yang positif, dalam pengelolaan dorongan seksual yang muncul dalam diri remaja"
-            android:layout_gravity="left"/>
+            android:text="        HIV dan lain-lain."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/comic_sans_ms"
+            android:text="4.	Cara menghindari"
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      h.	Mencari informasi yang benar dan tepat mengenai Infenksi menular seksual (IMS)"
-            android:layout_gravity="left"/>
+            android:text="    a.	Ibadah."
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      i.	Pada remaja harus mempunyai self Estem (mampu menghargai dirinya sendiri, dengan berani menolak dengan tegas bila ada yang mengajak berhubungan seks dengan alasan apapun"
-            android:layout_gravity="left"/>
+            android:text="    b.	Kegiatan bermanfaat."
+            android:textColor="#000000" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      j.	Tidak bertukar pakaian dalam dan handuk bersama orang lain"
-            android:layout_gravity="left"/>
-        <Button android:layout_width="wrap_content"
+            android:text="    c.	Teman/pergaulan yang baik."
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/comic_sans_ms"
+            android:text="    d.	Menolak pacaran dan menyibukkan diri dengan hal"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/comic_sans_ms"
+            android:text="        bermanfaat."
+            android:textColor="#000000" />
+
+        <Button
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
@@ -290,6 +291,5 @@
             android:longClickable="false"
             android:rotation="180"
             android:src="@drawable/arrow1" />
-
     </LinearLayout>
 </ScrollView>

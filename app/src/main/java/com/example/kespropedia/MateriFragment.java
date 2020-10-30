@@ -70,5 +70,21 @@ public class MateriFragment extends Fragment {
                         .navigate(R.id.action_materiFragment_to_aborsiFragment);
             }
         });
+
+        view.findViewById(R.id.bt_pranikah).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MateriFragment.this)
+                        .navigate(R.id.action_materiFragment_to_pranikahFragment);
+            }
+        });
+
+        view.findViewById(R.id.bt_back).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(MateriFragment.this)
+                        .navigate(R.id.action_materiFragment_to_homeFragment);
+            }
+        });
     }
 }

@@ -11,7 +11,7 @@
     android:background="@drawable/second">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/button_third"
+        android:id="@+id/bt_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
@@ -24,8 +24,8 @@
         app:backgroundTint="#FFFFFF"
         app:maxImageSize="24dp" />
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/button_fourth"
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/bt_prev"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
