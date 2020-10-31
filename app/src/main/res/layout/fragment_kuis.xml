@@ -34,11 +34,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="250dp"
-        android:fontFamily="sans-serif-condensed"
         android:gravity="center_horizontal"
+        android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
         android:text='Kuis ini berisi tentang mitos dan fakta seputar kespro dalam kehiupan sehari-hari'
         android:textColor="#000000"
-        android:textSize="32sp"
+        android:textSize="28dp"
         android:textStyle="bold" />
 
     <TextView
@@ -58,9 +58,11 @@
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="355dp"
         android:layout_height="80dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/comic_sans_ms"
         android:text="MULAI"
         android:textAlignment="center"
-        android:textSize="34sp" />
+        android:textColor="#000000"
+        android:textSize="32sp" />
 </RelativeLayout>
