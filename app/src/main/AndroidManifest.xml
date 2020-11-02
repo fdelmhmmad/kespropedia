@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".SoalActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -24,9 +25,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.kespropedia.ytActivity"
-            android:label="Second Activity">
-        </activity>
+            android:name=".Kuis1Fragment"
+            android:label="Kuis Activity"></activity>
+        <activity
+            android:name=".GameWon"
+            android:label="Won Activity"></activity>
+        <activity
+            android:name=".PlayAgain"
+            android:label="Play Again Activity"></activity>
+        <activity
+            android:name=".Time_Up"
+            android:label="Time Up Activity"></activity>
+        <activity
+            android:name=".TriviaQuestion"
+            android:label="Trivia Activity"></activity>
     </application>
 
 </manifest>

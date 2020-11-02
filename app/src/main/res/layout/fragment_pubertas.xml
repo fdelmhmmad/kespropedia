@@ -7,19 +7,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
         android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/loginscrn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <Button
+            android:id="@+id/bt_materi"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
+            android:background="@drawable/btn"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
             android:text="Pubertas"
-            android:textColor="#000000"
-            android:textSize="20dp"
-            android:textStyle="bold" />
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/fstTxt"

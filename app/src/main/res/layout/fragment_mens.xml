@@ -26,17 +26,17 @@
 <!--            android:longClickable="false"-->
 <!--            android:rotation="180"-->
 <!--            android:src="@drawable/arrow1" />-->
-
-            <TextView
-                android:id="@+id/judul"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:textColor="#000000"
-                android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-                android:text="Menstruasi"
-                android:textSize="20dp" />
+            <Button
+            android:id="@+id/bt_materi"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn"
+            android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
+            android:text="Menstruasi"
+            android:textColor="#000000" />
 
             <TextView
                 android:layout_width="wrap_content"

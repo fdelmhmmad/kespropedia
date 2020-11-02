@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:paddingTop="25dp"
-    android:background="@drawable/fourth">
+    android:background="@drawable/bc_menu">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/bt_back"
@@ -34,7 +34,7 @@
         android:id="@+id/text1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
         android:gravity="center_horizontal"
         android:text="MENU"
@@ -47,7 +47,7 @@
         android:id="@+id/text5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="100dp"
         android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
         android:gravity="center_horizontal"
         android:textColor="#000000"
@@ -56,12 +56,10 @@
 
     <Button
         android:id="@+id/bt_materi"
-        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="160dp"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="270dp"
-        android:background="@drawable/btn"
+        android:layout_marginTop="200dp"
         android:fontFamily="@font/comic_sans_ms"
         android:text="Materi"
         android:textColor="#000000" />
@@ -72,7 +70,7 @@
         android:layout_width="160dp"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="300dp"
         android:background="@drawable/btn"
         android:fontFamily="@font/comic_sans_ms"
         android:text="Kuis"
@@ -84,7 +82,7 @@
         android:layout_width="160dp"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="530dp"
+        android:layout_marginTop="400dp"
         android:background="@drawable/btn"
         android:fontFamily="@font/comic_sans_ms"
         android:text="Keluar"

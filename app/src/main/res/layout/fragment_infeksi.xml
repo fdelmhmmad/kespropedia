@@ -8,16 +8,17 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp">
-        <TextView android:id="@+id/loginscrn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <Button
+            android:id="@+id/bt_materi"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
             android:layout_marginTop="20dp"
+            android:background="@drawable/btn"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-            android:textColor="#000000"
             android:text="INFEKSI MENULAR SEKSUAL"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            android:layout_gravity="center"/>
+            android:textColor="#000000" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
