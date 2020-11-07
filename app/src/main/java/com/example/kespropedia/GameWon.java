@@ -16,7 +16,7 @@ public class GameWon extends Activity {
     //This is onclick listener for button
     //it will navigate from this activity to MainGameActivity
     public void PlayAgain(View view) {
-        Intent intent = new Intent(com.example.kespropedia.GameWon.this, KuisFragment.class);
+        Intent intent = new Intent(com.example.kespropedia.GameWon.this, Kuis1Fragment.class);
         startActivity(intent);
         finish();
     }

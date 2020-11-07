@@ -30,13 +30,14 @@ public class KuisFragment extends Fragment {
                         .navigate(R.id.action_kuisFragment_to_kuis1Fragment2);
             }
         });
-//
-//        view.findViewById(R.id.bt_test).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                NavHostFragment.findNavController(KuisFragment.this)
-//                        .navigate(R.id.action_kuisFragment_to_soalActivity);
-//            }
-//        });
+
+
+        view.findViewById(R.id.bt_prev).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(KuisFragment.this)
+                        .navigate(R.id.action_kuisFragment_to_homeFragment);
+            }
+        });
     }
 }

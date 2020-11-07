@@ -26,7 +26,7 @@ import java.util.List;
 import info.hoang8f.widget.FButton;
 
 public class Kuis1Fragment extends AppCompatActivity {
-    FButton buttonA, buttonB, buttonC, buttonD;
+    FButton buttonA, buttonB;
     TextView questionText, triviaQuizText, timeText, resultText, coinText;
     TriviaQuizHelper triviaQuizHelper;
     TriviaQuestion currentQuestion;
@@ -46,8 +46,8 @@ public class Kuis1Fragment extends AppCompatActivity {
         questionText = (TextView) findViewById(R.id.triviaQuestion);
         buttonA = (FButton) findViewById(R.id.buttonA);
         buttonB = (FButton) findViewById(R.id.buttonB);
-        buttonC = (FButton) findViewById(R.id.buttonC);
-        buttonD = (FButton) findViewById(R.id.buttonD);
+//        buttonC = (FButton) findViewById(R.id.buttonC);
+//        buttonD = (FButton) findViewById(R.id.buttonD);
         triviaQuizText = (TextView) findViewById(R.id.triviaQuizText);
         timeText = (TextView) findViewById(R.id.timeText);
         resultText = (TextView) findViewById(R.id.resultText);
@@ -60,8 +60,8 @@ public class Kuis1Fragment extends AppCompatActivity {
         questionText.setTypeface(tb);
         buttonA.setTypeface(tb);
         buttonB.setTypeface(tb);
-        buttonC.setTypeface(tb);
-        buttonD.setTypeface(tb);
+//        buttonC.setTypeface(tb);
+//        buttonD.setTypeface(tb);
         timeText.setTypeface(tb);
         resultText.setTypeface(sb);
         coinText.setTypeface(tb);
@@ -129,8 +129,8 @@ public class Kuis1Fragment extends AppCompatActivity {
         questionText.setText(currentQuestion.getQuestion());
         buttonA.setText(currentQuestion.getOptA());
         buttonB.setText(currentQuestion.getOptB());
-        buttonC.setText(currentQuestion.getOptC());
-        buttonD.setText(currentQuestion.getOptD());
+//        buttonC.setText(currentQuestion.getOptC());
+//        buttonD.setText(currentQuestion.getOptD());
 
 
         timeValue = 20;
@@ -192,35 +192,35 @@ public class Kuis1Fragment extends AppCompatActivity {
     }
 
     //Onclick listener for third button
-    public void buttonC(View view) {
-        if (currentQuestion.getOptC().equals(currentQuestion.getAnswer())) {
-            buttonC.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.lightGreen));
-            if (qid < list.size() - 1) {
-                disableButton();
-                correctDialog();
-            } else {
-                gameWon();
-            }
-        } else {
-
-            gameLostPlayAgain();
-        }
-    }
-
-    //Onclick listener for fourth button
-    public void buttonD(View view) {
-        if (currentQuestion.getOptD().equals(currentQuestion.getAnswer())) {
-            buttonD.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.lightGreen));
-            if (qid < list.size() - 1) {
-                disableButton();
-                correctDialog();
-            } else {
-                gameWon();
-            }
-        } else {
-            gameLostPlayAgain();
-        }
-    }
+//    public void buttonC(View view) {
+//        if (currentQuestion.getOptC().equals(currentQuestion.getAnswer())) {
+//            buttonC.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.lightGreen));
+//            if (qid < list.size() - 1) {
+//                disableButton();
+//                correctDialog();
+//            } else {
+//                gameWon();
+//            }
+//        } else {
+//
+//            gameLostPlayAgain();
+//        }
+//    }
+//
+//    //Onclick listener for fourth button
+//    public void buttonD(View view) {
+//        if (currentQuestion.getOptD().equals(currentQuestion.getAnswer())) {
+//            buttonD.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.lightGreen));
+//            if (qid < list.size() - 1) {
+//                disableButton();
+//                correctDialog();
+//            } else {
+//                gameWon();
+//            }
+//        } else {
+//            gameLostPlayAgain();
+//        }
+//    }
 
     //This method will navigate from current activity to GameWon
     public void gameWon() {
@@ -323,24 +323,24 @@ public class Kuis1Fragment extends AppCompatActivity {
     public void resetColor() {
         buttonA.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.white));
         buttonB.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.white));
-        buttonC.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.white));
-        buttonD.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.white));
+//        buttonC.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.white));
+//        buttonD.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.white));
     }
 
     //This method will disable all the option button
     public void disableButton() {
         buttonA.setEnabled(false);
         buttonB.setEnabled(false);
-        buttonC.setEnabled(false);
-        buttonD.setEnabled(false);
+//        buttonC.setEnabled(false);
+//        buttonD.setEnabled(false);
     }
 
     //This method will all enable the option buttons
     public void enableButton() {
         buttonA.setEnabled(true);
         buttonB.setEnabled(true);
-        buttonC.setEnabled(true);
-        buttonD.setEnabled(true);
+//        buttonC.setEnabled(true);
+//        buttonD.setEnabled(true);
     }
 //    @Override
 //    public View onCreateView(

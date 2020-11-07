@@ -4,41 +4,41 @@ public class Soal {
 
     //membuat array untuk pertanyaan
     public String pertanyaan[] = {
-            "Siapa nama presiden Indonesia yang pertama ?",
-            "Ideologi dasar bagi negara Indonesia adalah ...",
-            "Bhinneka Tunggal Ika mempunyai arti ...",
-            "Ibukota negara Indonesia saat ini adalah ...",
-            "Siapa yang menjajah Indonesia selama 350 tahun ?",
-            "Saat masa penjajahan, senjata yang biasa digunakan oleh pahlawan Indonesia adalah ...",
-            "Monumen untuk mengenang perlawanan dan perjuanagan rakyat Indonesia untuk merebut kemerdekaan dari pemerintahan kolonial Hindia Belanda adalah ...",
-            "Teks yang dibacakan Ir. Soekarno yang menyatakan Indonesia merdeka dalah teks ...",
-            "Pulau terbesar di Indonesia adalah ...",
+            "Perempuan yang lebih cepat mendapat haid pertama (menarche) = perempuan nakal ?",
+            "Perawan akan berdarah pada hubungan seks pertama atau malam pertama ?",
+            "Masturbasi atau onani hanya dilakukan pria dan menyebabkan dengkul kopong?",
+            "Orang hiperseks, jalan mengangkang dan bentuk bokong rata ? ",
+            "Payudara bisa diperbesar dengan meremasnya ? ",
+            "Hubungan seks sekali tidak menyebabkan hamil ? ",
+            "Makan nanas menyebabkan keguguran ? ",
+            "Makanan manis bikin nyeri haid hilang ?",
+            "Makan pedas saat haid dapat membuat mult rahim iritasi ? ",
     };
 
     //membuat array untuk pilihan jawaban
     private String pilihanJawaban[][] = {
-            {"Ir. Soekarno","Joko Widodo","Susilo Bambang Yudhoyono"},
-            {"UUD 1945","Pancasila","Bhinneka Tunggal Ika"},
-            {"Berbeda-beda tetapi tetap satu","Bersama selamanya","Bersatu teguh bercerai runtuh"},
-            {"Semarang","Surabaya","Jakarta"},
-            {"Jepang","Belanda","Malaysia"},
-            {"Bambu runcing","Ketapel","Shotgun"},
-            {"Tugu Muda","Patung Pancoran","Monas"},
-            {"Proklamasi","Pancasila","Pembukaan UUD 1945"},
-            {"Jawa","Sumatera","Kalimantan"},
+            {"Fakta","Mitos"},
+            {"Fakta","Mitos"},
+            {"Fakta","Mitos"},
+            {"Fakta","Mitos"},
+            {"Fakta","Mitos"},
+            {"Fakta","Mitos"},
+            {"Fakta","Mitos"},
+            {"Fakta","Mitos"},
+            {"Fakta","Mitos"},
     };
 
     //membuat array untuk jawaban benar
     private String jawabanBenar[] = {
-            "Ir. Soekarno",
-            "Pancasila",
-            "Berbeda-beda tetapi tetap satu",
-            "Jakarta",
-            "Belanda",
-            "Bambu runcing",
-            "Monas",
-            "Proklamasi",
-            "Kalimantan",
+            "Mitos",
+            "Mitos",
+            "Mitos",
+            "Mitos",
+            "Mitos",
+            "BMitos",
+            "Mitos",
+            "Fakta",
+            "Mitos",
     };
 
     //membuat getter untuk mengambil pertanyaan

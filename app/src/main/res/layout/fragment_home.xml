@@ -56,6 +56,7 @@
 
     <Button
         android:id="@+id/bt_materi"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="160dp"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
@@ -71,7 +72,6 @@
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="300dp"
-        android:background="@drawable/btn"
         android:fontFamily="@font/comic_sans_ms"
         android:text="Kuis"
         android:textColor="#000000" />
@@ -83,7 +83,6 @@
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="400dp"
-        android:background="@drawable/btn"
         android:fontFamily="@font/comic_sans_ms"
         android:text="Keluar"
         android:textColor="#000000" />

@@ -121,23 +121,23 @@
             android:textColor="@color/grey" />
 
 
-        <info.hoang8f.widget.FButton
-            android:id="@+id/buttonC"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:onClick="buttonC"
-            android:text=""
-            android:textColor="@color/grey" />
+<!--        <info.hoang8f.widget.FButton-->
+<!--            android:id="@+id/buttonC"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:onClick="buttonC"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/grey" />-->
 
-        <info.hoang8f.widget.FButton
-            android:id="@+id/buttonD"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:onClick="buttonD"
-            android:text=""
-            android:textColor="@color/grey" />
+<!--        <info.hoang8f.widget.FButton-->
+<!--            android:id="@+id/buttonD"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:onClick="buttonD"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/grey" />-->
 
     </LinearLayout>
 

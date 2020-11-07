@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/bc_first">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/bt_next"
@@ -22,21 +23,21 @@
         app:backgroundTint="#FFFFFF"
         app:maxImageSize="24dp" />
 
-    <ImageView
-        android:id="@+id/unhas"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginLeft="330dp"
-        android:layout_marginTop="25dp"
-        android:src="@drawable/unhas" />
+<!--    <ImageView-->
+<!--        android:id="@+id/unhas"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginLeft="330dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:src="@drawable/unhas" />-->
 
-    <ImageView
-        android:id="@+id/kebidanan"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="25dp"
-        android:src="@drawable/kebidanan" />
+<!--    <ImageView-->
+<!--        android:id="@+id/kebidanan"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginLeft="150dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:src="@drawable/kebidanan" />-->
 
     <TextView
         android:id="@+id/welcome"

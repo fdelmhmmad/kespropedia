@@ -29,14 +29,14 @@ class TriviaQuizHelper extends SQLiteOpenHelper {
     private static final String OPTA = "OPTA";
     //Option B
     private static final String OPTB = "OPTB";
-    //Option C
-    private static final String OPTC = "OPTC";
-    //Option D
-    private static final String OPTD = "OPTD";
+//    //Option C
+//    private static final String OPTC = "OPTC";
+//    //Option D
+//    private static final String OPTD = "OPTD";
     //Answer
     private static final String ANSWER = "ANSWER";
     //So basically we are now creating table with first column-id , sec column-question , third column -option A, fourth column -option B , Fifth column -option C , sixth column -option D , seventh column - answer(i.e ans of  question)
-    private static final String CREATE_TABLE = "CREATE TABLE " + TABLE_NAME + " ( " + UID + " INTEGER PRIMARY KEY AUTOINCREMENT , " + QUESTION + " VARCHAR(255), " + OPTA + " VARCHAR(255), " + OPTB + " VARCHAR(255), " + OPTC + " VARCHAR(255), " + OPTD + " VARCHAR(255), " + ANSWER + " VARCHAR(255));";
+    private static final String CREATE_TABLE = "CREATE TABLE " + TABLE_NAME + " ( " + UID + " INTEGER PRIMARY KEY AUTOINCREMENT , " + QUESTION + " VARCHAR(255), " + OPTA + " VARCHAR(255), " + OPTB + " VARCHAR(255), " + ANSWER + " VARCHAR(255));";
     //Drop table query
     private static final String DROP_TABLE = "DROP TABLE IF EXISTS " + TABLE_NAME;
 
@@ -61,45 +61,45 @@ class TriviaQuizHelper extends SQLiteOpenHelper {
     void allQuestion() {
         ArrayList<TriviaQuestion> arraylist = new ArrayList<>();
 
-        arraylist.add(new TriviaQuestion("Galileo was an Italian astronomer who developed?", "Telescope", "Airoplane", "Electricity", "Train", "Telescope"));
+        arraylist.add(new TriviaQuestion("Perempuan yang lebih cepat mendapat haid pertama (menarche) = perempuan nakal ?", "Mitos", "Fakta",  "Mitos"));
 
-        arraylist.add(new TriviaQuestion("Who is the father of Geometry ?", "Aristotle", "Euclid", "Pythagoras", "Kepler", "Euclid"));
+        arraylist.add(new TriviaQuestion("Perawan akan berdarah pada hubungan seks pertama atau malam pertama ? ", "Mitos", "Fakta",  "Mitos"));
 
-        arraylist.add(new TriviaQuestion("Who was known as Iron man of India ?", "Govind Ballabh Pant", "Jawaharlal Nehru", "Subhash Chandra Bose", "Sardar Vallabhbhai Patel", "Sardar Vallabhbhai Patel"));
+        arraylist.add(new TriviaQuestion("Masturbasi atau onani hanya dilakukan pria dan menyebabkan dengkul kopong? ", "Mitos", "Fakta",  "Mitos"));
 
-        arraylist.add(new TriviaQuestion("The first woman in space was ?", "Valentina Tereshkova", "Sally Ride", "Naidia Comenci", "Tamara Press", "Valentina Tereshkova"));
+        arraylist.add(new TriviaQuestion("Orang hiperseks, jalan mengangkang dan bentuk bokong rata ? ", "Mitos", "Fakta",  "Mitos"));
 
-        arraylist.add(new TriviaQuestion("Who is the Flying Sikh of India ?", "Mohinder Singh", "Joginder Singh", "Ajit Pal Singh", "Milkha singh", "Milkha singh"));
+        arraylist.add(new TriviaQuestion("Payudara bisa diperbesar dengan meremasnya ? ", "Mitos", "Fakta",  "Mitos"));
 
-        arraylist.add(new TriviaQuestion("The Indian to beat the computers in mathematical wizardry is", "Ramanujam", "Rina Panigrahi", "Raja Ramanna", "Shakunthala Devi", "Shakunthala Devi"));
+        arraylist.add(new TriviaQuestion("Hubungan seks sekali tidak menyebabkan hamil ?", "Mitos", "Fakta",  "Mitos"));
 
-        arraylist.add(new TriviaQuestion("Who is Larry Pressler ?", "Politician", "Painter", "Actor", "Tennis player", "Politician"));
+        arraylist.add(new TriviaQuestion("Makan nanas menyebabkan keguguran ?", "Mitos", "Fakta",  "Mitos"));
 
-        arraylist.add(new TriviaQuestion("Michael Jackson is a distinguished person in the field of ?", "Pop Music", "Jounalism", "Sports", "Acting", "Pop Music"));
+        arraylist.add(new TriviaQuestion("Makanan manis bikin nyeri haid hilang ? ", "Mitos", "Fakta",  "Fakta"));
 
-        arraylist.add(new TriviaQuestion("The first Indian to swim across English channel was ?", "V. Merchant", "P. K. Banerji", "Mihir Sen", "Arati Saha", "Mihir Sen"));
+        arraylist.add(new TriviaQuestion("Makan pedas saat haid dapat membuat mulut rahim iritasi ? ", "Mitos", "Fakta",  "Mitos"));
 
-        arraylist.add(new TriviaQuestion("Who was the first Indian to make a movie?", "Dhundiraj Govind Phalke", " Asha Bhonsle", " Ardeshir Irani", "V. Shantaram", "Dhundiraj Govind Phalke"));
+        arraylist.add(new TriviaQuestion("Minum kopi saat haid membuat rahim kering ?", "Mitos", "Fakta",  "Mitos"));
 
-        arraylist.add(new TriviaQuestion("Who is known as the ' Saint of the gutters ?", "B.R.Ambedkar", "Mother Teresa", "Mahatma Gandhi", "Baba Amte", "Mother Teresa"));
+        arraylist.add(new TriviaQuestion("Minum soda dapat melancarkan haid? ", "Mitos", "Fakta", "Mitos"));
 
-        arraylist.add(new TriviaQuestion("Who invented the famous formula E=mc^2", "Albert Einstein", "Galilio", "Sarvesh", "Bill Gates", "Albert Einstein"));
+        arraylist.add(new TriviaQuestion("Konsumsi timun saat haid memicu tejadinya kista ? ", "Mitos", "Fakta", "Mitos"));
 
-        arraylist.add(new TriviaQuestion("Who is elected as president of us 2016", "Donald Trump", "Hilary Clinton", "Jhon pol", "Barack Obama", "Donald Trump"));
+        arraylist.add(new TriviaQuestion("Keramas saat menstruasi dapat menyebabkan sakit kepala?", "Mitos", "Fakta", "Mitos"));
 
-        arraylist.add(new TriviaQuestion("Who was the founder of company Microsoft", "Bill Gates", "Bill Clinton", "Jhon rio", "Steve jobs", "Bill Gates"));
+        arraylist.add(new TriviaQuestion("Minum minuman dingin saat haid dapat menyebabkan darah haid membeku dan membuat dinding rahim mengeras ?", "Mitos", "Fakta", "Mitos"));
 
-        arraylist.add(new TriviaQuestion("Who was the founder of company Apple ?", "Steve Jobs", "Steve Washinton", "Bill Gates", "Jobs Wills", "Steve Jobs"));
+        arraylist.add(new TriviaQuestion("Stress bikin haid tidak teratur ?", "Mitos", "Fakta",  "Fakta"));
 
-        arraylist.add(new TriviaQuestion("Who was the founder of company Google ?", "Steve Jobs", "Bill Gates", "Larry Page", "Sundar Pichai", "Larry Page"));
+        arraylist.add(new TriviaQuestion("Menstruasi bisa “menular”? ", "Mitos", "Fakta",  "Mitos"));
 
-        arraylist.add(new TriviaQuestion("Who is know as god of cricket ?", "Sachin Tendulkar", "Kapil Dev", "Virat Koli", "Dhoni", "Sachin Tendulkar"));
+        arraylist.add(new TriviaQuestion("Menstruasi merupakan membuang darah kotor ?", "Mitos", "Fakta", "Mitos"));
 
-        arraylist.add(new TriviaQuestion("who has won ballon d'or of 2015 ?", "Lionel Messi", "Cristiano Ronaldo", "Neymar", "Kaka", "Lionel Messi"));
+        arraylist.add(new TriviaQuestion("Melompat setelah hubungan intim mencegah kehamilan ?", "Mitos", "Fakta",  "Mitos"));
 
-        arraylist.add(new TriviaQuestion("who has won ballon d'or of 2014 ?", "Neymar", "Lionel Messi", "Cristiano Ronaldo", "Kaka", "Cristiano Ronaldo"));
+        arraylist.add(new TriviaQuestion("Tidak boleh berenang saat menstruasi karena akan menyebabkan kematian ?", "Mitos", "Fakta", "Mitos"));
 
-        arraylist.add(new TriviaQuestion("the Founder of the most famous gaming platform steam is ?", "Bill Cliton", "Bill Williams", "Gabe Newell", "Bill Gates", "Gabe Newell"));
+        arraylist.add(new TriviaQuestion("Sudah cukup umur jadi tidak mungkin hamil ? ", "Mitos", "Fakta",  "Mitos"));
 
         this.addAllQuestions(arraylist);
 
@@ -115,8 +115,8 @@ class TriviaQuizHelper extends SQLiteOpenHelper {
                 values.put(QUESTION, question.getQuestion());
                 values.put(OPTA, question.getOptA());
                 values.put(OPTB, question.getOptB());
-                values.put(OPTC, question.getOptC());
-                values.put(OPTD, question.getOptD());
+//                values.put(OPTC, question.getOptC());
+//                values.put(OPTD, question.getOptD());
                 values.put(ANSWER, question.getAnswer());
                 db.insert(TABLE_NAME, null, values);
             }
@@ -133,7 +133,7 @@ class TriviaQuizHelper extends SQLiteOpenHelper {
         List<TriviaQuestion> questionsList = new ArrayList<>();
         SQLiteDatabase db = this.getWritableDatabase();
         db.beginTransaction();
-        String coloumn[] = {UID, QUESTION, OPTA, OPTB, OPTC, OPTD, ANSWER};
+        String coloumn[] = {UID, QUESTION, OPTA, OPTB,  ANSWER};
         Cursor cursor = db.query(TABLE_NAME, coloumn, null, null, null, null, null);
 
 
@@ -143,9 +143,9 @@ class TriviaQuizHelper extends SQLiteOpenHelper {
             question.setQuestion(cursor.getString(1));
             question.setOptA(cursor.getString(2));
             question.setOptB(cursor.getString(3));
-            question.setOptC(cursor.getString(4));
-            question.setOptD(cursor.getString(5));
-            question.setAnswer(cursor.getString(6));
+//            question.setOptC(cursor.getString(4));
+//            question.setOptD(cursor.getString(5));
+            question.setAnswer(cursor.getString(4));
             questionsList.add(question);
         }
 

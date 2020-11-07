@@ -516,6 +516,9 @@
         <action
             android:id="@+id/action_kuisFragment_to_kuis1Fragment2"
             app:destination="@id/kuis1Fragment2" />
+        <action
+            android:id="@+id/action_kuisFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
     <fragment
         android:id="@+id/anatomiFragment"

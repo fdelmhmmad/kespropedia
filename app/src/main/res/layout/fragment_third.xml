@@ -15,14 +15,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="false"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="38dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginRight="330dp"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="30dp"
         android:adjustViewBounds="true"
         android:longClickable="false"
         android:rotation="180"
@@ -37,38 +33,14 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginRight="25dp"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="30dp"
         android:adjustViewBounds="true"
         android:longClickable="false"
         android:src="@drawable/arrow1"
         app:backgroundTint="#FFFFFF"
         app:maxImageSize="24dp" />
 
-    <TextView
-        android:id="@+id/text1"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginTop="180dp"
-        android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-        android:gravity="center"
-        android:text='Kespro'
-        android:textColor="#000000"
-        android:textSize="34sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/text2"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginTop="220dp"
-        android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-        android:gravity="center"
-        android:text='(Kesehatan Reproduksi)'
-        android:textColor="#000000"
-        android:textSize="34sp"
-        android:textStyle="bold" />
-
-<!--    <ImageView-->
+    <!--    <ImageView-->
 <!--        android:id="@+id/imageView"-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="match_parent"-->
@@ -77,12 +49,35 @@
 <!--        tools:layout_editor_absoluteY="324dp" />-->
 
     <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
+        android:gravity="center"
+        android:text='KESPRO'
+        android:textColor="#53B858"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
+        android:gravity="center"
+        android:text='(Kesehatan Reproduksi)'
+        android:textColor="#53B858"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/text3"
-        android:layout_width="409dp"
-        android:layout_height="204dp"
-        android:layout_marginTop="255dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_width="346dp"
+        android:layout_height="188dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
         android:fontFamily="@font/comic_sans_ms"
         android:gravity="center"
         android:text='Kesehatan reproduksi adalah kesehatan secara fisik, mental dan kesejahteraan sosial secara utuh pada semua hal yang berhubungan dengan sistem dan fungsi, serta proses reproduksi dan bukan hanya kondisi yang bebas dari penyakit dan kecacatan.'

@@ -26,7 +26,7 @@ public class Time_Up extends AppCompatActivity {
         playAgainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(com.example.kespropedia.Time_Up.this,Kuis1Fragment.class);
+                Intent intent = new Intent(com.example.kespropedia.Time_Up.this,HomeFragment.class);
                 startActivity(intent);
                 finish();
 
