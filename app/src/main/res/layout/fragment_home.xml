@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:paddingTop="25dp"
-    android:background="@drawable/bc_menu">
+    android:background="@drawable/tb">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/bt_back"
@@ -18,7 +18,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="false"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="38dp"
+        android:layout_marginStart="25dp"
         android:layout_marginLeft="25dp"
         android:layout_marginEnd="25dp"
         android:layout_marginRight="330dp"
@@ -55,34 +55,68 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/bt_materi"
-        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/bt_pre"
+        style="@android:style/Widget.Holo.Light.Button"
         android:layout_width="160dp"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
         android:fontFamily="@font/comic_sans_ms"
-        android:text="Materi"
-        android:textColor="#000000" />
+        android:text="Pre test"
+        android:textColor="#000000"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
 
     <Button
-        android:id="@+id/bt_kuis"
-        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/bt_materi"
+        style="@android:style/Widget.Holo.Light.Button"
         android:layout_width="160dp"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="300dp"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:fontFamily="@font/comic_sans_ms"
+        android:text="Materi"
+        android:textColor="#000000"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+
+    <Button
+        android:id="@+id/bt_post"
+        style="@android:style/Widget.Holo.Light.Button"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:fontFamily="@font/comic_sans_ms"
+        android:text="Post test"
+        android:textColor="#000000"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+
+    <Button
+        android:id="@+id/bt_kuis"
+        style="@android:style/Widget.Holo.Light.Button"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
         android:fontFamily="@font/comic_sans_ms"
         android:text="Kuis"
         android:textColor="#000000" />
 
     <Button
         android:id="@+id/bt_exit"
-        style="@style/Widget.AppCompat.Button.Colored"
+        style="@android:style/Widget.Holo.Light.Button"
         android:layout_width="160dp"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="600dp"
         android:fontFamily="@font/comic_sans_ms"
         android:text="Keluar"
         android:textColor="#000000" />

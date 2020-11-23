@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:paddingTop="25dp"
-    android:background="@drawable/bc_third">
+    android:background="@drawable/tb">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/bt_prev"
@@ -18,7 +18,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="25dp"
         android:adjustViewBounds="true"
         android:longClickable="false"
         android:rotation="180"
@@ -33,7 +33,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginRight="25dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="25dp"
         android:adjustViewBounds="true"
         android:longClickable="false"
         android:src="@drawable/arrow1"
@@ -52,7 +52,7 @@
         android:id="@+id/text1"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="120dp"
         android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
         android:gravity="center"
         android:text='KESPRO'
@@ -64,7 +64,7 @@
         android:id="@+id/text2"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="150dp"
         android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
         android:gravity="center"
         android:text='(Kesehatan Reproduksi)'
@@ -74,13 +74,38 @@
 
     <TextView
         android:id="@+id/text3"
+        android:layout_width="350dp"
+        android:layout_height="188dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/comic_sans_ms"
+        android:gravity="center"
+        android:text='  Kesehatan reproduksi adalah kesehatan secara fisik, mental dan kesejahteraan sosial secara utuh pada semua hal yang berhubungan dengan sistem dan fungsi, serta proses reproduksi dan bukan hanya kondisi yang bebas dari penyakit dan kecacatan.'
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/text4"
         android:layout_width="346dp"
         android:layout_height="188dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="275dp"
         android:fontFamily="@font/comic_sans_ms"
         android:gravity="center"
-        android:text='Kesehatan reproduksi adalah kesehatan secara fisik, mental dan kesejahteraan sosial secara utuh pada semua hal yang berhubungan dengan sistem dan fungsi, serta proses reproduksi dan bukan hanya kondisi yang bebas dari penyakit dan kecacatan.'
+        android:text='  Masa remaja adalah masa transisi yang ditandai dengan adanya perubahan fisik, emosi dan psikis..'
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="346dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/comic_sans_ms"
+        android:gravity="center"
+        android:text='Menurut WHO remaja adalah penduduk dalam rentang usia 10-19 tahun. Menurut menteri kesehatan RI tahun 2014, remaja adalah penduduk dalam rentang usia 10-18 tahun. Sementara menurut BKKBN rentang usia remaja adalah 10-24 tahun dan belum menikah. Masa remaja merupakan suatu periode masa pematangan organ reproduksi manusia, dan sering disebut masa pubertas.Masa pubertas ditandai dengan terjadinya perubahan perubahan fisik (seperti bentuk tubuh dan proporsi tubuh) dan fungsi fisiologis (kematangan organ-organ seksual).'
         android:textColor="#000000"
         android:textSize="14sp" />
 

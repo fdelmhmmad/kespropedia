@@ -2,12 +2,18 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@drawable/fb"
     android:fillViewport="false">
     <LinearLayout
-        android:orientation="vertical" android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
 
 <!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
 <!--            android:id="@+id/button_fourth"-->
@@ -27,34 +33,16 @@
 <!--            android:rotation="180"-->
 <!--            android:src="@drawable/arrow1" />-->
             <Button
-            android:id="@+id/bt_materi"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/btn"
-            android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-            android:text="Menstruasi"
-            android:textColor="#000000" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
+                android:id="@+id/bt_materi"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/comic_sans_ms"
-                android:textColor="#000000"
-                android:text="    Menstruasiadalahproses pelepasan dinding rahim yang disertai dengan pendarahan yang terjadi secara berulang setiap bulan, kecuali pada saat terjadi kehamilan. Menstruasi merupakan salah satu ciri kedewasaan perempuan yang biasanya diawali pada usia remaja 9-12 tahun walaupun terkadang ada yang lebih cepat atau lambat dari umur tersebut." />
+                android:background="@color/white"
+                android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
+                android:text="Menstruasi"
+                android:textColor="#F44336" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:layout_marginTop="5dp"
-                android:fontFamily="@font/comic_sans_ms"
-                android:textColor="#000000"
-                android:text="    Umumnya siklus menstruasi terjadi selama 28 hari.Hari pertama terjadinya menstruasi dihitung sebagai awal dari setiap siklus. Menstruasi akan terjadi 3-7 hari." />
 
         <TextView
             android:layout_width="wrap_content"
@@ -62,43 +50,34 @@
             android:layout_gravity="left"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:text="      3.1	Pengertian
+		\n                  Menstruasi adalah proses pelepasan dinding rahim yang \n            disertai dengan pendarahan yang terjadi secara berulang \n            setiap bulan, kecuali pada saat terjadi kehamilan. \n            Menstruasi merupakan salah satu ciri kedewasaan \n            perempuan yang biasanya diawali pada usia remaja 9-12 \n            tahun walaupun terkadang ada yang lebih cepat atau lambat \n            dari umur tersebut. Umumnya siklus menstruasi terjadi \n            selama 28 hari. Hari pertama terjadinya menstruasi \n            dihitung sebagai awal dari setiap siklus. Menstruasi \n            akan terjadi 3-7 hari.
+\n\n      3.2	Fase dalam menstruasi
+\n            Dalam Siklus Menstruasi Terdapat Beberapa Fase Yaitu:
+\n            a.	Fase Proliferasi/folikuler/ pra ovulasi (hari ke 5 pasca \n                menstruasi hari ke 14)
+Fase terjadinya pertumbuhan \n                folikel didalam ovarium. Pada fase pertengahan fase \n                folikuler, kadar hormone FSH sedikit meningkat sehingga \n                merangsang pertumbuhan sekitar 3-30 folikel yang \n                masing-masing terdapat 1 sel telur. Tetapi hanya 1 folikel \n                saja yang nantinya akan terus tumbuh sedangkan yang \n                lainnya akan hancur.
+"
             android:textColor="#000000"
-            android:text="     Dalam Siklus Menstruasi Terdapat Beberapa Fase Yaitu:" />
+            android:textSize="12sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     a.	Fase Proliferasi/folikuler/ pra ovulasi (hari ke 5 pasca menstruasi –hari ke 14) Fase terjadinya pertumbuhan folikel didalam ovarium. Pada fase pertengahan fase folikuler, kadar hormone FSH sedikit meningkat sehingga merangsang pertumbuhan sekitar 3-30 folikel yang masing-masing terdapat 1 sel telur. Tetapi hanya 1 folikel saja yang nantinya akan terus tumbuh sedangkan yang lainnya akan hancur." />
-
-            <ImageView
+        <ImageView
             android:id="@+id/imageView"
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="2dp"
+            android:layout_width="182dp"
+            android:layout_height="37dp"
             android:layout_gravity="center"
-            android:src="@drawable/mens1" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     b.	Fase ovulasi (hari 14)" />
+            android:layout_marginTop="2dp"
+            android:src="@drawable/menss1" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:layout_marginTop="5dp"
+            android:textSize="12sp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:text="     Adanya peningkatan kadar estrogen selama fase folikel atau pra ovulasi memicu kelenjar pituitari untuk melepaskan hormone luteinizing hormone (LH). Di fase inilah proses ovulasi dimulai. Ovulasi  adalah proses ketika ovarium melepaskan satu sel telur yang matang sel telur ini kemudian bergerak ke tuba fallopi menuju rahim untuk dibuahi oleh sperma. Masa bertahan hidup sel telur di Rahim biasanya hanya sekitar 24 jam, bertemu sperma untuk dibuahi. Tetapi apabila jika sel telur tidak bertemu dan dibuahi oleh sperma maka  sel telur akan mati dan lapisan dinding  Rahim pun akan meluruh menjadi darah menstruasi. Sebaliknya jika terbuahi maka akan terjadi kehamilan. Fase ini terjadi di pertengahan siklus yaitu sekitar 2 minggu atau lebih sebelum mulai menstruasi. Saat ovulasi, biasanya wanita akan mengalami keputihan kental, lengket berwarna bening seperti putih telur dan suhu basal tubuh juga akan meningkat menjadi 37-38⁰C." />
+            android:text="\n            b.	Fase ovulasi (hari 14)
+            \n                  Adanya peningkatan kadar estrogen selama fase folikel atau pra ovulasi memicu kelenjar pituitari untuk melepaskan hormone luteinizing hormone (LH). Di fase inilah proses ovulasi dimulai. Ovulasi  adalah proses ketika ovarium melepaskan satu sel telur yang matang sel telur ini kemudian bergerak ke tuba fallopi menuju rahim untuk dibuahi oleh sperma. Masa bertahan hidup sel telur di Rahim biasanya hanya sekitar 24 jam, bertemu sperma untuk dibuahi. Tetapi apabila jika sel telur tidak bertemu dan dibuahi oleh sperma maka  sel telur akan mati dan lapisan dinding  Rahim pun akan meluruh menjadi darah menstruasi. Sebaliknya jika terbuahi maka akan terjadi kehamilan. Fase ini terjadi di pertengahan siklus yaitu sekitar 2 minggu atau lebih sebelum mulai menstruasi. Saat ovulasi, biasanya wanita akan mengalami keputihan kental, lengket berwarna bening seperti putih telur dan suhu basal tubuh juga akan meningkat menjadi 37-38⁰C." />
 
             <ImageView
             android:layout_width="268dp"
@@ -310,16 +289,12 @@
             android:id="@+id/bt_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentBottom="true"
             android:layout_marginStart="38dp"
             android:layout_marginLeft="25dp"
             android:layout_marginEnd="25dp"
-            android:layout_marginRight="330dp"
             android:layout_marginBottom="25dp"
             android:adjustViewBounds="true"
+            android:backgroundTint="#FFFFFF"
             android:longClickable="false"
             android:rotation="180"
             android:src="@drawable/arrow1" />

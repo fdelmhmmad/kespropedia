@@ -479,6 +479,12 @@
         <action
             android:id="@+id/action_homeFragment_to_ThirdFragment"
             app:destination="@id/ThirdFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_postTest"
+            app:destination="@id/postTest" />
+        <action
+            android:id="@+id/action_homeFragment_to_preTest"
+            app:destination="@id/preTest" />
     </fragment>
     <fragment
         android:id="@+id/materiFragment"
@@ -848,4 +854,12 @@
         android:id="@+id/kuis1Fragment2"
         android:name="com.example.kespropedia.Kuis1Fragment"
         android:label="Kuis1Fragment" />
+    <activity
+        android:id="@+id/postTest"
+        android:name="com.example.kespropedia.PostTest"
+        android:label="PostTest" />
+    <activity
+        android:id="@+id/preTest"
+        android:name="com.example.kespropedia.PreTest"
+        android:label="PreTest" />
 </navigation>

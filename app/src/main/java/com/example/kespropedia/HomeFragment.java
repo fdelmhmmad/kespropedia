@@ -46,5 +46,21 @@ public class HomeFragment extends Fragment {
                         .navigate(R.id.action_homeFragment_to_ThirdFragment);
             }
         });
+
+        view.findViewById(R.id.bt_pre).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(HomeFragment.this)
+                        .navigate(R.id.action_homeFragment_to_preTest);
+            }
+        });
+
+        view.findViewById(R.id.bt_post).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(HomeFragment.this)
+                        .navigate(R.id.action_homeFragment_to_postTest);
+            }
+        });
     }
 }

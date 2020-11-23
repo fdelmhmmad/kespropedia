@@ -7,7 +7,7 @@
     android:layout_gravity="center_vertical"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@drawable/bg_kuis1"
+    android:background="@drawable/fb"
     android:id="@+id/kuisFragment">
 
 <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->

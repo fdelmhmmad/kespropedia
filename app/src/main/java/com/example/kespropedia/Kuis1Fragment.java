@@ -48,16 +48,16 @@ public class Kuis1Fragment extends AppCompatActivity {
         buttonB = (FButton) findViewById(R.id.buttonB);
 //        buttonC = (FButton) findViewById(R.id.buttonC);
 //        buttonD = (FButton) findViewById(R.id.buttonD);
-        triviaQuizText = (TextView) findViewById(R.id.triviaQuizText);
+//        triviaQuizText = (TextView) findViewById(R.id.triviaQuizText);
         timeText = (TextView) findViewById(R.id.timeText);
         resultText = (TextView) findViewById(R.id.resultText);
         coinText = (TextView) findViewById(R.id.coinText);
 
         //Setting typefaces for textview and buttons - this will give stylish fonts on textview and button etc
-//        tb = Typeface.createFromAsset(getAssets(), "fonts/TitilliumWeb-Bold.ttf");
-//        sb = Typeface.createFromAsset(getAssets(), "fonts/shablagooital.ttf");
-        triviaQuizText.setTypeface(sb);
-        questionText.setTypeface(tb);
+        //tb = Typeface.createFromAsset(getAssets(), "font/titilliumWeb_bold.ttf");
+        //sb = Typeface.createFromAsset(getAssets(), "font/shablagooital.ttf");
+//        triviaQuizText.setTypeface(sb);
+//        questionText.setTypeface(tb);
         buttonA.setTypeface(tb);
         buttonB.setTypeface(tb);
 //        buttonC.setTypeface(tb);
@@ -240,7 +240,7 @@ public class Kuis1Fragment extends AppCompatActivity {
     //This method is called when time is up
     //this method will navigate user to the activity Time_Up
     public void timeUp() {
-        Intent intent = new Intent(this, Time_Up.class);
+        Intent intent = new Intent(this, PlayAgain.class);
         startActivity(intent);
         finish();
     }

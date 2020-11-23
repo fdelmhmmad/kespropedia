@@ -2,129 +2,63 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="false">
+    android:fillViewport="false"
+    android:background="@drawable/fb">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:orientation="vertical">
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
         <Button
             android:id="@+id/bt_materi"
-            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:background="@drawable/btn"
+            android:background="@color/white"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
             android:text="Pubertas"
-            android:textColor="#000000" />
+            android:textColor="#F44336" />
 
         <TextView
             android:id="@+id/fstTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:textSize="12sp"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:text="      Pubertas adalah masa peralihan dari anak-anak menjadi dewasa.
-		Tanda pubertas pada anak remaja laki-laki ditandai dengan mengalami mimpi basah.Mimpi basah merupakan peristiwa yang alami keluarnya cairan dan organ reproduksinya.Sehingga, secara biologis organ reproduksinya telah matang.Sedangkan  remaja  perempuan  ditandai dengan menstruasi pertama yang disebut juga menarce."
+            android:text="      2.1	Pengertian
+            \n                  Pubertas adalah masa peralihan dari \n           anak-anak menjadi dewasa. Tanda pubertas pada \n           anak remaja laki-laki ditandai dengan mengalami \n           mimpi basah. Mimpi basah merupakan peristiwa \n           yang alami keluarnya cairan dan organ \n           reproduksinya. Sehingga, secara biologis organ \n           reproduksinya telah matang. Sedangkan  remaja  \n           perempuan  ditandai dengan menstruasi pertama \n           yang disebut juga menarce.
+\n           \n     2.2	Perubahan pada pubertas anak perempuan:
+\n           a)	Perubahan fisik : suara lebih nyaring, payudara \n               membesar, tumbuhnya rambut halus pada ketiak \n               dan alat kelamin, pembesaran area pinggul dan \n               bokong, kulit lebih halus
+\n           b)	Perubahan hormon : keringat berlebih dan bau \n               badan, wajah berminyak dan jerawat
+\n           c)	Kematangan seksual : Tertarik dengan lawan \n               jenis, memperhatikan penampilan,  mengalami \n               menstruasi akibat sel telur tidak dibuahi dan \n               meluruhnya darah dari vagina
+
+\n           \n     2.3	Perubahan pubertas pada Anak laki-laki:
+\n           a)	Perubahan fisik : pembesaran jakun, perubahan \n               suara, tumbuhnya rambut halus pada ketiak, dan \n               alat kelamin,Tumbuh janggut dan kumis, bahu \n               menjadi lebih bidang/melebar, alat kelamin \n               (penis) membesar
+\n           b)	Perubahan hormon : keringat berlebih dan bau \n               badan, wajah berminyak dan jerawat
+\n           c)	Kematangan seksual : Tertarik dengan lawan \n               jenis, memperhatikan penampilan,  mengalami \n               mimpi basah.
+\n           "
             android:textColor="#000000" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="      Perubahan pada pubertas Anak perempuan:"
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="     1.	Perubahan fisik : suara lebih nyaring, payudara membesar, tumbuhnya rambut halus pada ketiak dan alat kelamin, pembesaran area pinggul dan bokong, kulit lebih halus."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="     2.	Perubahan hormon : keringat berlebih dan bau badan, wajah berminyak dan jerawat."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="     3.	Kematangan seksual : Tertarik dengan lawan jenis, memperhatikan penampilan,  mengalami menstruasi akibat sel telur tidak dibuahi dan meluruhnya darah dari vagina."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="     Perubahan pubertas pada Anak laki-laki:"
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="     1.	Perubahan fisik : pembesaran jakun, perubahan suara, tumbuhnya rambut halus pada ketiak, dan alat kelamin,Tumbuh janggut dan kumis, bahu menjadi lebih bidang/melebar, alat kelamin (penis) membesar."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="     2.	Perubahan hormon : keringat berlebih dan bau badan, wajah berminyak dan jerawat."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    3.	Kematangan seksual : Tertarik dengan lawan jenis, memperhatikan penampilan,  mengalami mimpi basah."
-            android:textColor="#000000" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="Play Video" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/bt_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentBottom="true"
             android:layout_marginStart="38dp"
             android:layout_marginLeft="25dp"
             android:layout_marginEnd="25dp"
-            android:layout_marginRight="330dp"
             android:layout_marginBottom="25dp"
             android:adjustViewBounds="true"
+            android:backgroundTint="#FFFFFF"
             android:longClickable="false"
             android:rotation="180"
             android:src="@drawable/arrow1" />
