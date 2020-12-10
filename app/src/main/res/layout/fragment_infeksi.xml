@@ -2,79 +2,61 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:fillViewport="false">
+    android:fillViewport="false"
+    android:background="@drawable/fb"
+    android:weightSum="1">
+
+
     <LinearLayout
-        android:orientation="vertical" android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
         <Button
             android:id="@+id/bt_materi"
-            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="250dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:background="@drawable/btn"
+            android:background="@color/white"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-            android:text="INFEKSI MENULAR SEKSUAL"
-            android:textColor="#000000" />
+            android:textColor="#F44336"
+            android:text="INFEKSI MENULAR SEKSUAL"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:text="      Infeksi menular seksual adalah segolongan penyakit infeksi yang terutama ditularkan melalui kontak seksualbaik melalui vagina, dubur maupun mulut.Infeksi menular seksual dapat disebabkan oleh bakteri, virus, jamur, protozoa atau ektoparasit."
+            android:textSize="12sp"
+            android:text="      5.1	Pengertian
+\n                 Infeksi menular seksual adalah segolongan \n            penyakit infeksi yang terutama ditularkan \n            melalui kontak seksualbaik melalui vagina, dubur \n            maupun mulut. Infeksi menular seksual dapat \n            disebabkan oleh bakteri, virus, jamur, protozoa \n            atau ektoparasit.
+\n\n      5.2	Faktor resiko terkena IMS
+\n            a.	Melakukan hubungan seks tanpa kondom
+\n            b.	Berhubungan seks dengan lebih satu pasangan
+\n            c.	Berhubungan seks dengan penderita IMS
+
+\n\n      5.3	Contoh penyakit IMS
+\n            a.	Kencing nanah ( gonorrhea)
+\n               Penyakit menular seksual yang disebabkan oleh \n               Neisseria gonorrhoeae yang menginfeksi lapisan \n               dalam uretra, leher rahim, rektum, tenggorokan, \n               dan bagian putih mata (konjungtiva). Gonore \n               bisa menyebar melalui aliran darah ke bagian \n               tubuh lainnya, terutama kulit dan persendian. \n               Pada wanita, gonore bisa menjalar ke saluran \n               kelamin dan menginfeksi selaput di dalam \n               pinggul sehingga timbul nyeri pinggul dan \n               gangguan reproduksi
+
+\n\n               Gejala pada laki-laki
+\n               -	Rasa sakit pada waktu buang air kecil dan \n                  ereksi
+\n               -	Keluar nanah dari saluran air kencing
+\n               -	Infeksi mata  (mata merah dan bernanah)
+\n\n               Gejala pada perempuan:
+\n               -	Nyeri di daerah perut bagian bawah
+\n               -	Keputihan dengan bau yang tidak sedap
+\n               -	Alat kelamin  terasa gatal atau sakit
+\n               -	Terasa panas dan sakit saat buang air kecil dan \n               perdarahan setelah hubungan seksual
+"
             android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="    Faktor resiko terkena IMS"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     a.	Melakukan hubungan seks tanpa kondom"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     b.	Berhubungan seks dengan lebih satu pasangan"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      c.	Berhubungan seks dengan penderita IMS"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-            android:textColor="#000000"
-            android:text="      Contoh IMS"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:textColor="#000000"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="      a.	Kencing nanah ( gonorrhea)"
-            android:layout_gravity="left"/>
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="268dp"
@@ -82,28 +64,46 @@
             android:layout_marginTop="2dp"
             android:layout_gravity="center"
             android:src="@drawable/ims1" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:text="      b.	Raja Singa ( Sifilis )"
+            android:textSize="12sp"
+            android:text="\n            b.	Raja Singa ( Sifilis )
+\n               Infeksi yang diakibatkan oleh bakteri troponema \n               pallidum. Penyakit ini dapat menular tidak hanya \n               melalui hubungan intim saja tetapi dapat melalui cairan \n               tubuh, menggunakan toilet bersama penderita, berbagi \n               peralatan makan dan mandi serta berbagi pakaian \n               secara bersama
+\n\n               Gejala:
+\n               -	Luka pada alat kelamin yang tidak sakit
+\n               -	Jika digaruk mengeluarkan cairan yang menular"
             android:layout_gravity="left"/>
+
         <ImageView
             android:layout_width="268dp"
             android:layout_height="146dp"
             android:layout_marginTop="2dp"
             android:layout_gravity="center"
             android:src="@drawable/ims2" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:text="      c.	Klamidia"
+            android:textSize="12sp"
+            android:text="\n            c.	Klamidia
+\n                Klamidia atau chlamydia adalah infeksi menular seksual  \n                yang disebabkan oleh bakteri bernama Chlamydia \n                trachomatis. Penyakit ini bisa menyerang baik \n                pria maupun wanita melalui kontak seksual. Klamidia \n                dapat menginfeksi serviks (leher rahim), anus, saluran \n                kencing, mata, dan tenggorokan. Penyakit ini termasuk \n                yang tidak begitu sulit diobati jika langsung ditangani \n                di masa-masa awal kemunculannya. Namun, jika \n                dibiarkan chlamydia bisa menyebabkan masalah \n                kesehatan serius
+\n\n               Gejala:
+\n               -	Keputihan
+\n               -	Nyeri panggul dan perut bagian bawah
+\n               -	Nyeri saat berkemih dan perdarahan setelah \n                  hubungan seksual
+\n               -	Pada infeksi kronik dapat terjadi penyebaran \n                  kesaluran telur/tuba fallopi yang menimbulkan nyeri \n                  pada perut bagian bawah, mengakibatkan kemandulan \n                  hingga kehamilan diluar kandungan.
+\n               -	Bayi baru lahir yang terinfeksi klamidia dari ibunya \n                  dapat mengalami kebutaan atau radang paru \n                  (pneumonia)
+\n"
             android:layout_gravity="left"/>
+
         <ImageView
             android:layout_width="268dp"
             android:layout_height="146dp"
@@ -116,7 +116,16 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:text="      e.	Kandidiasis vagina"
+            android:textSize="12sp"
+            android:text="\n            d.	Vaginosis bakterial
+\n                Infeksi pada alat kelamin yang disebabkan oleh \n                campuran bakteri Gardnerella vaginalis dan bakteri \n                anaerob
+\n\n                Gejala : Keputihan yang berwarna abu-abu, lengket dan \n                berbau amis. Biasanya setelah melakukan hubungan \n                seksual
+\n\n            e.	Kandidiasis vagina
+\n                Infeksi berupa keputihan yang disebabkan oleh jamur \n                candida albicans.
+\n\n                Gejala :
+\n               -	Keputihan bergumpal berwarna putih susu yang \n                 disertai rasa gatal dan panas
+\n               -	Bintik-bintik Kemerahan di alat kelamin dan daerah \n                 sekitarnya.
+\n"
             android:layout_gravity="left"/>
         <ImageView
             android:layout_width="268dp"
@@ -124,150 +133,149 @@
             android:layout_marginTop="2dp"
             android:layout_gravity="center"
             android:src="@drawable/ims4" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:text="      f.	Trikomoniasis"
+            android:textSize="12sp"
+            android:text="\n            f.	Trikomoniasis
+\n                Infeksi yang disebabkan oleh parasit Trichomonas \n                vaginalis
+\n\n                Gejala :
+\n               -	Keputihan yang banyak, kadang-kadang berbusa warna \n                 kehijauan dan disertai bau busuk
+\n               -	Rasa gatal pada alat kelamin
+\n               -	Nyeri pada saat berhubungan seksual atau saat buang \n                 air kecil
+\n"
             android:layout_gravity="left"/>
+
         <ImageView
             android:layout_width="268dp"
             android:layout_height="146dp"
             android:layout_marginTop="2dp"
             android:layout_gravity="center"
             android:src="@drawable/ims5" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:text="      g.	Herpes"
+            android:textSize="12sp"
+            android:text="\n            g.	Herpes
+\n                Infeksi yang disebabkan virus herpes simplek (HSV) \n                tipe 1 dan 2
+\n\n                Gejala :
+\n               -	Rasa terbakar atau gatal dialat kelamin
+\n               -	Terdapat bintil-bintil berisi air diatas kulit dengan \n                 warna dasar kemerahan pada area alat kelamin
+\n               -	Sebelum timbul lecet biasanya diawali pegal-pegal otot \n                 disertai demam
+\n               -	Pembengkakan kelenjar dilipatan paha
+\n"
             android:layout_gravity="left"/>
+
         <ImageView
             android:layout_width="268dp"
             android:layout_height="146dp"
             android:layout_marginTop="2dp"
             android:layout_gravity="center"
             android:src="@drawable/ims6" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:text="      h.	Kutil Kelamin"
+            android:textSize="12sp"
+            android:text="\n            h.	Kutil kelamin (kandiloma akuminata)
+\n                Infeksi yang disebabkan oleh human pappiloma virus \n                (HPV) yaitu berupa kutil disekitar alat kelamin bahkan \n                leher rahim.
+\n\n                Gejala :
+\n               -	Berupa tonjolan berbentuk jengger ayam yang berwarna \n               seperti kulit dengan ukuran berfariasi dari sangat kecil \n               sampai besar sekali
+\n"
             android:layout_gravity="left"/>
+
         <ImageView
             android:layout_width="268dp"
             android:layout_height="146dp"
             android:layout_marginTop="2dp"
             android:layout_gravity="center"
             android:src="@drawable/ims7" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:text="      1.	Kutu Kelamin"
+            android:textSize="12sp"
+            android:text="\n            i.	Kutu kelamin
+\n                Kutu yang mencul dirambut alat kelamin
+\n\n                Gejala :
+\n               -	Sering merasa gatal
+\n               -	Terkadang muncul luka-luka kecil yang terasa sakit
+\n"
             android:layout_gravity="left"/>
+
         <ImageView
             android:layout_width="268dp"
             android:layout_height="146dp"
             android:layout_marginTop="2dp"
             android:layout_gravity="center"
             android:src="@drawable/ims8" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:text="    4.	Cara mencegah IMS"
+            android:textSize="12sp"
+            android:text="            j.	HIV/AIDS
+\n                HIV (Human Immunodeficiency Virus) adalah virus yang \n                menyerang sistem kekebalan tubuh yang selanjutnya \n                melemahkan kemampuan tubuh melawan infeksi dan \n                penyakit. Sedangkan AIDS (Acquired Immune \n                Deficiency Syndrome) adalah kondisi di mana HIV sudah \n                pada tahap infeksi akhir.Ketika seseorang sudah \n                mengalami AIDS, maka tubuh tidak lagi memiliki \n                kemampuan untuk melawan infeksi yang ditimbulkan \n                Virus ini menyerang manusia dan menyerang sistem \n                kekebalan tubuh, sehingga tubuh menjadi lemah dalam \n                melawan infeksi. Jika virus ini terus menyerang tubuh \n                lama kelamaan tubuh kita akan menjadi lemah. Tanpa \n                pengobatan, seorang dengan HIV bisa bertahan hidup \n                selama 9-11 tahun setelah terinfeksi, tergantung \n                tipenya. Dengan kata lain, kehadiran virus ini dalam \n                tubuh akan menyebabkan penurunan sistem imun
+\n\n                Gejala HIV dan AIDS :
+\n\n                Tahap Pertama:
+\n                -	Pengidap akan mengalami nyeri mirip, seperti flu, \n                  beberapa minggu setelah terinfeksi, selama satu \n                  hingga dua bulan.
+\n                -	Dapat tidak menimbulkan gejala apapun selama \n                  beberapa tahun.
+\n                -	Dapat timbul demam, nyeri tenggorokan, ruam, \n                  pembengkakan kelenjar getah bening, diare, kelelahan, \n                  nyeri otot, dan sendi.
+\n\n                Tahap Kedua:
+\n                -	Umumnya, tidak menimbulkan gejala lebih lanjut \n                  selama bertahun-tahun.
+\n                -	Virus terus menyebar dan merusak sistem kekebalan \n                  tubuh.
+\n                -	Penularan infeksi sudah bisa dilakukan pengidap kepada \n                  orang lain.
+\n                -	Berlangsung hingga 10 tahun atau lebih.
+\n\n                Tahap Ketiga:
+\n                -	Daya tahan pengidap rentan, sehingga mudah sakit, \n                  dan akan berlanjut menjadi AIDS.
+\n                -	Demam terus-menerus lebih dari sepuluh hari.
+\n                -	Merasa lelah setiap saat.
+\n                -	Sulit bernapas.
+\n                -	Diare yang berat dan dalam jangka waktu yang lama.
+\n                -	Terjadi infeksi jamur pada tenggorokan, mulut, dan \n                    vagina.
+\n                -	Timbul bintik ungu pada kulit yang tidak akan hilang.
+\n                -	Hilang nafsu makan, sehingga berat badan turun \n                    drastis.
+"
             android:layout_gravity="left"/>
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
+            android:text="      5.4	Cara mencegah IMS
+\n                a.	Tidak melakukan seks sebelum menikah
+\n                b.	Berhubungan seks dengan satu orang, hindari \n                    berganti-ganti pasangan
+\n                c.	Menggunakan kondom
+\n                d.	Vaksinasi
+\n                e.	Sunat pada laki-laki
+\n                f.	Hindari narkoba dan alkohol
+\n                g.	Melakukan kegiatan yang positif, dalam pengelolaan \n                    dorongan seksual yang muncul dalam diri remaja
+\n                h.	Mencari informasi yang benar dan tepat mengenai \n                    Infeksi menular seksual (IMS)
+\n                i.	Pada remaja harus mempunyai self Estem (mampu \n                    menghargai dirinya sendiri, dengan berani menolak \n                    dengan tegas bila ada yang mengajak berhubungan \n                    seks denganalasan apapun
+\n                j.	Tidak bertukar pakaian dalam dan handuk bersama \n                    orang lain
+"
             android:textColor="#000000"
-            android:text="     a.	Tidak melakukan seks sebelum menikah"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      b.	Berhubungan seks dengan satu orang, hindari berganti-ganti pasangan"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      c.	Menggunakan kondom"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      d.	Vaksinasi"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      e.	Sunat pada laki-laki"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      f.	Hindari narkoba dan alkohol"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      g.	Melakukan kegiatan yang positif, dalam pengelolaan dorongan seksual yang muncul dalam diri remaja"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      h.	Mencari informasi yang benar dan tepat mengenai Infenksi menular seksual (IMS)"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      i.	Pada remaja harus mempunyai self Estem (mampu menghargai dirinya sendiri, dengan berani menolak dengan tegas bila ada yang mengajak berhubungan seks dengan alasan apapun"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      j.	Tidak bertukar pakaian dalam dan handuk bersama orang lain"
-            android:layout_gravity="left"/>
+            android:textSize="12sp" />
+
         <Button android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -278,16 +286,12 @@
             android:id="@+id/bt_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentBottom="true"
             android:layout_marginStart="38dp"
             android:layout_marginLeft="25dp"
             android:layout_marginEnd="25dp"
-            android:layout_marginRight="330dp"
             android:layout_marginBottom="25dp"
             android:adjustViewBounds="true"
+            android:backgroundTint="#FFFFFF"
             android:longClickable="false"
             android:rotation="180"
             android:src="@drawable/arrow1" />

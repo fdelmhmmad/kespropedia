@@ -9,14 +9,14 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
-        android:label="@string/app_name"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".SoalActivity"></activity>
+
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,26 +24,35 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".Kuis1Fragment"></activity>
+            android:name=".Kuis1Fragment"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
         <activity
             android:name=".GameWon"
-            android:label="Won Activity"></activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
         <activity
             android:name=".PlayAgain"
-            android:label="Play Again Activity"></activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
         <activity
-            android:label="Time Up Activity"
-            android:name=".Time_Up"></activity>
+            android:name=".Time_Up"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
         <activity
             android:name=".TriviaQuestion"
-            android:label="Trivia Activity"></activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
         <activity
             android:name=".PostTest"
-            android:label="Post Test"></activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
         <activity
             android:name=".PreTest"
-            android:label="Pre Test"></activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
     </application>
 
 </manifest>

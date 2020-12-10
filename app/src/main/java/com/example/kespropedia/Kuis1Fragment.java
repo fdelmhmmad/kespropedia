@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.LayoutInflater;
@@ -26,6 +27,9 @@ import java.util.List;
 import info.hoang8f.widget.FButton;
 
 public class Kuis1Fragment extends AppCompatActivity {
+
+    public MediaPlayer mp;
+
     FButton buttonA, buttonB;
     TextView questionText, triviaQuizText, timeText, resultText, coinText;
     TriviaQuizHelper triviaQuizHelper;
@@ -224,6 +228,11 @@ public class Kuis1Fragment extends AppCompatActivity {
 
     //This method will navigate from current activity to GameWon
     public void gameWon() {
+        try {
+            mp = MediaPlayer.create(this,R.raw.sound2);
+            mp.start();
+        }
+        catch(Exception e) { e.printStackTrace(); }
         Intent intent = new Intent(this, GameWon.class);
         startActivity(intent);
         finish();
@@ -232,6 +241,11 @@ public class Kuis1Fragment extends AppCompatActivity {
     //This method is called when user ans is wrong
     //this method will navigate user to the activity PlayAgain
     public void gameLostPlayAgain() {
+        try {
+            mp = MediaPlayer.create(this,R.raw.sound3);
+            mp.start();
+        }
+        catch(Exception e) { e.printStackTrace(); }
         Intent intent = new Intent(this, PlayAgain.class);
         startActivity(intent);
         finish();
@@ -240,7 +254,12 @@ public class Kuis1Fragment extends AppCompatActivity {
     //This method is called when time is up
     //this method will navigate user to the activity Time_Up
     public void timeUp() {
-        Intent intent = new Intent(this, PlayAgain.class);
+        try {
+            mp = MediaPlayer.create(this,R.raw.sound3);
+            mp.start();
+        }
+        catch(Exception e) { e.printStackTrace(); }
+        Intent intent = new Intent(this, Time_Up.class);
         startActivity(intent);
         finish();
     }
@@ -270,7 +289,7 @@ public class Kuis1Fragment extends AppCompatActivity {
     //On BackPressed
     @Override
     public void onBackPressed() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, Kuis1Fragment.class);
         startActivity(intent);
         finish();
     }

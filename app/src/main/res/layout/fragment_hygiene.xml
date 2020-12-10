@@ -2,134 +2,51 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:fillViewport="false">
+    android:fillViewport="false"
+    android:background="@drawable/fb"
+    android:weightSum="1">
     <LinearLayout
-        android:orientation="vertical" android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
         <Button
             android:id="@+id/bt_materi"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="320dp"
+            android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:background="@drawable/btn"
+            android:background="@color/white"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-            android:text="Personal hygiene (kebersihan diri)"
-            android:textColor="#000000" />
+            android:text="PERSONAL HYGIENE (KEBERSIHAN DIRI)"
+            android:textColor="#F44336" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:text="    Mengapa perlu menjaga kebersihan organ reproduksi?"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="    •	rambut di sekitar organ kelamin"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     •	Peningkatan produksi keringat di sekitar alat kelamin"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     Alat kelamin dan daerah sekitarnya mudah kotor dan lembab sehingga mudahnya kuman dan jamur berkembang biak. Maka perlunya menjaga kebersihan organ reproduksi dengan cara :"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     a.	Setiap  sebelum dan setelah buang air terlebih dahulu mencuci tangan dengan sabun di bawah air mengalir "
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     b.	Membasuh alat kelamin dari arah depan ke belakang lalu keringkan dengan handuk maupun tisu yang kering dan bersih sebelum nantinya memakai pakaian dalam."
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     c.	Menggunakan air yang mengalir saat membasuh alat kelamin terlebih saat menggunakan toilet umum agar terhindar dari bakteri yang telah ada pada air yang ditampung"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     d.	Selalu rajin mengganti pakaian dalam terlebih jika setelah olahraga yang mengakibatkan keluarnya keringat/lembab. Karena jamur menyukai daerah yang lembab atau basah dan menyebabkan rasa gatal"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     e.	Memakai pakaian dalam yang bersih, tidak ketat dan mempunyai bahan kain yang mudah menyerap "
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     f.	Mencukur rambut kemaluan secara berkala agar tetap pendek dan tidak menjadi tempat ditumbuhi bakteri"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      g.	Saat menstruasi gunakan pembalut bersih dan sering mengganti pembalut (dirasa penuh dengan darah, saat mandi, dan saat buang air)"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      h.	Bila pembalut yang digunakan adalah pembalut sekali pakai, maka bersihkan/bilas dahulu pembalut dengan air, bungkus didalam kantong plastik lalu dibuang ke tempat sampah. Jika pembalut yang digunakan berkali-kali, segera cuci  bersih setelah selesai digunakan, keringkan dibawah terik matahari hingga benar-benar kering dan bila perlu di setrika untuk mematikan kuman dan siap digunakan kembali"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      i.	Hindari penggunaan Pantyliner secara terus menerus karena dapat menyebabkan  siklus udara di organ kelamin menjadi terganggu hingga menjadi lembab hingga iritasi"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="      j.	Hindari penggunaan cairan pembersih organ intim. Karena akan mengganggu keseimbangan PH dalam vagina dan bila terlalu sering dipakai justru membunuh bakteri baik yang ada di vagina yang memicu tumbuhnya jamur akibatnya organ intim merasa gatal"
+            android:text="      4.1	Mengapa perlu menjaga kebersihan organ\n            reproduksi?
+\n            Karena didalam orang reproduksi terdapat :
+\n            •	Rambut di sekitar organ kelamin
+\n            •	Peningkatan produksi keringat di sekitar \n              alat kelamin
+\n\n                  Alat kelamin dan daerah sekitarnya \n            mudah kotor dan lembab sehingga mudahnya \n            kuman dan jamur berkembang biak.
+\n\n      4.2	Tips menjaga kebersihan organ reproduksi \n            dengan cara :
+\n            a.	Setiap  sebelum dan setelah buang air \n                terlebih dahulu mencuci tangan dengan \n                sabun di bawah air mengalir
+\n            b.	Membasuh alat kelamin dari arah depan ke \n                belakang lalu keringkan dengan handuk \n                maupun tisu yang kering dan bersih \n                sebelum nantinya memakai pakaian dalam.
+\n            d.	Selalu rajin mengganti pakaian dalam \n                terlebih jika setelah olahraga yang \n                mengakibatkan keluarnya keringat lembab. \n                Karena jamur menyukai daerah yang \n                lembab atau basah dan menyebabkan rasa \n                gatal
+\n            e.	Memakai pakaian dalam yang bersih, tidak \n                ketat dan mempunyai bahan kain yang \n                mudah menyerap
+\n            f.	Mencukur rambut kemaluan secara berkala \n                agar tetap pendek dan tidak menjadi \n                tempat ditumbuhi bakteri
+\n            g.	Saat menstruasi gunakan pembalut bersih \n                dan sering mengganti pembalut (dirasa \n                penuh dengan darah, saat mandi, dan saat \n                buang air)
+\n            h.	Bila pembalut yang digunakan adalah \n                pembalut sekali pakai, maka bersihkan \n                bilas dahulu pembalut dengan air, bungkus \n                didalam kantong plastik lalu dibuang ke \n                tempat sampah. Jika pembalut yang \n                digunakan berkali-kali, segera cuci bersih \n                setelah selesai digunakan, keringkan \n                dibawah terik matahari hingga \n                benar-benar kering dan bila perlu di \n                setrika untuk mematikan kuman dan siap \n                digunakan kembali
+\n            i.	Hindari penggunaan Pantyliner secara terus \n                menerus karena dapat menyebabkan  siklus \n                udara di organ kelamin menjadi terganggu \n                hingga menjadi lembab hingga iritasi
+\n            j.	Hindari penggunaan cairan pembersih organ \n                intim. Karena akan mengganggu \n                keseimbangan PH dalam vagina dan bila \n                terlalu sering dipakai justru membunuh \n                bakteri baik yang ada di vagina yang \n                memicu tumbuhnya jamur akibatnya organ \n                intim terasa gatal
+"
             android:layout_gravity="left"/>
         <Button android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -141,16 +58,12 @@
             android:id="@+id/bt_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentBottom="true"
             android:layout_marginStart="38dp"
             android:layout_marginLeft="25dp"
             android:layout_marginEnd="25dp"
-            android:layout_marginRight="330dp"
             android:layout_marginBottom="25dp"
             android:adjustViewBounds="true"
+            android:backgroundTint="#FFFFFF"
             android:longClickable="false"
             android:rotation="180"
             android:src="@drawable/arrow1" />

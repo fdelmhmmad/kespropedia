@@ -7,11 +7,14 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.text.method.ScrollingMovementMethod;
 
+import android.media.MediaPlayer;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 public class AnatomiFragment extends Fragment {
+
+    public MediaPlayer mp;
 
     @Override
     public View onCreateView(
@@ -29,6 +32,11 @@ public class AnatomiFragment extends Fragment {
         view.findViewById(R.id.bt_back).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                try {
+                    mp = MediaPlayer.create(getActivity(),R.raw.sound1);
+                    mp.start();
+                }
+                catch(Exception e) { e.printStackTrace(); }
                 NavHostFragment.findNavController(AnatomiFragment.this)
                         .navigate(R.id.action_anatomiFragment_to_materiFragment);
             }

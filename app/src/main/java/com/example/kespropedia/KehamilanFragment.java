@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-public class AborsiFragment extends Fragment {
+public class KehamilanFragment extends Fragment {
 
     public MediaPlayer mp;
 
@@ -20,7 +20,7 @@ public class AborsiFragment extends Fragment {
             Bundle savedInstanceState
     ) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_aborsi, container, false);
+        return inflater.inflate(R.layout.fragment_kehamilan, container, false);
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
@@ -35,8 +35,8 @@ public class AborsiFragment extends Fragment {
                     mp.start();
                 }
                 catch(Exception e) { e.printStackTrace(); }
-                NavHostFragment.findNavController(AborsiFragment.this)
-                        .navigate(R.id.action_aborsiFragment_to_materiFragment);
+                NavHostFragment.findNavController(KehamilanFragment.this)
+                        .navigate(R.id.action_kehamilanFragment_to_materiFragment);
             }
         });
     }

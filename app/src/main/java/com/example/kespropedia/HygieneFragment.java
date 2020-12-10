@@ -1,5 +1,6 @@
 package com.example.kespropedia;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,8 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 public class HygieneFragment extends Fragment {
+
+    public MediaPlayer mp;
 
     @Override
     public View onCreateView(
@@ -27,6 +30,11 @@ public class HygieneFragment extends Fragment {
         view.findViewById(R.id.bt_back).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                try {
+                    mp = MediaPlayer.create(getActivity(),R.raw.sound1);
+                    mp.start();
+                }
+                catch(Exception e) { e.printStackTrace(); }
                 NavHostFragment.findNavController(HygieneFragment.this)
                         .navigate(R.id.action_hygieneFragment_to_materiFragment);
             }

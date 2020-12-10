@@ -2,22 +2,32 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroundColor">
+    android:background="@drawable/fb">
 
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/congomen"
+        android:src="@drawable/logo"
         android:layout_margin="20dp"/>
 
     <info.hoang8f.widget.FButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/play_again"
+        android:text="Main Kembali"
         android:textColor="@color/white"
         android:id="@+id/platygaianbutton"
         android:layout_margin="15dp"
         android:onClick="PlayAgain"
+        />
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Halaman Utama"
+        android:textColor="@color/white"
+        android:id="@+id/bt_home"
+        android:layout_margin="15dp"
+        android:onClick="Home"
         />
 </LinearLayout>

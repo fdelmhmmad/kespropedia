@@ -514,6 +514,9 @@
         <action
             android:id="@+id/action_materiFragment_to_pranikahFragment"
             app:destination="@id/pranikahFragment" />
+        <action
+            android:id="@+id/action_materiFragment_to_kehamilanFragment"
+            app:destination="@id/kehamilanFragment" />
     </fragment>
     <fragment
         android:id="@+id/kuisFragment"
@@ -862,4 +865,12 @@
         android:id="@+id/preTest"
         android:name="com.example.kespropedia.PreTest"
         android:label="PreTest" />
+    <fragment
+        android:id="@+id/kehamilanFragment"
+        android:name="com.example.kespropedia.KehamilanFragment"
+        android:label="KehamilanFragment" >
+        <action
+            android:id="@+id/action_kehamilanFragment_to_materiFragment"
+            app:destination="@id/materiFragment" />
+    </fragment>
 </navigation>

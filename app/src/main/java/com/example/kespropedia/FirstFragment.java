@@ -1,5 +1,6 @@
 package com.example.kespropedia;
 
+import android.app.Activity;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -16,9 +17,8 @@ import static androidx.navigation.fragment.NavHostFragment.create;
 
 public class FirstFragment extends Fragment {
 
-//    MediaPlayer player;
-//    Button nextbutton;
-    //final MediaPlayer mp = MediaPlayer.create(R.raw.sound);
+    public MediaPlayer mp;
+
 
     @Override
     public View onCreateView(
@@ -26,28 +26,26 @@ public class FirstFragment extends Fragment {
             Bundle savedInstanceState
     ) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_first, container, false);
+ return inflater.inflate(R.layout.fragment_first, container, false);
+
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        //nextbutton = (Button) view.findViewById(R.id.bt_next);
-
         view.findViewById(R.id.bt_next).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                try {
+                    mp = MediaPlayer.create(getActivity(),R.raw.sound1);
+                    mp.start();
+                }
+                catch(Exception e) { e.printStackTrace(); }
                 NavHostFragment.findNavController(FirstFragment.this)
                         .navigate(R.id.action_FirstFragment_to_SecondFragment);
+                
             }
         });
-
-//        nextbutton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                player.start(FirstFragment.this, R.raw.sound);
-//            }
-//        });
 }
 
 }

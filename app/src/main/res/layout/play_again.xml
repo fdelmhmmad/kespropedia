@@ -3,29 +3,41 @@
     xmlns:fbutton="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroundColor"
     android:gravity="center"
     android:orientation="vertical"
-    android:id="@+id/PlayAgain">
+    android:id="@+id/PlayAgain"
+    android:background="@drawable/fb">
 
     <TextView
         android:id="@+id/wrongAns"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/wrongans"
-        android:textColor="@color/white"
-        android:textSize="30sp" />
-    <ImageView
-        android:layout_width="200dp"
+        android:textSize="30sp"
+        android:text="Jawaban Anda Salah"
+        android:textColor="#000000"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:src="@drawable/wrongans" />
+        android:gravity="center_horizontal"
+        android:src="@drawable/giffi" />
 
     <info.hoang8f.widget.FButton
         android:id="@+id/playAgainButton"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:text="@string/play_again"
-        fbutton:buttonColor="@color/lightGreen" />
+        android:textColor="@color/white"
+        android:text="Main Kembali" />
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Halaman Utama"
+        android:textColor="@color/white"
+        android:id="@+id/HomeButton"
+        android:layout_margin="15dp"
+        android:onClick="Home"
+        />
 </LinearLayout>

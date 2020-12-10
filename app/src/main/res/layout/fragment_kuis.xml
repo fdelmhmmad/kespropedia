@@ -32,7 +32,7 @@
         android:layout_marginTop="250dp"
         android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
         android:gravity="center_horizontal"
-        android:text='Kuis ini berisi tentang mitos dan fakta seputar kespro dalam kehiupan sehari-hari'
+        android:text='Kuis ini berisi tentang mitos dan fakta seputar kespro dalam kehidupan sehari-hari'
         android:textColor="#000000"
         android:textSize="28dp"
         android:textStyle="bold" />
@@ -45,7 +45,7 @@
         android:fontFamily="sans-serif-condensed-medium"
         android:gravity="center_horizontal"
         android:text='Menu'
-        android:textColor="#000000"
+        android:textColor="@color/white"
         android:textSize="34sp"  android:visibility="gone"
         android:textStyle="bold" />
 
@@ -59,7 +59,7 @@
         android:fontFamily="@font/comic_sans_ms"
         android:text="MULAI"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         android:textSize="32sp" />
 
     <Button
@@ -72,7 +72,7 @@
         android:fontFamily="@font/comic_sans_ms"
         android:text="KEMBALI"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         android:textSize="32sp" />
 
 </RelativeLayout>

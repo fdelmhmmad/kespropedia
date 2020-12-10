@@ -83,7 +83,7 @@ class TriviaQuizHelper extends SQLiteOpenHelper {
 
         arraylist.add(new TriviaQuestion("Minum soda dapat melancarkan haid? ", "Mitos", "Fakta", "Mitos"));
 
-        arraylist.add(new TriviaQuestion("Konsumsi timun saat haid memicu tejadinya kista ? ", "Mitos", "Fakta", "Mitos"));
+        arraylist.add(new TriviaQuestion("Konsumsi timun saat haid memicu terjadinya kista ? ", "Mitos", "Fakta", "Mitos"));
 
         arraylist.add(new TriviaQuestion("Keramas saat menstruasi dapat menyebabkan sakit kepala?", "Mitos", "Fakta", "Mitos"));
 

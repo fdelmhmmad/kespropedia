@@ -24,17 +24,13 @@
 <!--        app:maxImageSize="24dp" />-->
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/bt_back"
+        android:id="@+id/bt_prev"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="false"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="38dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginRight="330dp"
         android:layout_marginBottom="25dp"
         android:adjustViewBounds="true"
         android:longClickable="false"
@@ -47,7 +43,7 @@
         android:id="@+id/text1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="25dp"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
         android:gravity="center_horizontal"
@@ -73,7 +69,7 @@
         android:layout_width="355dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/mat1"
         android:text="Anatomi Dan Fisiologi Organ Genitalia"
         android:fontFamily="@font/comic_sans_ms" />
@@ -83,7 +79,7 @@
         android:layout_width="355dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="175dp"
         android:background="@drawable/mat2"
         android:hapticFeedbackEnabled="false"
         android:text="Pubertas"
@@ -95,7 +91,7 @@
         android:layout_width="355dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="275dp"
+        android:layout_marginTop="250dp"
         android:background="@drawable/mat3"
         android:text="Menstruasi"
         android:fontFamily="@font/comic_sans_ms"
@@ -106,7 +102,7 @@
         android:layout_width="355dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="400dp"
         android:background="@drawable/mat4"
         android:text="INFEKSI MENULAR SEKSUAL"
         android:fontFamily="@font/comic_sans_ms" />
@@ -116,7 +112,7 @@
         android:layout_width="355dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="425dp"
+        android:layout_marginTop="475dp"
         android:background="@drawable/mat5"
         android:text="SEKS PRANIKAH"
         android:fontFamily="@font/comic_sans_ms"/>
@@ -128,15 +124,26 @@
         android:layout_centerHorizontal="true"
         android:background="@drawable/mat6"
         android:fontFamily="@font/comic_sans_ms"
-        android:layout_marginTop="500dp"
-        android:text="KEHAMILAN TIDAK DIINGINKAN DAN ABORSI"
+        android:layout_marginTop="550dp"
+        android:text="KEHAMILAN TIDAK DIINGINKAN"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bt_aborsi"
+        android:layout_width="355dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="625dp"
+        android:background="@color/green"
+        android:fontFamily="@font/comic_sans_ms"
+        android:text="ABORSI"
         android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/bt_hygiene"
         android:layout_width="355dp"
         android:layout_height="60dp"
-        android:layout_marginTop="575dp"
+        android:layout_marginTop="325dp"
         android:layout_centerHorizontal="true"
         android:background="@drawable/mat7"
         android:fontFamily="@font/comic_sans_ms"

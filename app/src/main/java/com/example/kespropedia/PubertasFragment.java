@@ -1,5 +1,6 @@
 package com.example.kespropedia;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +16,8 @@ import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.You
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
 
 public class PubertasFragment extends Fragment {
+
+    public MediaPlayer mp;
 
     @Override
     public View onCreateView(
@@ -32,6 +35,11 @@ public class PubertasFragment extends Fragment {
         view.findViewById(R.id.bt_back).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                try {
+                    mp = MediaPlayer.create(getActivity(),R.raw.sound1);
+                    mp.start();
+                }
+                catch(Exception e) { e.printStackTrace(); }
                 NavHostFragment.findNavController(PubertasFragment.this)
                         .navigate(R.id.action_pubertasFragment_to_materiFragment);
             }

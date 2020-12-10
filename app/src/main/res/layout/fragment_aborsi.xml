@@ -2,31 +2,40 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:fillViewport="false">
+    android:fillViewport="false"
+    android:background="@drawable/fb"
+    android:weightSum="1">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
-
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
         <Button
             android:id="@+id/bt_materi"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="280dp"
+            android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:background="@drawable/btn"
+            android:background="@color/white"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-            android:text="KEHAMILAN TIDAK DIINGINKAN"
-            android:textColor="#000000" />
+            android:text="Aborsi"
+            android:textColor="#F44336" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="1.	Pengertian"
+            android:text="      8.1	Pengertian
+\n                 Aborsi adalah berakhirnya kehamilan dengan \n            dikeluarkannya janin atau emrio sebelum minggu \n            ke 20 dan belum memiliki kemampuan untuk \n            bertahan hidup diluar rahim, sehingga \n            menyebabkan kematian. Aborsi terjadi secara :
+\n            a.	sadar/sengaja melalui bantuan tenaga yang \n               tidak terlatih
+\n            b.	indikasi medis karena adanya masalah, atau \n               gangguan selama kehamilan yang jika tidak \n               dilakukan pengeluaran hasil konsepsi(janin) akan \n               beresiko
+\n            c.	spontan ( keguguran yang terjadi akibat \n               pertumbuhan kehamilan yang tidak normal)
+"
             android:textColor="#000000"
             android:fontFamily="@font/comic_sans_ms"
             android:layout_gravity="left"/>
@@ -36,243 +45,20 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:text="    KTD atau kehamilan tidak diinginkan adalah suatu kondisi pasangan yang tidak menghendaki adanya kehamilan yang merupakan akibat dari suatu perilaku seksual (HUS) baik secara sengaja maupun tidak sengaja. "
+            android:text="      8.2	Resiko kesehatan akibat melakukan aborsi:
+\n            a.	Perdarahan  hebat
+\n            b.	Anemia bahkan syok
+\n            c.	Infeksi disekitar kandungan/rahim
+\n            d.	dapat mengakibatkan kerobekanRahim atau \n               lapisannya
+\n            e.	Peradangan panggul
+\n            f.	Sepsis( infeksi penyebaran bakteri yang melaus \n               ke bagian tubuh lainnya melalui aliran darah)
+\n            g.	kanker
+\n            h.	Kerusakan pada leher rahim
+\n            i.	Gangguan psikologis ( trauma, merasa bersalah, \n               cemas, stress hingga depresi)
+\n            j.	Kematian
+"
             android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:text="     2.	Upaya Pencegahan"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         Adapun beberapa upaya pencegahan terhadap terjadinya kehamilan yang tidak diinginkan, antara lain:"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         a.	Pendidikan Seks yang kuat. "
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="             Pendidikan seks harus diberikan sedini mungkin kepada remaja dengan tetap memperhatikan tingkat perkembangannya.Salah satu faktor dominan dalam seks education selain guru dan petugas kesehatan.Peran orang tua sangat potensial dalam pengembangan kualitas kepribadaian remaja terutama masalah kesehatan reproduksi dan tanpa harus lepas dari makna religious."
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         b.	Menjunjung tinggi nilai-nilai dan norma-norma"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="             Dengan mengajarkan serta menerapkan nilai-nilai dan norma-norma yang berlaku di masyarakat akan menciptakan kehidupan yang tentram, aman dan sejahtera tanpa adanya suatu masalah akibat penyimpangan nilai-nilai dan norma-norma."
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         c.	Tradisi Masyarakat"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="             Kebiasaan dan adat istiadat yang harus menjadi salah satu faktor pendukung dalam upaya pencegahan kehamilan tidak diinginkan. Sebaliknya, adat dan kebiasaan masyarakat yang kurang baik hendaknya ditinggalkan, seperti orang tua yang mengharuskan anaknya untuk menikah diusia muda, adanya perjodohan, serta tradisi masyarakat yang beranggapan bahwa membicarakan seks adalah sesuatu yang kotor, tidak pantas, dan dianggap tabu. Padahal hal tersebut dapat menghambat proses pengajaran seks education."
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         d.	Tidak melakukan hubungan seksual sebelum menikah"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         e.	Memanfaatkan waktu luang dengan melakukan kegiatan positif seperti berolahraga, seni dan keagamaan"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         f.	Hindari perbuatan-perbuatan yang akan menimbulkan dorongan dorongan seksual, seperti meraba-raba tubuh pasangannya dan menonton video porno"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-            android:textColor="#000000"
-            android:text="ABORSI"
-            android:layout_gravity="left"/>
-        <Button
-            android:id="@+id/bt_aborsi"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/btn"
-            android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-            android:text="KEHAMILAN TIDAK DIINGINKAN"
-            android:textColor="#000000" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     Aborsi adalah berakhirnya kehamilan dengan dikeluarkannya janin atau emrio sebelum minggu ke 20 dan belum memiliki kemampuan untuk bertahan hidup diluar rahim, sehingga menyebabkan kematian. "
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="     Aborsi terjadi secara :"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         -	sadar/sengaja melalui bantuan tenaga yang tidak terlatih"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         -    indikasi medis karena adanya masalah, atau gangguan selama kehamilan yang jika tidak dilakukan pengeluaran hasil konsepsi(janin) akan beresiko"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         -	spontan ( keguguran yang terjadi akibat pertumbuha kehamilan yang tidak normal)"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="    Resiko kesehatan akibat melakukan aborsi: "
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         -	Perdarahan  hebat"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         -	Anemia bahkan syok"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         -	Infeksi disekitar kandungan/rahim"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         -	Dapat mengakibatkan kerobekan Rahim atau lapisannya"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         -	Peradangan panggul"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         -	Sepsis( infeksi penyebaran bakteri yang melaus ke bagian tubuh lainnya melalui aliran darah)"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         -	Kanker"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         -	Kerusakan pada leher rahim"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         -	Gangguan psikologis ( trauma, merasa bersalah, cemas, stress hingga depresi)"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:text="         -	Kematian"
-            android:layout_gravity="left"/>
+
         <Button android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -283,16 +69,12 @@
             android:id="@+id/bt_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentBottom="true"
             android:layout_marginStart="38dp"
             android:layout_marginLeft="25dp"
             android:layout_marginEnd="25dp"
-            android:layout_marginRight="330dp"
             android:layout_marginBottom="25dp"
             android:adjustViewBounds="true"
+            android:backgroundTint="#FFFFFF"
             android:longClickable="false"
             android:rotation="180"
             android:src="@drawable/arrow1" />

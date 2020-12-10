@@ -2,24 +2,39 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="false">
+    android:fillViewport="false"
+    android:background="@drawable/fb"
+    android:weightSum="1">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
         android:orientation="vertical"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
+        android:paddingBottom="30dp">
         <Button
             android:id="@+id/bt_materi"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="180dp"
+            android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:background="@drawable/btn"
+            android:background="@color/white"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-            android:text="SEKS PRANIKAH"
+            android:text="Seks Pranikah"
+            android:textColor="#F44336" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/comic_sans_ms"
+            android:text="      6.1	Pengertian
+            \n                 Seks pranikah merupakan aktivitas \n            seksual yang dilakukan tanpa mengindahkan \n            nilai-nilai dan norma dalam masyarakat yang \n            dilakukan oleh remaja sebelum adanya pernikahan. \n            Sebagian besar remaja yang terjerumus pada \n            perilaku seks pranikah merupakan akibat dari \n            stimulasi atau rangsangan melalui gambar-gambar \n            porno, seringnya menonton film porno, dan cerita \n            teman mengenai pengalaman seksualitasnya."
             android:textColor="#000000" />
 
         <TextView
@@ -28,52 +43,12 @@
             android:layout_gravity="left"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:text="1.	Bentuk seks pranikah"
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    a.	Berfantasi."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    b.	Berpegangan tangan."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    c.	Berpelukan."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    d.	Berciuman."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    e.	Berhubungan intim."
+            android:text="      6.2	Bentuk seks pranikah
+\n            a.	Bersentuhan (touching) , mulai dari \n                berpegangan tangan sampai berpelukan
+\n            b.	Berciuman (kissing), mulai dari ciuman singkat \n                hingga ciuman bibir dengan mempermainkan \n                lidah (deep kissing)
+\n            c.	Bercumbu (petting), menyentuh bagian yang \n                sensitive dari tubuh pasangan dan mengarah \n                pada pembangkitan gairah seksual
+\n            d.	Berhubungan kelamin
+"
             android:textColor="#000000" />
 
         <TextView
@@ -82,52 +57,18 @@
             android:layout_gravity="left"
             android:layout_marginTop="15dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:text="2.	Faktor penyebabnya"
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    a.	Hasrat/nafsu."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    b.	Keingintahuan dan coba-coba."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    c.	Informasi dan komunikasi yang kurang."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    d.	Kualitas religiusitas."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    e.	Kurangnya Peran keluarga dan teman sebaya."
+            android:text="      6.3	Faktor penyebabnya
+\n            a.	Hasrat/nafsu
+\n            b.	Keingintahuan dan coba coba
+\n            c.	Informasi dan komunikasi yang kurang
+\n            d.	Lingkungan pergaulan yang bebas
+\n            e.	Kurangnya Peran keluarga dan teman sebaya
+\n            f.	Kurangnya pendidikan agama dalam keluarga
+\n            g.	Pengaruh media social
+\n            h.	Sosial ekonomi seperti rendahnya pendapatan \n                dan taraf pendidikan
+\n            i.	Penghargaan akan diri yang rendah
+\n            j.	Kontrol diri yang kurang
+"
             android:textColor="#000000" />
 
         <TextView
@@ -136,79 +77,11 @@
             android:layout_gravity="left"
             android:layout_marginTop="15dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:text="3.	Dampak seks"
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    a.	Psikologis = perasaan marah, cemas, depresi serta"
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="        perasaan bersalah."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    b.	Fisiologis = hamil diluar nikah, Kehamilan tidak diinginkan, "
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="        aborsi."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    c.	Sosial = dikucilkan, putus sekolah, perubahan peran"
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="        menjadi ibu."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    d.	Fisik = Dampak seksual seperti gonorrhea, sifilis,klamidia,"
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="        HIV dan lain-lain."
+            android:text="      6.4	Dampak seks Pranikah
+\n            a.	Psikologi = merasa menyesal, marah, cemas, \n                depresi serta perasaan bersalah
+\n            b.	Fisik = terjadi kehamilan yang tidak diinginkan, \n                aborsi dan rentang terjadinya infeksi menular \n                seksual seperti gonorrhea, sifilis,klamidia, HIV \n                dll
+\n            c.	Sosial = dikucilkan akibat hamil diluar nikah, \n                putus sekolah, tidak siap untuk berperan \n                menjadi orang tua baru.
+"
             android:textColor="#000000" />
 
         <TextView
@@ -218,52 +91,13 @@
             android:layout_gravity="left"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:text="4.	Cara menghindari"
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    a.	Ibadah."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    b.	Kegiatan bermanfaat."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    c.	Teman/pergaulan yang baik."
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    d.	Menolak pacaran dan menyibukkan diri dengan hal"
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="        bermanfaat."
+            android:text="      6.5	Cara menghindari
+\n            a.	Ibadah
+\n            b.	Melakukan kegiatan positif
+\n            c.	Memiliki hubungan yang baik dengan keluarga
+\n            d.	Teman/pergaulan yang baik
+\n            e.	Menolak pacaran dan menyibukkan diri dengan \n                hal bermanfaat
+"
             android:textColor="#000000" />
 
         <Button
@@ -277,16 +111,12 @@
             android:id="@+id/bt_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentBottom="true"
             android:layout_marginStart="38dp"
             android:layout_marginLeft="25dp"
             android:layout_marginEnd="25dp"
-            android:layout_marginRight="330dp"
             android:layout_marginBottom="25dp"
             android:adjustViewBounds="true"
+            android:backgroundTint="#FFFFFF"
             android:longClickable="false"
             android:rotation="180"
             android:src="@drawable/arrow1" />

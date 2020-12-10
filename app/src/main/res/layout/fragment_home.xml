@@ -65,7 +65,7 @@
         android:bottomRightRadius="10dp"
         android:fontFamily="@font/comic_sans_ms"
         android:text="Pre test"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         android:topLeftRadius="10dp"
         android:topRightRadius="10dp" />
 
@@ -80,7 +80,7 @@
         android:bottomRightRadius="10dp"
         android:fontFamily="@font/comic_sans_ms"
         android:text="Materi"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         android:topLeftRadius="10dp"
         android:topRightRadius="10dp" />
 
@@ -95,7 +95,7 @@
         android:bottomRightRadius="10dp"
         android:fontFamily="@font/comic_sans_ms"
         android:text="Post test"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         android:topLeftRadius="10dp"
         android:topRightRadius="10dp" />
 
@@ -108,7 +108,7 @@
         android:layout_marginTop="500dp"
         android:fontFamily="@font/comic_sans_ms"
         android:text="Kuis"
-        android:textColor="#000000" />
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/bt_exit"
@@ -119,6 +119,6 @@
         android:layout_marginTop="600dp"
         android:fontFamily="@font/comic_sans_ms"
         android:text="Keluar"
-        android:textColor="#000000" />
+        android:textColor="@color/white" />
 
 </RelativeLayout>
