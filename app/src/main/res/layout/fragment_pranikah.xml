@@ -7,7 +7,7 @@
     android:weightSum="1">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="385dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
@@ -32,6 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:layout_marginTop="20dp"
+            android:textSize="12dp"
             android:fontFamily="@font/comic_sans_ms"
             android:text="      6.1	Pengertian
             \n                 Seks pranikah merupakan aktivitas \n            seksual yang dilakukan tanpa mengindahkan \n            nilai-nilai dan norma dalam masyarakat yang \n            dilakukan oleh remaja sebelum adanya pernikahan. \n            Sebagian besar remaja yang terjerumus pada \n            perilaku seks pranikah merupakan akibat dari \n            stimulasi atau rangsangan melalui gambar-gambar \n            porno, seringnya menonton film porno, dan cerita \n            teman mengenai pengalaman seksualitasnya."
@@ -42,6 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:layout_marginTop="20dp"
+            android:textSize="12dp"
             android:fontFamily="@font/comic_sans_ms"
             android:text="      6.2	Bentuk seks pranikah
 \n            a.	Bersentuhan (touching) , mulai dari \n                berpegangan tangan sampai berpelukan
@@ -56,6 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:layout_marginTop="15dp"
+            android:textSize="12dp"
             android:fontFamily="@font/comic_sans_ms"
             android:text="      6.3	Faktor penyebabnya
 \n            a.	Hasrat/nafsu
@@ -76,6 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:layout_marginTop="15dp"
+            android:textSize="12dp"
             android:fontFamily="@font/comic_sans_ms"
             android:text="      6.4	Dampak seks Pranikah
 \n            a.	Psikologi = merasa menyesal, marah, cemas, \n                depresi serta perasaan bersalah
@@ -90,6 +94,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:layout_marginTop="20dp"
+            android:textSize="12dp"
             android:fontFamily="@font/comic_sans_ms"
             android:text="      6.5	Cara menghindari
 \n            a.	Ibadah

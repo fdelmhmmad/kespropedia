@@ -2,9 +2,9 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:fillViewport="false"
-    android:background="@drawable/fb"
-    android:weightSum="1">
+    android:background="@drawable/fb">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,6 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:textSize="11.5dp"
             android:text="      8.1	Pengertian
 \n                 Aborsi adalah berakhirnya kehamilan dengan \n            dikeluarkannya janin atau emrio sebelum minggu \n            ke 20 dan belum memiliki kemampuan untuk \n            bertahan hidup diluar rahim, sehingga \n            menyebabkan kematian. Aborsi terjadi secara :
 \n            a.	sadar/sengaja melalui bantuan tenaga yang \n               tidak terlatih
@@ -45,6 +46,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
+            android:textSize="11.5dp"
             android:text="      8.2	Resiko kesehatan akibat melakukan aborsi:
 \n            a.	Perdarahan  hebat
 \n            b.	Anemia bahkan syok

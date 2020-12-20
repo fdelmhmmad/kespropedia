@@ -30,6 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:textSize="11.5dp"
             android:text="      7.1	Pengertian
 \n                 Kehamilan tidak diinginkan (KTD) adalah \n            suatu kondisi pasangan yang tidak menghendaki \n            adanya kehamilan yang merupakan akibat dari \n            suatu perilaku seksual (HUS) baik secara sengaja \n            maupun tidak sengaja."
             android:textColor="#000000"
@@ -52,6 +53,7 @@
 "
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
+            android:textSize="11.5dp"
             android:layout_gravity="left"/>
 
         <TextView
@@ -60,6 +62,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
+            android:textSize="11.5dp"
             android:text="\n      7.3	Akibat yang Ditimbulkan oleh Kehamilan yang \n            Tidak Diinginkan
 \n            Berbagai akibat yang dapat ditimbulkan oleh \n            kehamilan yang tidak diinginkan, antara lain :
 \n            a.  Obstetri

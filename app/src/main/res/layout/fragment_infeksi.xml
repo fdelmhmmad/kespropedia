@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:fillViewport="false"
-    android:background="@drawable/fb"
-    android:weightSum="1">
+    android:background="@drawable/fb">
 
 
     <LinearLayout
@@ -33,7 +32,7 @@
             android:layout_marginTop="20dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:textSize="12sp"
+            android:textSize="11dp"
             android:text="      5.1	Pengertian
 \n                 Infeksi menular seksual adalah segolongan \n            penyakit infeksi yang terutama ditularkan \n            melalui kontak seksualbaik melalui vagina, dubur \n            maupun mulut. Infeksi menular seksual dapat \n            disebabkan oleh bakteri, virus, jamur, protozoa \n            atau ektoparasit.
 \n\n      5.2	Faktor resiko terkena IMS
@@ -71,7 +70,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:textSize="12sp"
+            android:textSize="11dp"
             android:text="\n            b.	Raja Singa ( Sifilis )
 \n               Infeksi yang diakibatkan oleh bakteri troponema \n               pallidum. Penyakit ini dapat menular tidak hanya \n               melalui hubungan intim saja tetapi dapat melalui cairan \n               tubuh, menggunakan toilet bersama penderita, berbagi \n               peralatan makan dan mandi serta berbagi pakaian \n               secara bersama
 \n\n               Gejala:
@@ -92,7 +91,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:textSize="12sp"
+            android:textSize="11dp"
             android:text="\n            c.	Klamidia
 \n                Klamidia atau chlamydia adalah infeksi menular seksual  \n                yang disebabkan oleh bakteri bernama Chlamydia \n                trachomatis. Penyakit ini bisa menyerang baik \n                pria maupun wanita melalui kontak seksual. Klamidia \n                dapat menginfeksi serviks (leher rahim), anus, saluran \n                kencing, mata, dan tenggorokan. Penyakit ini termasuk \n                yang tidak begitu sulit diobati jika langsung ditangani \n                di masa-masa awal kemunculannya. Namun, jika \n                dibiarkan chlamydia bisa menyebabkan masalah \n                kesehatan serius
 \n\n               Gejala:
@@ -116,7 +115,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:textSize="12sp"
+            android:textSize="11dp"
             android:text="\n            d.	Vaginosis bakterial
 \n                Infeksi pada alat kelamin yang disebabkan oleh \n                campuran bakteri Gardnerella vaginalis dan bakteri \n                anaerob
 \n\n                Gejala : Keputihan yang berwarna abu-abu, lengket dan \n                berbau amis. Biasanya setelah melakukan hubungan \n                seksual
@@ -140,7 +139,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:textSize="12sp"
+            android:textSize="11dp"
             android:text="\n            f.	Trikomoniasis
 \n                Infeksi yang disebabkan oleh parasit Trichomonas \n                vaginalis
 \n\n                Gejala :
@@ -163,7 +162,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:textSize="12sp"
+            android:textSize="11dp"
             android:text="\n            g.	Herpes
 \n                Infeksi yang disebabkan virus herpes simplek (HSV) \n                tipe 1 dan 2
 \n\n                Gejala :
@@ -187,11 +186,11 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:textSize="12sp"
+            android:textSize="11dp"
             android:text="\n            h.	Kutil kelamin (kandiloma akuminata)
 \n                Infeksi yang disebabkan oleh human pappiloma virus \n                (HPV) yaitu berupa kutil disekitar alat kelamin bahkan \n                leher rahim.
 \n\n                Gejala :
-\n               -	Berupa tonjolan berbentuk jengger ayam yang berwarna \n               seperti kulit dengan ukuran berfariasi dari sangat kecil \n               sampai besar sekali
+\n               -	Berupa tonjolan berbentuk jengger ayam yang \n               berwarna seperti kulit dengan ukuran berfariasi dari \n               sangat kecil sampai besar sekali
 \n"
             android:layout_gravity="left"/>
 
@@ -208,7 +207,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:textSize="12sp"
+            android:textSize="11dp"
             android:text="\n            i.	Kutu kelamin
 \n                Kutu yang mencul dirambut alat kelamin
 \n\n                Gejala :
@@ -230,7 +229,7 @@
             android:layout_marginTop="25dp"
             android:fontFamily="@font/comic_sans_ms"
             android:textColor="#000000"
-            android:textSize="12sp"
+            android:textSize="11dp"
             android:text="            j.	HIV/AIDS
 \n                HIV (Human Immunodeficiency Virus) adalah virus yang \n                menyerang sistem kekebalan tubuh yang selanjutnya \n                melemahkan kemampuan tubuh melawan infeksi dan \n                penyakit. Sedangkan AIDS (Acquired Immune \n                Deficiency Syndrome) adalah kondisi di mana HIV sudah \n                pada tahap infeksi akhir.Ketika seseorang sudah \n                mengalami AIDS, maka tubuh tidak lagi memiliki \n                kemampuan untuk melawan infeksi yang ditimbulkan \n                Virus ini menyerang manusia dan menyerang sistem \n                kekebalan tubuh, sehingga tubuh menjadi lemah dalam \n                melawan infeksi. Jika virus ini terus menyerang tubuh \n                lama kelamaan tubuh kita akan menjadi lemah. Tanpa \n                pengobatan, seorang dengan HIV bisa bertahan hidup \n                selama 9-11 tahun setelah terinfeksi, tergantung \n                tipenya. Dengan kata lain, kehadiran virus ini dalam \n                tubuh akan menyebabkan penurunan sistem imun
 \n\n                Gejala HIV dan AIDS :
@@ -241,7 +240,7 @@
 \n\n                Tahap Kedua:
 \n                -	Umumnya, tidak menimbulkan gejala lebih lanjut \n                  selama bertahun-tahun.
 \n                -	Virus terus menyebar dan merusak sistem kekebalan \n                  tubuh.
-\n                -	Penularan infeksi sudah bisa dilakukan pengidap kepada \n                  orang lain.
+\n                -	Penularan infeksi sudah bisa dilakukan pengidap \n                  kepada orang lain.
 \n                -	Berlangsung hingga 10 tahun atau lebih.
 \n\n                Tahap Ketiga:
 \n                -	Daya tahan pengidap rentan, sehingga mudah sakit, \n                  dan akan berlanjut menjadi AIDS.
@@ -274,7 +273,7 @@
 \n                j.	Tidak bertukar pakaian dalam dan handuk bersama \n                    orang lain
 "
             android:textColor="#000000"
-            android:textSize="12sp" />
+            android:textSize="11dp"/>
 
         <Button android:layout_width="wrap_content"
             android:layout_height="wrap_content"

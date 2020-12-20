@@ -2,8 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/fb"
-    android:weightSum="1">
+    android:background="@drawable/fb">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,7 +41,7 @@
 \n         f.	uretra (Lubang kemih): tempat keluarnya air kemih, \n             terletak di bawah klitoris.
 \n         g.	Perineum: Rongga yang terletak di antara vulva dan anus."
             android:textColor="#000000"
-            android:textSize="12sp" />
+            android:textSize="11dp"/>
 
         <ImageView
             android:layout_width="268dp"
@@ -52,18 +51,18 @@
             android:src="@drawable/woman1" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/comic_sans_ms"
             android:text="         bagian dalam terdiri dari:
-\n         a.	Vagina: sebagaijalur untuk menghubungkan serviks (mulut \n             rahim) ke bagian luar.  Bentuk dindingnya berlipat-lipat, \n             panjangnya 8-10 cm.  Fungsinya untuk mengalirkan darah \n             haid dan secret dari rahim, alat bersenggama, dansebagai  \n             jalan lahir bayi.
+\n         a.	Vagina: sebagaijalur untuk menghubungkan serviks (mulut \n             rahim) ke bagian luar.  Bentuk dindingnya berlipat-lipat, \n             panjangnya 8-10 cm.  Fungsinya untuk mengalirkan darah \n             haid dan secret dari rahim, alat bersenggama, dan sebagai  \n             jalan lahir bayi.
 \n         b.	Uterus (Rahim):sebagai tempat janin berkembang saat \n             kehamilan. Rahim berbentuk seperti buah pir, dan \n             merupakan organ berongga.
-\n         c.	Tuba fallopi (Saluran telur): jalur agar sel telur bisa \n             bergerak dari ovarium menuju ke rahim dan tempat terjadi \n             pembuahan. Bentuknya seperti tabung kecil yang menempel \n             pada bgian atas samping rahim
-\n         d.	Ovarium (indung telur): bagian yang homolog dengan testis \n             pada laki-laki yang berfungsi menghasilkan sel telur, \n             mengeluarkan hormon progesteron dan estrogen."
+\n         c.	Tuba fallopi (Saluran telur): jalur agar sel telur bisa \n             bergerak dari ovarium menuju ke rahim dan tempat \n             terjadi pembuahan. Bentuknya seperti tabung kecil yang \n             menempel pada bagian atas samping rahim
+\n         d.	Ovarium (indung telur): bagian yang homolog dengan \n             testis pada laki-laki yang berfungsi menghasilkan sel \n             telur, mengeluarkan hormon progesteron dan estrogen."
             android:textColor="#000000"
-            android:textSize="12sp" />
+            android:textSize="11dp" />
 
         <ImageView
             android:layout_width="268dp"
@@ -73,7 +72,7 @@
             android:src="@drawable/woman2" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:layout_marginTop="5dp"
@@ -85,13 +84,13 @@
 \n         b.	Skrotum: pembungkus buah zakar, berfungsi untuk \n             menjaga menstabilkan suhu pada testis
 \n         \n         Bagian dalam terdiri dari:
 \n         a.	Testis : jumlahnya sepasang, terletak di dalam skrotum.  \n             Fungsinya untuk menghasilkan hormon testosterone dan \n             memproduksi sperma.
-\n         b.	Kelenjar Epididimis: Fungsinya sebagai tempat pematangan \n             sperma, bagian ekornya untuk menyimpan sperma, \n             mengeluarkan zat yang membuat suspensi cairan sperma \n             menjadi lebih encer dan sebagai transportasi sperma
+\n         b.	Kelenjar Epididimis: Fungsinya sebagai tempat \n             pematangan sperma, bagian ekornya untuk menyimpan \n             sperma, mengeluarkan zat yang membuat suspensi cairan \n             sperma menjadi lebih encer dan sebagai transportasi \n             sperma
 \n         c.	Vesikula seminalis: berfungsi sebagai Produksi zat kimia \n             untuk suspensi cairan sperma.
 \n         d.	Kelenjar Prostat :Mengandung zat untuk memelihara \n             spermatozoa di luar tubuh.
 \n         e.	Kelenjar cowper: Berfungsi mengeluarkan cairan pra \n             ejakulasi sebagaipelumas uretra dan vagina saat koitus.
 "
             android:textColor="#000000"
-            android:textSize="12sp" />
+            android:textSize="11dp" />
 
         <ImageView
             android:layout_width="268dp"

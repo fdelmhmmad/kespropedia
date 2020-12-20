@@ -36,7 +36,7 @@ public class InfeksiFragment extends Fragment {
                 }
                 catch(Exception e) { e.printStackTrace(); }
                 NavHostFragment.findNavController(InfeksiFragment.this)
-                        .navigate(R.id.action_hygieneFragment_to_materiFragment);
+                        .navigate(R.id.action_infeksiFragment_to_materiFragment);
             }
         });
     }

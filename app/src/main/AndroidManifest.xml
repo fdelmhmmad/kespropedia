@@ -11,9 +11,8 @@
         android:icon="@drawable/logo"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-
-        <activity android:name=".SoalActivity"></activity>
+        android:theme="@style/AppTheme"
+        android:label="KesproPedia">
 
         <activity
             android:name=".MainActivity"
