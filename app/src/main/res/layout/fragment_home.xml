@@ -85,7 +85,7 @@
         android:topRightRadius="10dp" />
 
     <Button
-        android:id="@+id/bt_post"
+        android:id="@+id/bt_kuis"
         style="@android:style/Widget.Holo.Light.Button"
         android:layout_width="160dp"
         android:layout_height="80dp"
@@ -100,7 +100,7 @@
         android:topRightRadius="10dp" />
 
     <Button
-        android:id="@+id/bt_kuis"
+        android:id="@+id/bt_post"
         style="@android:style/Widget.Holo.Light.Button"
         android:layout_width="160dp"
         android:layout_height="80dp"

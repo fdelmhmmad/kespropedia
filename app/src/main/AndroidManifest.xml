@@ -8,8 +8,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/logo"
-        android:roundIcon="@drawable/logo"
+        android:icon="@drawable/logo_app"
+        android:roundIcon="@drawable/logo_app"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:label="KesproPedia">

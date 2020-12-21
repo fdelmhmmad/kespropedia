@@ -38,7 +38,7 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        view.findViewById(R.id.bt_kuis).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.bt_post).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try {
@@ -77,7 +77,7 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        view.findViewById(R.id.bt_post).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.bt_kuis).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try {
