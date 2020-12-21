@@ -1,6 +1,7 @@
 package com.example.kespropedia;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -43,7 +44,8 @@ public class FirstFragment extends Fragment {
                 catch(Exception e) { e.printStackTrace(); }
                 NavHostFragment.findNavController(FirstFragment.this)
                         .navigate(R.id.action_FirstFragment_to_SecondFragment);
-                
+
+
             }
         });
 }

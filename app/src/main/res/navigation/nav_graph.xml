@@ -172,7 +172,7 @@
             android:label="YtMens" />
         <activity
             android:id="@+id/kuisActivity"
-            android:name="com.example.kespropedia.KuisActivity"
+            android:name="com.example.kespropedia.Kuis1Fragment"
             android:label="KuisActivity" />
         <fragment
             android:id="@+id/pranikahFragment"

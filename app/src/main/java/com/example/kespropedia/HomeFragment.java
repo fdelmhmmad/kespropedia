@@ -60,7 +60,7 @@ public class HomeFragment extends Fragment {
                 }
                 catch(Exception e) { e.printStackTrace(); }
                 NavHostFragment.findNavController(HomeFragment.this)
-                        .navigate(R.id.action_homeFragment_to_ThirdFragment);
+                        .navigate(R.id.action_homeFragment_to_First);
             }
         });
 
