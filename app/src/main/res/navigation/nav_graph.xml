@@ -442,6 +442,9 @@
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -485,6 +488,9 @@
         <action
             android:id="@+id/action_homeFragment_to_preTest"
             app:destination="@id/preTest" />
+        <action
+            android:id="@+id/action_homeFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
     </fragment>
     <fragment
         android:id="@+id/materiFragment"

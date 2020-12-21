@@ -43,7 +43,7 @@ public class FirstFragment extends Fragment {
                 }
                 catch(Exception e) { e.printStackTrace(); }
                 NavHostFragment.findNavController(FirstFragment.this)
-                        .navigate(R.id.action_FirstFragment_to_SecondFragment);
+                        .navigate(R.id.action_FirstFragment_to_homeFragment);
 
 
             }
