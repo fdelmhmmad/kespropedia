@@ -35,7 +35,7 @@ public class ThirdFragment extends Fragment {
                 }
                 catch(Exception e) { e.printStackTrace(); }
                 NavHostFragment.findNavController(ThirdFragment.this)
-                        .navigate(R.id.action_ThirdFragment_to_homeFragment);
+                        .navigate(R.id.action_ThirdFragment_to_materiFragment);
             }
         });
 

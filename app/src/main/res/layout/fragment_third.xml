@@ -74,12 +74,12 @@
 
     <TextView
         android:id="@+id/text3"
-        android:layout_width="350dp"
+        android:layout_width="330dp"
         android:layout_height="188dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
         android:fontFamily="@font/comic_sans_ms"
-        android:gravity="center"
+        android:gravity="left|fill"
         android:text='  Kesehatan reproduksi adalah kesehatan secara fisik, mental dan kesejahteraan sosial secara utuh pada semua hal yang berhubungan dengan sistem dan fungsi, serta proses reproduksi dan bukan hanya kondisi yang bebas dari penyakit dan kecacatan.'
         android:textColor="#000000"
         android:textSize="14sp" />
@@ -87,25 +87,25 @@
 
     <TextView
         android:id="@+id/text4"
-        android:layout_width="346dp"
+        android:layout_width="330dp"
         android:layout_height="188dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="275dp"
         android:fontFamily="@font/comic_sans_ms"
-        android:gravity="center"
-        android:text='  Masa remaja adalah masa transisi yang ditandai dengan adanya perubahan fisik, emosi dan psikis..'
+        android:gravity="left|fill"
+        android:text='  Masa remaja adalah masa transisi yang ditandai dengan adanya perubahan fisik, emosi dan psikis.'
         android:textColor="#000000"
         android:textSize="14sp" />
 
     <TextView
         android:id="@+id/text5"
-        android:layout_width="346dp"
+        android:layout_width="330dp"
         android:layout_height="220dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="400dp"
         android:fontFamily="@font/comic_sans_ms"
-        android:gravity="center"
-        android:text='Menurut WHO remaja adalah penduduk dalam rentang usia 10-19 tahun. Menurut menteri kesehatan RI tahun 2014, remaja adalah penduduk dalam rentang usia 10-18 tahun. Sementara menurut BKKBN rentang usia remaja adalah 10-24 tahun dan belum menikah. Masa remaja merupakan suatu periode masa pematangan organ reproduksi manusia, dan sering disebut masa pubertas.Masa pubertas ditandai dengan terjadinya perubahan perubahan fisik (seperti bentuk tubuh dan proporsi tubuh) dan fungsi fisiologis (kematangan organ-organ seksual).'
+        android:gravity="left|fill"
+        android:text='  Menurut WHO remaja adalah penduduk dalam rentang usia 10-19 tahun. Menurut menteri kesehatan RI tahun 2014, remaja adalah penduduk dalam rentang usia 10-18 tahun. Sementara menurut BKKBN rentang usia remaja adalah 10-24 tahun dan belum menikah. Masa remaja merupakan suatu periode masa pematangan organ reproduksi manusia, dan sering disebut masa pubertas.Masa pubertas ditandai dengan terjadinya perubahan perubahan fisik (seperti bentuk tubuh dan proporsi tubuh) dan fungsi fisiologis (kematangan organ-organ seksual).'
         android:textColor="#000000"
         android:textSize="14sp" />
 
