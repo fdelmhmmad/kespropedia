@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/fb">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -15,96 +18,37 @@
         android:orientation="vertical"
         android:paddingBottom="30dp">
 
-        <Button
-            android:id="@+id/bt_materi"
-            android:layout_width="350dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@color/white"
-            android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-            android:text="Anatomi Dan Fisiologi Organ Genitalia"
-            android:textColor="#F44336" />
+        <!--        <TextView-->
+<!--            android:id="@+id/textView6"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/comic_sans_ms"-->
+<!--            android:text="    1.2   Organ reproduksi laki-laki-->
+<!--\n         Terbagi 2 bagian, yaitu bagian luar dan dalam.-->
+<!--\n         Bagian luar terdiri dari:-->
+<!--\n         a.	Penis: untuk meletakkan sperma ke dalam organ genitalia \n             wanita dan untuk mengeluarkan urin.-->
+<!--\n         b.	Skrotum: pembungkus buah zakar, berfungsi untuk \n             menjaga menstabilkan suhu pada testis-->
+<!--\n         \n         Bagian dalam terdiri dari:-->
+<!--\n         a.	Testis : jumlahnya sepasang, terletak di dalam skrotum.  \n             Fungsinya untuk menghasilkan hormon testosterone dan \n             memproduksi sperma.-->
+<!--\n         b.	Kelenjar Epididimis: Fungsinya sebagai tempat \n             pematangan sperma, bagian ekornya untuk menyimpan \n             sperma, mengeluarkan zat yang membuat suspensi cairan \n             sperma menjadi lebih encer dan sebagai transportasi \n             sperma-->
+<!--\n         c.	Vesikula seminalis: berfungsi sebagai Produksi zat kimia \n             untuk suspensi cairan sperma.-->
+<!--\n         d.	Kelenjar Prostat :Mengandung zat untuk memelihara \n             spermatozoa di luar tubuh.-->
+<!--\n         e.	Kelenjar cowper: Berfungsi mengeluarkan cairan pra \n             ejakulasi sebagaipelumas uretra dan vagina saat koitus.-->
+<!--"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="11dp" />-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="left"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="  1.1   Organ reproduksi perempuan\n         Terbagi 2 bagian, yaitu bagian luar dan dalam.\n         Bagian luar terdiri dari:
-\n         a.	Mons veneris: daerah yang menggunung di atas tulang\n             kemaluan dan akan ditumbuhi rambut saat pubertas.
-\n         b.	Labia mayora (Bibir besar kemaluan): terdapat di kanan \n             dan kiri, berbentuk lonjong, lanjutan mons veneris.
-\n         c.	Labia minora (Bibir kecil kemaluan): terletak bagian \n             dalam dari bibir besar
-\n         d.	Klitoris: identik dengan penis pada pria, sangat sensitif \n             karena banyak mengandung jaringan saraf, yang \n           akan membesar jika seorang perempuan terangsang saat \n           berhubungan seksual.
-\n         e.	Selaput dara (hymen): selaput yang menutupi mulut \n             vagina bagian luar
-\n         f.	uretra (Lubang kemih): tempat keluarnya air kemih, \n             terletak di bawah klitoris.
-\n         g.	Perineum: Rongga yang terletak di antara vulva dan anus."
-            android:textColor="#000000"
-            android:textSize="11dp"/>
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView9"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/man1" />-->
 
-        <ImageView
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="2dp"
-            android:src="@drawable/woman1" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="         bagian dalam terdiri dari:
-\n         a.	Vagina: sebagaijalur untuk menghubungkan serviks (mulut \n             rahim) ke bagian luar.  Bentuk dindingnya berlipat-lipat, \n             panjangnya 8-10 cm.  Fungsinya untuk mengalirkan darah \n             haid dan secret dari rahim, alat bersenggama, dan sebagai  \n             jalan lahir bayi.
-\n         b.	Uterus (Rahim):sebagai tempat janin berkembang saat \n             kehamilan. Rahim berbentuk seperti buah pir, dan \n             merupakan organ berongga.
-\n         c.	Tuba fallopi (Saluran telur): jalur agar sel telur bisa \n             bergerak dari ovarium menuju ke rahim dan tempat \n             terjadi pembuahan. Bentuknya seperti tabung kecil yang \n             menempel pada bagian atas samping rahim
-\n         d.	Ovarium (indung telur): bagian yang homolog dengan \n             testis pada laki-laki yang berfungsi menghasilkan sel \n             telur, mengeluarkan hormon progesteron dan estrogen."
-            android:textColor="#000000"
-            android:textSize="11dp" />
-
-        <ImageView
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="2dp"
-            android:src="@drawable/woman2" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="    1.2   Organ reproduksi laki-laki
-\n         Terbagi 2 bagian, yaitu bagian luar dan dalam.
-\n         Bagian luar terdiri dari:
-\n         a.	Penis: untuk meletakkan sperma ke dalam organ genitalia \n             wanita dan untuk mengeluarkan urin.
-\n         b.	Skrotum: pembungkus buah zakar, berfungsi untuk \n             menjaga menstabilkan suhu pada testis
-\n         \n         Bagian dalam terdiri dari:
-\n         a.	Testis : jumlahnya sepasang, terletak di dalam skrotum.  \n             Fungsinya untuk menghasilkan hormon testosterone dan \n             memproduksi sperma.
-\n         b.	Kelenjar Epididimis: Fungsinya sebagai tempat \n             pematangan sperma, bagian ekornya untuk menyimpan \n             sperma, mengeluarkan zat yang membuat suspensi cairan \n             sperma menjadi lebih encer dan sebagai transportasi \n             sperma
-\n         c.	Vesikula seminalis: berfungsi sebagai Produksi zat kimia \n             untuk suspensi cairan sperma.
-\n         d.	Kelenjar Prostat :Mengandung zat untuk memelihara \n             spermatozoa di luar tubuh.
-\n         e.	Kelenjar cowper: Berfungsi mengeluarkan cairan pra \n             ejakulasi sebagaipelumas uretra dan vagina saat koitus.
-"
-            android:textColor="#000000"
-            android:textSize="11dp" />
-
-        <ImageView
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="2dp"
-            android:src="@drawable/man1" />
-
-        <ImageView
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="2dp"
-            android:src="@drawable/man2" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView10"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/man2" />-->
         <!--        <Button android:layout_width="wrap_content"-->
         <!--            android:id="@+id/imageView"-->
         <!--            android:layout_height="wrap_content"-->
@@ -112,24 +56,101 @@
         <!--            android:layout_marginTop="20dp"-->
         <!--            android:text="Play Video" />-->
 
+        <Button
+            android:id="@+id/bt_materi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
+            android:text="Anatomi Dan Fisiologi Organ Genitalia"
+            android:textColor="#F44336"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:fontFamily="@font/comic_sans_ms"
+            android:text="Organ reproduksi wanita terbagi atas 2 bagian, yaitu bagian luar dan dalam."
+            android:textColor="#000000"
+            android:textSize="11dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="50dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:fontFamily="@font/comic_sans_ms"
+            android:text="Organ reproduksi bagian luar terdiri dari:
+\n\nMons pubis/veneris: Daerah yang menggunung di atas tulang kemaluan dan akan ditumbuhi rambut saat pubertas.
+\n\nBibir besar kemaluan (Labia mayora) : terdapat di kanan dan kiri, berbentuk lonjong
+\n\nBibir kecil kemaluan (Labia minora) : terletak bagian dalam dari bibir besar kemaluan
+\n\nKlitoris: Terletak pada bagian atas ujung dari bibir kecil kemaluan. Banyak mengandung jaringan saraf, yang akan membesar jika seorang perempuan terangsang saat berhubungan seksual
+\n\nSelaput darah (hymen): Selaput yang menutupi mulut vagina bagian luar.
+\n\nLubang kemih (uretra): Tempat keluarnya air kemih (kencing), yang letaknya di bawah klitoris.
+\n\nPerineum: Rongga atau bagian yang mengelilingi dari keseluruhan organ reproduksi luar (meliputi mulut besar-kecil kemaluan, klitoris, dan vagina) hingga mencapai bagian atas lubang anus
+"
+            android:textColor="#000000"
+            android:textSize="11dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="100dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="181dp"
+            android:layout_height="165dp"
+            android:src="@drawable/woman1"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="270dp" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ss"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:layout_editor_absoluteX="9dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:fontFamily="@font/comic_sans_ms"
+            android:text="         bagian dalam terdiri dari:
+\n         a.	Vagina: sebagaijalur untuk menghubungkan serviks (mulut \n             rahim) ke bagian luar.  Bentuk dindingnya berlipat-lipat, \n             panjangnya 8-10 cm.  Fungsinya untuk mengalirkan darah \n             haid dan secret dari rahim, alat bersenggama, dan sebagai  \n             jalan lahir bayi.
+\n         b.	Uterus (Rahim):sebagai tempat janin berkembang saat \n             kehamilan. Rahim berbentuk seperti buah pir, dan \n             merupakan organ berongga.
+\n         c.	Tuba fallopi (Saluran telur): jalur agar sel telur bisa \n             bergerak dari ovarium menuju ke rahim dan tempat \n             terjadi pembuahan. Bentuknya seperti tabung kecil yang \n             menempel pada bagian atas samping rahim
+\n         d.	Ovarium (indung telur): bagian yang homolog dengan \n             testis pada laki-laki yang berfungsi menghasilkan sel \n             telur, mengeluarkan hormon progesteron dan estrogen."
+            android:textColor="#000000"
+            android:textSize="11dp"
+            app:layout_constraintTop_toTopOf="@+id/imageView20"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/woman2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="181dp" />
+
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/bt_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="false"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="38dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginEnd="40dp"
-            android:layout_marginRight="330dp"
-            android:layout_marginBottom="25dp"
             android:adjustViewBounds="true"
             android:backgroundTint="#FFFFFF"
             android:longClickable="false"
             android:rotation="180"
-            android:src="@drawable/arrow1" />
+            android:src="@drawable/arrow1"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="903dp" />
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
