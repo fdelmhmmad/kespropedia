@@ -1,33 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fb">
-
+    android:background="@drawable/sb">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="129dp"
+        android:layout_margin="20dp"
         android:src="@drawable/logo"
-        android:layout_margin="20dp"/>
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:src="@drawable/coinn" />
 
     <info.hoang8f.widget.FButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Main Kembali"
-        android:textColor="@color/white"
         android:id="@+id/platygaianbutton"
+        android:layout_width="260dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
         android:layout_margin="15dp"
         android:onClick="PlayAgain"
-        />
+        android:text="Main Kembali"
+        android:textColor="@color/white" />
 
     <info.hoang8f.widget.FButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Halaman Utama"
-        android:textColor="@color/white"
         android:id="@+id/bt_home"
+        android:layout_width="260dp"
+        android:layout_height="48dp"
         android:layout_margin="15dp"
+        android:layout_gravity="center"
         android:onClick="Home"
-        />
+        android:text="Halaman Utama"
+        android:textColor="@color/white" />
 </LinearLayout>

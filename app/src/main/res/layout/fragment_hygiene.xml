@@ -1,72 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:fillViewport="false"
     android:background="@drawable/fb">
-    <LinearLayout
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="30dp"
-        android:background="@color/white"
-        android:orientation="vertical"
-        android:paddingBottom="30dp">
+        android:background="@color/white">
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="13dp"-->
+        <!--            android:text="      4.1	Mengapa perlu menjaga kebersihan organ\n            reproduksi?-->
+        <!--\n            Karena didalam orang reproduksi terdapat :-->
+        <!--\n            •	Rambut di sekitar organ kelamin-->
+        <!--\n            •	Peningkatan produksi keringat di sekitar \n              alat kelamin-->
+        <!--\n\n                  Alat kelamin dan daerah sekitarnya \n            mudah kotor dan lembab sehingga mudahnya \n            kuman dan jamur berkembang biak.-->
+        <!--\n\n      4.2	Tips menjaga kebersihan organ reproduksi \n            dengan cara :-->
+        <!--\n            a.	Setiap  sebelum dan setelah buang air \n                terlebih dahulu mencuci tangan dengan \n                sabun di bawah air mengalir-->
+        <!--\n            b.	Membasuh alat kelamin dari arah depan ke \n                belakang lalu keringkan dengan handuk \n                maupun tisu yang kering dan bersih \n                sebelum nantinya memakai pakaian dalam.-->
+        <!--\n            d.	Selalu rajin mengganti pakaian dalam \n                terlebih jika setelah olahraga yang \n                mengakibatkan keluarnya keringat lembab. \n                Karena jamur menyukai daerah yang \n                lembab atau basah dan menyebabkan rasa \n                gatal-->
+        <!--\n            e.	Memakai pakaian dalam yang bersih, tidak \n                ketat dan mempunyai bahan kain yang \n                mudah menyerap-->
+        <!--\n            f.	Mencukur rambut kemaluan secara berkala \n                agar tetap pendek dan tidak menjadi \n                tempat ditumbuhi bakteri-->
+        <!--\n            g.	Saat menstruasi gunakan pembalut bersih \n                dan sering mengganti pembalut (dirasa \n                penuh dengan darah, saat mandi, dan saat \n                buang air)-->
+        <!--\n            h.	Bila pembalut yang digunakan adalah \n                pembalut sekali pakai, maka bersihkan \n                bilas dahulu pembalut dengan air, bungkus \n                didalam kantong plastik lalu dibuang ke \n                tempat sampah. Jika pembalut yang \n                digunakan berkali-kali, segera cuci bersih \n                setelah selesai digunakan, keringkan \n                dibawah terik matahari hingga \n                benar-benar kering dan bila perlu di \n                setrika untuk mematikan kuman dan siap \n                digunakan kembali-->
+        <!--\n            i.	Hindari penggunaan Pantyliner secara terus \n                menerus karena dapat menyebabkan  siklus \n                udara di organ kelamin menjadi terganggu \n                hingga menjadi lembab hingga iritasi-->
+        <!--\n            j.	Hindari penggunaan cairan pembersih organ \n                intim. Karena akan mengganggu \n                keseimbangan PH dalam vagina dan bila \n                terlalu sering dipakai justru membunuh \n                bakteri baik yang ada di vagina yang \n                memicu tumbuhnya jamur akibatnya organ \n                intim terasa gatal-->
+        <!--"-->
+        <!--            android:layout_gravity="left"/>-->
+
         <Button
             android:id="@+id/bt_materi"
-            android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_width="351dp"
+            android:layout_height="37dp"
             android:background="@color/white"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
             android:text="PERSONAL HYGIENE (KEBERSIHAN DIRI)"
-            android:textColor="#F44336" />
-        <TextView
+            android:textColor="#F44336"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/youtube_player_hygi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:textSize="13dp"
-            android:text="      4.1	Mengapa perlu menjaga kebersihan organ\n            reproduksi?
-\n            Karena didalam orang reproduksi terdapat :
-\n            •	Rambut di sekitar organ kelamin
-\n            •	Peningkatan produksi keringat di sekitar \n              alat kelamin
-\n\n                  Alat kelamin dan daerah sekitarnya \n            mudah kotor dan lembab sehingga mudahnya \n            kuman dan jamur berkembang biak.
-\n\n      4.2	Tips menjaga kebersihan organ reproduksi \n            dengan cara :
-\n            a.	Setiap  sebelum dan setelah buang air \n                terlebih dahulu mencuci tangan dengan \n                sabun di bawah air mengalir
-\n            b.	Membasuh alat kelamin dari arah depan ke \n                belakang lalu keringkan dengan handuk \n                maupun tisu yang kering dan bersih \n                sebelum nantinya memakai pakaian dalam.
-\n            d.	Selalu rajin mengganti pakaian dalam \n                terlebih jika setelah olahraga yang \n                mengakibatkan keluarnya keringat lembab. \n                Karena jamur menyukai daerah yang \n                lembab atau basah dan menyebabkan rasa \n                gatal
-\n            e.	Memakai pakaian dalam yang bersih, tidak \n                ketat dan mempunyai bahan kain yang \n                mudah menyerap
-\n            f.	Mencukur rambut kemaluan secara berkala \n                agar tetap pendek dan tidak menjadi \n                tempat ditumbuhi bakteri
-\n            g.	Saat menstruasi gunakan pembalut bersih \n                dan sering mengganti pembalut (dirasa \n                penuh dengan darah, saat mandi, dan saat \n                buang air)
-\n            h.	Bila pembalut yang digunakan adalah \n                pembalut sekali pakai, maka bersihkan \n                bilas dahulu pembalut dengan air, bungkus \n                didalam kantong plastik lalu dibuang ke \n                tempat sampah. Jika pembalut yang \n                digunakan berkali-kali, segera cuci bersih \n                setelah selesai digunakan, keringkan \n                dibawah terik matahari hingga \n                benar-benar kering dan bila perlu di \n                setrika untuk mematikan kuman dan siap \n                digunakan kembali
-\n            i.	Hindari penggunaan Pantyliner secara terus \n                menerus karena dapat menyebabkan  siklus \n                udara di organ kelamin menjadi terganggu \n                hingga menjadi lembab hingga iritasi
-\n            j.	Hindari penggunaan cairan pembersih organ \n                intim. Karena akan mengganggu \n                keseimbangan PH dalam vagina dan bila \n                terlalu sering dipakai justru membunuh \n                bakteri baik yang ada di vagina yang \n                memicu tumbuhnya jamur akibatnya organ \n                intim terasa gatal
-"
-            android:layout_gravity="left"/>
-        <Button android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="Play Video" />
+            android:layout_marginTop="78dp"
+            android:text="Video pembahasan Personal Hygiene"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/bt_materi" />
+
+        <Button
+            android:id="@+id/bt_materi"
+            android:layout_width="354dp"
+            android:layout_height="710dp"
+            android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
+            android:text=""
+            android:textColor="#F44336"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="7dp"
+            tools:visibility="invisible" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/bt_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="38dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginEnd="25dp"
-            android:layout_marginBottom="25dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
             android:adjustViewBounds="true"
             android:backgroundTint="#FFFFFF"
             android:longClickable="false"
             android:rotation="180"
-            android:src="@drawable/arrow1" />
+            android:src="@drawable/arrow1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

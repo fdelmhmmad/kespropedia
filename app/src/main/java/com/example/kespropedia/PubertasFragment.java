@@ -45,5 +45,18 @@ public class PubertasFragment extends Fragment {
             }
         });
 
+        view.findViewById(R.id.youtube_player_puber).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    mp = MediaPlayer.create(getActivity(),R.raw.sound1);
+                    mp.start();
+                }
+                catch(Exception e) { e.printStackTrace(); }
+                NavHostFragment.findNavController(PubertasFragment.this)
+                        .navigate(R.id.action_pubertasFragment_to_ytPuber);
+            }
+        });
+
     }
 }

@@ -16,15 +16,24 @@
         android:orientation="horizontal"
         android:padding="5dp">
 
-        <TextView
-            android:id="@+id/correctText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Jawaban Anda Benar"
-            android:textColor="@color/green"
-            android:gravity="center"
-            android:textSize="30sp"/>
+                <TextView
+                    android:id="@+id/correctText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jawaban Anda Benar"
+                    android:textColor="@color/green"
+                    android:gravity="center"
+                    android:textSize="30sp"/>
     </LinearLayout>
+
+<!--    <TextView-->
+<!--        android:id="@+id/factText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text=""-->
+<!--        android:textColor="@color/green"-->
+<!--        android:gravity="center"-->
+<!--        android:textSize="30sp"/>-->
 
     <View
 
@@ -37,7 +46,21 @@
         android:layout_height="wrap_content"
         android:text="@string/next"
         android:textColor="@color/white"/>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="50dp"></View>
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/dialogNext"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginRight="25dp"-->
+<!--        android:layout_marginBottom="25dp"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:background="@color/white"-->
+<!--        android:longClickable="false"-->
+<!--        android:src="@drawable/arrow1" />-->
 </LinearLayout>

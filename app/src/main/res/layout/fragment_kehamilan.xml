@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:fillViewport="false"
     android:background="@drawable/fb"
     android:weightSum="1">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -16,102 +19,174 @@
         android:background="@color/white"
         android:orientation="vertical"
         android:paddingBottom="30dp">
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:textSize="11.5dp"-->
+        <!--            android:text="      7.1	Pengertian-->
+        <!--\n                 Kehamilan tidak diinginkan (KTD) adalah \n            suatu kondisi pasangan yang tidak menghendaki \n            adanya kehamilan yang merupakan akibat dari \n            suatu perilaku seksual (HUS) baik secara sengaja \n            maupun tidak sengaja."-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:layout_gravity="left"/>-->
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="5dp"-->
+        <!--            android:text="\n      7.2	Upaya Pencegahan terhadap terjadinya kehamilan \n            yang tidak diinginkan-->
+        <!--\n            a.	Adanya Pendidikan Seks-->
+        <!--\n                Pendidikan seks harus diberikan sedini mungkin \n                kepada remaja dengan tetap memperhatikan \n                tingkat perkembangannya. Salah satu faktor \n                dominan dalam seks education selain guru dan \n                petugas kesehatan. Peran orang tua sangat \n                potensial dalam pengembangan kualitas \n                kepribadaian remaja terutama masalah \n                kesehatan reproduksi dan tanpa harus lepas \n                dari makna religius.-->
+        <!--\n            b.	Menjunjung tinggi nilai-nilai dan norma-norma-->
+        <!--\n                Dengan mengajarkan serta menerapkan \n                nilai-nilai dan norma-norma yang berlaku di \n                masyarakat akan menciptakan kehidupan yang \n                tentram, aman dan sejahtera tanpa adanya \n                suatu masalah akibat penyimpangan nilai-nilai \n                dan norma-norma.-->
+        <!--\n            c.	Tradisi Masyarakat-->
+        <!--\n                Kebiasaan dan adat istiadat yang harus \n                menjadi salah satu faktor pendukung dalam \n                upaya pencegahan kehamilan tidak \n                diinginkan.Sebaliknya, adat dan kebiasaan \n                masyarakat yang kurang baik hendaknya \n                ditinggalkan, seperti orang tua yang \n                mengharuskan anaknya untuk menikah diusia \n                muda, adanya perjodohan, serta tradisi \n                masyarakat yang beranggapan bahwa \n                membicarakan seks adalah sesuatu yang kotor, \n                tidak pantas, dan dianggap tabu. Padahal hal \n                tersebut dapat menghambat proses pengajaran \n                seks education.-->
+        <!--\n            d.	Tidak melakukan hubungan seksual sebelum \n                menikah-->
+        <!--\n            e.	Memanfaatkan waktu luang dengan melakukan \n                kegiatan positif seperti berolahraga, seni dan \n                keagamaan-->
+        <!--\n            f.	Hindari perbuatan-perbuatan yang akan \n                menimbulkan dorongan dorongan seksual, \n                seperti meraba-raba tubuh pasangannya dan \n                menonton video porno.-->
+        <!--"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="11.5dp"-->
+        <!--            android:layout_gravity="left"/>-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="5dp"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="11.5dp"-->
+        <!--            android:text="\n      7.3	Akibat yang Ditimbulkan oleh Kehamilan yang \n            Tidak Diinginkan-->
+        <!--\n            Berbagai akibat yang dapat ditimbulkan oleh \n            kehamilan yang tidak diinginkan, antara lain :-->
+        <!--\n            a.  Obstetri-->
+        <!--\n               -	Abortus/keguguran-->
+        <!--\n               -	Berat badan lahir bayi rendah-->
+        <!--\n               -	Bayi lahir Prematur-->
+        <!--\n               -	Kekurangan gizi dan anemia pada masa \n                  kehamilan-->
+        <!--\n               -	Terjadi komplikasi persalinan berupa \n                  preeklamsia yang ditandai dengan hipertensi \n                  dan kaki bengkak-->
+        <!--\n               -	Ketidakseimbangan besar bayi dengan ukuran \n                  panggul ibu, sehingga meningkatkan angka \n                  operasi seksio sesaria (SC)-->
+        <!--\n               -	Terjadi perdarahan  dan persalinan lama-->
+        <!--\n               -	Kemungkinan terjadinya kanker serviks dan \n                  penyakit menular seksual-->
+        <!--\n            b.  Psikologi-->
+        <!--\n               -	Kesepian-->
+        <!--\n               -	Perasaan malu-->
+        <!--\n               -	Perasaan bersalah-->
+        <!--\n               -	Depresi-->
+        <!--\n               -	Menimbulkan Konflik-->
+        <!--\n               -	Kecewa terhadap keluarga-->
+        <!--\n            c.  Sosial-->
+        <!--\n               -	Dikeluarkan dari sekolah-->
+        <!--\n               -	Perceraian dini-->
+        <!--\n               -	Penerimaan keluarga  yang kurang-->
+        <!--\n               -	Tidak mampu mensupport diri dan bayinya-->
+        <!--\n               -	Dikucilkan-->
+        <!--\n               -	Kurang mampu mengatur waktu antara kerja \n                  dan merawat bayi-->
+        <!--\n               -	Berbagai Penyakit-->
+        <!--\n               -	Meningkatnya angka kematian ibu dan bayi-->
+        <!--"-->
+        <!--            android:layout_gravity="left"/>-->
+
         <Button
             android:id="@+id/bt_materi"
-            android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:background="@color/white"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
             android:text="Kehamilan Tidak Diinginkan"
-            android:textColor="#F44336" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:textSize="11.5dp"
-            android:text="      7.1	Pengertian
-\n                 Kehamilan tidak diinginkan (KTD) adalah \n            suatu kondisi pasangan yang tidak menghendaki \n            adanya kehamilan yang merupakan akibat dari \n            suatu perilaku seksual (HUS) baik secara sengaja \n            maupun tidak sengaja."
-            android:textColor="#000000"
-            android:fontFamily="@font/comic_sans_ms"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:text="\n      7.2	Upaya Pencegahan terhadap terjadinya kehamilan \n            yang tidak diinginkan
-\n            a.	Adanya Pendidikan Seks
-\n                Pendidikan seks harus diberikan sedini mungkin \n                kepada remaja dengan tetap memperhatikan \n                tingkat perkembangannya. Salah satu faktor \n                dominan dalam seks education selain guru dan \n                petugas kesehatan. Peran orang tua sangat \n                potensial dalam pengembangan kualitas \n                kepribadaian remaja terutama masalah \n                kesehatan reproduksi dan tanpa harus lepas \n                dari makna religius.
-\n            b.	Menjunjung tinggi nilai-nilai dan norma-norma
-\n                Dengan mengajarkan serta menerapkan \n                nilai-nilai dan norma-norma yang berlaku di \n                masyarakat akan menciptakan kehidupan yang \n                tentram, aman dan sejahtera tanpa adanya \n                suatu masalah akibat penyimpangan nilai-nilai \n                dan norma-norma.
-\n            c.	Tradisi Masyarakat
-\n                Kebiasaan dan adat istiadat yang harus \n                menjadi salah satu faktor pendukung dalam \n                upaya pencegahan kehamilan tidak \n                diinginkan.Sebaliknya, adat dan kebiasaan \n                masyarakat yang kurang baik hendaknya \n                ditinggalkan, seperti orang tua yang \n                mengharuskan anaknya untuk menikah diusia \n                muda, adanya perjodohan, serta tradisi \n                masyarakat yang beranggapan bahwa \n                membicarakan seks adalah sesuatu yang kotor, \n                tidak pantas, dan dianggap tabu. Padahal hal \n                tersebut dapat menghambat proses pengajaran \n                seks education.
-\n            d.	Tidak melakukan hubungan seksual sebelum \n                menikah
-\n            e.	Memanfaatkan waktu luang dengan melakukan \n                kegiatan positif seperti berolahraga, seni dan \n                keagamaan
-\n            f.	Hindari perbuatan-perbuatan yang akan \n                menimbulkan dorongan dorongan seksual, \n                seperti meraba-raba tubuh pasangannya dan \n                menonton video porno.
-"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:textSize="11.5dp"
-            android:layout_gravity="left"/>
+            android:textColor="#F44336"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imageView"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="60dp"-->
+        <!--            android:src="@drawable/ktd"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/bt_materi"-->
+        <!--            tools:layout_editor_absoluteY="48dp" />-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imageView"-->
+        <!--            android:layout_width="356dp"-->
+        <!--            android:layout_height="404dp"-->
+        <!--            android:src="@drawable/ktd2"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            tools:layout_editor_absoluteY="108dp" />-->
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ktd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bt_materi" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:layout_marginTop="91dp"
+            android:src="@drawable/ktd2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bt_materi" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+            android:src="@drawable/ktd3"
+            app:layout_constraintTop_toBottomOf="@+id/imageView1"
+            tools:layout_editor_absoluteX="-1dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:src="@drawable/ktd31"
+            android:layout_marginTop="200dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView1"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="829dp" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_width="83dp"
+            android:layout_height="1045dp"
+            android:layout_gravity="left"
             android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:textSize="11.5dp"
-            android:text="\n      7.3	Akibat yang Ditimbulkan oleh Kehamilan yang \n            Tidak Diinginkan
-\n            Berbagai akibat yang dapat ditimbulkan oleh \n            kehamilan yang tidak diinginkan, antara lain :
-\n            a.  Obstetri
-\n               -	Abortus/keguguran
-\n               -	Berat badan lahir bayi rendah
-\n               -	Bayi lahir Prematur
-\n               -	Kekurangan gizi dan anemia pada masa \n                  kehamilan
-\n               -	Terjadi komplikasi persalinan berupa \n                  preeklamsia yang ditandai dengan hipertensi \n                  dan kaki bengkak
-\n               -	Ketidakseimbangan besar bayi dengan ukuran \n                  panggul ibu, sehingga meningkatkan angka \n                  operasi seksio sesaria (SC)
-\n               -	Terjadi perdarahan  dan persalinan lama
-\n               -	Kemungkinan terjadinya kanker serviks dan \n                  penyakit menular seksual
-\n            b.  Psikologi
-\n               -	Kesepian
-\n               -	Perasaan malu
-\n               -	Perasaan bersalah
-\n               -	Depresi
-\n               -	Menimbulkan Konflik
-\n               -	Kecewa terhadap keluarga
-\n            c.  Sosial
-\n               -	Dikeluarkan dari sekolah
-\n               -	Perceraian dini
-\n               -	Penerimaan keluarga  yang kurang
-\n               -	Tidak mampu mensupport diri dan bayinya
-\n               -	Dikucilkan
-\n               -	Kurang mampu mengatur waktu antara kerja \n                  dan merawat bayi
-\n               -	Berbagai Penyakit
-\n               -	Meningkatnya angka kematian ibu dan bayi
-"
-            android:layout_gravity="left"/>
+            android:text="android:textColor="
+            android:textSize="12dp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="24dp"
+            tools:visibility="invisible" />
 
-        <Button android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="Play Video" />
+        <!--        <Button-->
+        <!--            android:id="@+id/button4"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Play Video"-->
+        <!--            tools:layout_editor_absoluteX="107dp"-->
+        <!--            tools:layout_editor_absoluteY="942dp" />-->
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/bt_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="38dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginEnd="25dp"
-            android:layout_marginBottom="25dp"
             android:adjustViewBounds="true"
             android:backgroundTint="#FFFFFF"
             android:longClickable="false"
             android:rotation="180"
-            android:src="@drawable/arrow1" />
+            android:src="@drawable/arrow1"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            tools:layout_editor_absoluteX="0dp" />
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

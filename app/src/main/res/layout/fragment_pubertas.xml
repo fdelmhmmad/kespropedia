@@ -1,67 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="false"
     android:background="@drawable/fb"
     android:weightSum="1">
 
-    <LinearLayout
-        android:layout_width="385dp"
-        android:layout_height="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="30dp"
-        android:background="@color/white"
-        android:orientation="vertical"
-        android:paddingBottom="30dp">
+        android:background="@color/white">
+
+
         <Button
             android:id="@+id/bt_materi"
-            android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
             android:background="@color/white"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
             android:text="Pubertas"
-            android:textColor="#F44336" />
+            android:textColor="#F44336"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="148dp" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/fstTxt"-->
+<!--            android:layout_width="357dp"-->
+<!--            android:layout_height="634dp"-->
+<!--            android:layout_marginEnd="28dp"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:fontFamily="@font/comic_sans_ms"-->
+<!--            android:text="      A.	Pengertian-->
+<!--            \n                  Pubertas adalah masa peralihan dari \n           anak-anak menjadi dewasa. Tanda pubertas pada \n           anak remaja perempuan  ditandai dengan menstruasi \n           pertama yang disebut juga menarce.-->
+<!--\n           \n     B.	Perubahan pada pubertas anak perempuan:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="12sp"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/youtube_player_mens"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/bt_materi"-->
+<!--            app:layout_constraintVertical_bias="0.0" />-->
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/pb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/bt_materi"
+            tools:layout_conversion_absoluteHeight="359dp"
+            tools:layout_conversion_absoluteWidth="351dp" />
+
+        <Button
+            android:id="@+id/youtube_player_puber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="135dp"
+            android:fontFamily="@font/comic_sans_ms"
+            android:text="Video Perubahan pubertas pada Anak Perempuan"
+            android:textSize="12sp"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            tools:layout_editor_absoluteX="10dp" />
 
         <TextView
-            android:id="@+id/fstTxt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_width="71dp"
+            android:layout_height="634dp"
             android:layout_gravity="left"
-            android:textSize="12sp"
-            android:layout_marginTop="20dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:text="      2.1	Pengertian
-            \n                  Pubertas adalah masa peralihan dari \n           anak-anak menjadi dewasa. Tanda pubertas pada \n           anak remaja laki-laki ditandai dengan mengalami \n           mimpi basah. Mimpi basah merupakan peristiwa \n           yang alami keluarnya cairan dan organ \n           reproduksinya. Sehingga, secara biologis organ \n           reproduksinya telah matang. Sedangkan  remaja  \n           perempuan  ditandai dengan menstruasi pertama \n           yang disebut juga menarce.
-\n           \n     2.2	Perubahan pada pubertas anak perempuan:
-\n           a)	Perubahan fisik : suara lebih nyaring, payudara \n               membesar, tumbuhnya rambut halus pada ketiak \n               dan alat kelamin, pembesaran area pinggul dan \n               bokong, kulit lebih halus
-\n           b)	Perubahan hormon : keringat berlebih dan bau \n               badan, wajah berminyak dan jerawat
-\n           c)	Kematangan seksual : Tertarik dengan lawan \n               jenis, memperhatikan penampilan,  mengalami \n               menstruasi akibat sel telur tidak dibuahi dan \n               meluruhnya darah dari vagina
-
-\n           \n     2.3	Perubahan pubertas pada Anak laki-laki:
-\n           a)	Perubahan fisik : pembesaran jakun, perubahan \n               suara, tumbuhnya rambut halus pada ketiak, dan \n               alat kelamin,Tumbuh janggut dan kumis, bahu \n               menjadi lebih bidang/melebar, alat kelamin \n               (penis) membesar
-\n           b)	Perubahan hormon : keringat berlebih dan bau \n               badan, wajah berminyak dan jerawat
-\n           c)	Kematangan seksual : Tertarik dengan lawan \n               jenis, memperhatikan penampilan,  mengalami \n               mimpi basah.
-\n           "
-            android:textColor="#000000" />
-
+            android:text="android:textColor="
+            android:textSize="12dp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="40dp"
+            tools:visibility="invisible" />#000000" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/bt_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="38dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginEnd="25dp"
-            android:layout_marginBottom="25dp"
+            android:layout_marginTop="404dp"
             android:adjustViewBounds="true"
             android:backgroundTint="#FFFFFF"
             android:longClickable="false"
             android:rotation="180"
-            android:src="@drawable/arrow1" />
-    </LinearLayout>
+            android:src="@drawable/arrow1"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:layout_editor_absoluteX="0dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

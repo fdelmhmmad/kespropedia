@@ -7,16 +7,16 @@ public class TriviaQuestion extends Activity {
     private String question;
     private String opta;
     private String optb;
-//    private String optc;
+    private String fact;
 //    private String optd;
     private String answer;
 
-    public TriviaQuestion(String q, String oa, String ob, String ans) {
+    public TriviaQuestion(String q, String oa, String ob, String fc, String ans) {
 
         question = q;
         opta = oa;
         optb = ob;
-//        optc = oc;
+        fact = fc;
 //        optd = od;
         answer = ans;
     }
@@ -26,7 +26,7 @@ public class TriviaQuestion extends Activity {
         question = "";
         opta = "";
         optb = "";
-//        optc = "";
+        fact = "";
 //        optd = "";
         answer = "";
     }
@@ -43,9 +43,9 @@ public class TriviaQuestion extends Activity {
         return optb;
     }
 
-//    public String getOptC() {
-//        return optc;
-//    }
+    public String getFact() {
+        return fact;
+    }
 //
 //    public String getOptD() {
 //        return optd;
@@ -71,9 +71,9 @@ public class TriviaQuestion extends Activity {
         optb = o2;
     }
 
-//    public void setOptC(String o3) {
-//        optc = o3;
-//    }
+    public void setFact(String f1) {
+        fact = f1;
+    }
 //
 //    public void setOptD(String o4) {
 //        optd = o4;

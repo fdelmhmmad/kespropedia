@@ -39,5 +39,19 @@ public class HygieneFragment extends Fragment {
                         .navigate(R.id.action_hygieneFragment_to_materiFragment);
             }
         });
+
+        view.findViewById(R.id.youtube_player_hygi).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    mp = MediaPlayer.create(getActivity(),R.raw.sound1);
+                    mp.start();
+                }
+                catch(Exception e) { e.printStackTrace(); }
+                NavHostFragment.findNavController(HygieneFragment.this)
+                        .navigate(R.id.action_hygieneFragment_to_ytHygi);
+            }
+        });
+
     }
 }

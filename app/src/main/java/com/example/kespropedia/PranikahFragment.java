@@ -40,5 +40,18 @@ public class PranikahFragment extends Fragment {
             }
         });
 
+        view.findViewById(R.id.youtube_player_pra).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    mp = MediaPlayer.create(getActivity(),R.raw.sound1);
+                    mp.start();
+                }
+                catch(Exception e) { e.printStackTrace(); }
+                NavHostFragment.findNavController(PranikahFragment.this)
+                        .navigate(R.id.action_pranikahFragment_to_ytPra);
+            }
+        });
+
     }
 }

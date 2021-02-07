@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="false"
     android:background="@drawable/fb"
     android:weightSum="1">
 
-    <LinearLayout
-        android:layout_width="385dp"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
@@ -16,114 +19,126 @@
         android:background="@color/white"
         android:orientation="vertical"
         android:paddingBottom="30dp">
+
         <Button
             android:id="@+id/bt_materi"
-            android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="@color/white"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
             android:text="Seks Pranikah"
-            android:textColor="#F44336" />
+            android:textColor="#F44336"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="142dp" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_width="63dp"
+            android:layout_height="448dp"
             android:layout_gravity="left"
-            android:layout_marginTop="20dp"
-            android:textSize="12dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:text="      6.1	Pengertian
-            \n                 Seks pranikah merupakan aktivitas \n            seksual yang dilakukan tanpa mengindahkan \n            nilai-nilai dan norma dalam masyarakat yang \n            dilakukan oleh remaja sebelum adanya pernikahan. \n            Sebagian besar remaja yang terjerumus pada \n            perilaku seks pranikah merupakan akibat dari \n            stimulasi atau rangsangan melalui gambar-gambar \n            porno, seringnya menonton film porno, dan cerita \n            teman mengenai pengalaman seksualitasnya."
-            android:textColor="#000000" />
+            android:text="android:textColor="
+            android:textSize="12dp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="44dp"
+            tools:visibility="invisible" />
+        <!--<TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="left"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:textSize="12dp"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:text="      6.2	Bentuk seks pranikah-->
+        <!--\n            a.	Bersentuhan (touching) , mulai dari \n                berpegangan tangan sampai berpelukan-->
+        <!--\n            b.	Berciuman (kissing), mulai dari ciuman singkat \n                hingga ciuman bibir dengan mempermainkan \n                lidah (deep kissing)-->
+        <!--\n            c.	Bercumbu (petting), menyentuh bagian yang \n                sensitive dari tubuh pasangan dan mengarah \n                pada pembangkitan gairah seksual-->
+        <!--\n            d.	Berhubungan kelamin-->
+        <!--"-->
+        <!--            android:textColor="#000000" />-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="20dp"
-            android:textSize="12dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="      6.2	Bentuk seks pranikah
-\n            a.	Bersentuhan (touching) , mulai dari \n                berpegangan tangan sampai berpelukan
-\n            b.	Berciuman (kissing), mulai dari ciuman singkat \n                hingga ciuman bibir dengan mempermainkan \n                lidah (deep kissing)
-\n            c.	Bercumbu (petting), menyentuh bagian yang \n                sensitive dari tubuh pasangan dan mengarah \n                pada pembangkitan gairah seksual
-\n            d.	Berhubungan kelamin
-"
-            android:textColor="#000000" />
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="left"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:textSize="12dp"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:text="      6.3	Faktor penyebabnya-->
+        <!--\n            a.	Hasrat/nafsu-->
+        <!--\n            b.	Keingintahuan dan coba coba-->
+        <!--\n            c.	Informasi dan komunikasi yang kurang-->
+        <!--\n            d.	Lingkungan pergaulan yang bebas-->
+        <!--\n            e.	Kurangnya Peran keluarga dan teman sebaya-->
+        <!--\n            f.	Kurangnya pendidikan agama dalam keluarga-->
+        <!--\n            g.	Pengaruh media social-->
+        <!--\n            h.	Sosial ekonomi seperti rendahnya pendapatan \n                dan taraf pendidikan-->
+        <!--\n            i.	Penghargaan akan diri yang rendah-->
+        <!--\n            j.	Kontrol diri yang kurang-->
+        <!--"-->
+        <!--            android:textColor="#000000" />-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:textSize="12dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="      6.3	Faktor penyebabnya
-\n            a.	Hasrat/nafsu
-\n            b.	Keingintahuan dan coba coba
-\n            c.	Informasi dan komunikasi yang kurang
-\n            d.	Lingkungan pergaulan yang bebas
-\n            e.	Kurangnya Peran keluarga dan teman sebaya
-\n            f.	Kurangnya pendidikan agama dalam keluarga
-\n            g.	Pengaruh media social
-\n            h.	Sosial ekonomi seperti rendahnya pendapatan \n                dan taraf pendidikan
-\n            i.	Penghargaan akan diri yang rendah
-\n            j.	Kontrol diri yang kurang
-"
-            android:textColor="#000000" />
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="left"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:textSize="12dp"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:text="      6.4	Dampak seks Pranikah-->
+        <!--\n            a.	Psikologi = merasa menyesal, marah, cemas, \n                depresi serta perasaan bersalah-->
+        <!--\n            b.	Fisik = terjadi kehamilan yang tidak diinginkan, \n                aborsi dan rentang terjadinya infeksi menular \n                seksual seperti gonorrhea, sifilis,klamidia, HIV \n                dll-->
+        <!--\n            c.	Sosial = dikucilkan akibat hamil diluar nikah, \n                putus sekolah, tidak siap untuk berperan \n                menjadi orang tua baru.-->
+        <!--"-->
+        <!--            android:textColor="#000000" />-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:textSize="12dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="      6.4	Dampak seks Pranikah
-\n            a.	Psikologi = merasa menyesal, marah, cemas, \n                depresi serta perasaan bersalah
-\n            b.	Fisik = terjadi kehamilan yang tidak diinginkan, \n                aborsi dan rentang terjadinya infeksi menular \n                seksual seperti gonorrhea, sifilis,klamidia, HIV \n                dll
-\n            c.	Sosial = dikucilkan akibat hamil diluar nikah, \n                putus sekolah, tidak siap untuk berperan \n                menjadi orang tua baru.
-"
-            android:textColor="#000000" />
+        <!--        <TextView-->
+        <!--            android:id="@+id/fstTxt"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="left"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:textSize="12dp"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:text="      6.5	Cara menghindari-->
+        <!--\n            a.	Ibadah-->
+        <!--\n            b.	Melakukan kegiatan positif-->
+        <!--\n            c.	Memiliki hubungan yang baik dengan keluarga-->
+        <!--\n            d.	Teman/pergaulan yang baik-->
+        <!--\n            e.	Menolak pacaran dan menyibukkan diri dengan \n                hal bermanfaat-->
+        <!--"-->
+        <!--            android:textColor="#000000" />-->
 
-        <TextView
-            android:id="@+id/fstTxt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="20dp"
-            android:textSize="12dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="      6.5	Cara menghindari
-\n            a.	Ibadah
-\n            b.	Melakukan kegiatan positif
-\n            c.	Memiliki hubungan yang baik dengan keluarga
-\n            d.	Teman/pergaulan yang baik
-\n            e.	Menolak pacaran dan menyibukkan diri dengan \n                hal bermanfaat
-"
-            android:textColor="#000000" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="224dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/pr1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bt_materi" />
 
         <Button
+            android:id="@+id/youtube_player_pra"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="Play Video" />
+            android:text="Play Video"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/bt_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="38dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginEnd="25dp"
-            android:layout_marginBottom="25dp"
+            android:layout_marginTop="196dp"
             android:adjustViewBounds="true"
             android:backgroundTint="#FFFFFF"
             android:longClickable="false"
             android:rotation="180"
-            android:src="@drawable/arrow1" />
-    </LinearLayout>
+            android:src="@drawable/arrow1"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:layout_editor_absoluteX="-16dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

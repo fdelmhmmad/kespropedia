@@ -31,7 +31,7 @@ public class Kuis1Fragment extends AppCompatActivity {
     public MediaPlayer mp;
 
     FButton buttonA, buttonB;
-    TextView questionText, triviaQuizText, timeText, resultText, coinText;
+    TextView questionText, triviaQuizText, timeText, resultText, factText, coinText;
     TriviaQuizHelper triviaQuizHelper;
     TriviaQuestion currentQuestion;
     List<TriviaQuestion> list;
@@ -53,6 +53,7 @@ public class Kuis1Fragment extends AppCompatActivity {
 //        buttonC = (FButton) findViewById(R.id.buttonC);
 //        buttonD = (FButton) findViewById(R.id.buttonD);
 //        triviaQuizText = (TextView) findViewById(R.id.triviaQuizText);
+//        factText = (TextView) findViewById(R.id.factText);
         timeText = (TextView) findViewById(R.id.timeText);
         resultText = (TextView) findViewById(R.id.resultText);
         coinText = (TextView) findViewById(R.id.coinText);
@@ -66,6 +67,7 @@ public class Kuis1Fragment extends AppCompatActivity {
         buttonB.setTypeface(tb);
 //        buttonC.setTypeface(tb);
 //        buttonD.setTypeface(tb);
+//        factText.setTypeface(sb);
         timeText.setTypeface(tb);
         resultText.setTypeface(sb);
         coinText.setTypeface(tb);
@@ -311,10 +313,12 @@ public class Kuis1Fragment extends AppCompatActivity {
 
 
         TextView correctText = (TextView) dialogCorrect.findViewById(R.id.correctText);
+//        TextView factText = (TextView) dialogCorrect.findViewById(R.id.factText);
         FButton buttonNext = (FButton) dialogCorrect.findViewById(R.id.dialogNext);
 
         //Setting type faces
         correctText.setTypeface(sb);
+//        factText.setTypeface(sb);
         buttonNext.setTypeface(sb);
 
         //OnCLick listener to go next que

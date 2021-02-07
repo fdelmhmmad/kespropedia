@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/fb"
     android:fillViewport="false"
     android:weightSum="1">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -17,209 +20,289 @@
         android:orientation="vertical"
         android:paddingBottom="30dp">
 
-<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
-<!--            android:id="@+id/button_fourth"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_alignParentStart="true"-->
-<!--            android:layout_alignParentLeft="true"-->
-<!--            android:layout_alignParentRight="true"-->
-<!--            android:layout_alignParentBottom="true"-->
-<!--            android:layout_marginStart="38dp"-->
-<!--            android:layout_marginLeft="25dp"-->
-<!--            android:layout_marginEnd="25dp"-->
-<!--            android:layout_marginRight="330dp"-->
-<!--            android:layout_marginBottom="25dp"-->
-<!--            android:adjustViewBounds="true"-->
-<!--            android:longClickable="false"-->
-<!--            android:rotation="180"-->
-<!--            android:src="@drawable/arrow1" />-->
-            <Button
-                android:id="@+id/bt_materi"
-                android:layout_width="150dp"
-                android:layout_height="60dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:background="@color/white"
-                android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
-                android:text="Menstruasi"
-                android:textColor="#F44336" />
+        <!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+        <!--            android:id="@+id/button_fourth"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentStart="true"-->
+        <!--            android:layout_alignParentLeft="true"-->
+        <!--            android:layout_alignParentRight="true"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            android:layout_marginStart="38dp"-->
+        <!--            android:layout_marginLeft="25dp"-->
+        <!--            android:layout_marginEnd="25dp"-->
+        <!--            android:layout_marginRight="330dp"-->
+        <!--            android:layout_marginBottom="25dp"-->
+        <!--            android:adjustViewBounds="true"-->
+        <!--            android:longClickable="false"-->
+        <!--            android:rotation="180"-->
+        <!--            android:src="@drawable/arrow1" />-->
 
 
-        <TextView
+        <!--        <TextView-->
+        <!--            android:layout_width="341dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="left"-->
+        <!--            android:layout_marginTop="20dp"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:justificationMode="inter_word"-->
+        <!--            android:text="      A.	Pengertian-->
+        <!--		\n                  Menstruasi adalah proses pelepasan dinding rahim yang disertai dengan perdarahan yang terjadi secara berulang setiap bulan, kecuali pada saat terjadi kehamilan.-->
+        <!--		Menstruasi merupakan salah satu ciri kedewasaan perempuan yang biasanya diawali pada usia remaja 9-12 tahun walaupun terkadang ada yang lebih cepat atau lambat dari umur tersebut. Umumnya siklus menstruasi terjadi selama 28 hari. Hari pertama terjadinya menstruasi dihitung sebagai awal dari setiap siklus. Menstruasi akan terjadi selama 3-7 hari.-->
+
+        <!--\n\n      B. Fase dalam menstruasi-->
+        <!--\n            Dalam Siklus Menstruasi Terdapat Beberapa Fase Yaitu:-->
+        <!--\n           1.	Fase Pra Ovulasi (hari ke 5 setelah menstruasi hari ke 13)-->
+        <!--\n            Terjadi pertumbuhan kantung cairan di indung telur (ovarium) yang berisi sel telur (belum matang), dibantu oleh hormon perangsang FSH (follicle stimulating hormone) yang diproduksi pada hipotalamus yang berada di pangkal otak.-->
+        <!--"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="11dp" />-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:layout_gravity="left"-->
+        <!--                android:layout_marginTop="5dp"-->
+        <!--                android:fontFamily="@font/comic_sans_ms"-->
+        <!--                android:justificationMode="inter_word"-->
+        <!--                android:text="\n            b.	Fase ovulasi (hari 14)-->
+        <!--            \n                Adanya peningkatan kadar estrogen selama fase folikel \n                atau pra ovulasi memicu kelenjar pituitari untuk \n                melepaskan hormone luteinizing hormone (LH). Di fase \n                inilah proses ovulasi dimulai. Ovulasi  adalah proses \n                ketika ovarium melepaskan satu \n                sel telur yang matang sel telur ini kemudian bergerak \n                ke tuba fallopi menuju rahim untuk dibuahi oleh sperma. \n                Masa bertahan hidup sel telur di Rahim biasanya hanya \n                sekitar 24 jam, bertemu sperma untuk dibuahi. Tetapi \n                apabila jika sel telur tidak bertemu dan dibuahi oleh \n                sperma maka  sel telur akan mati dan lapisan dinding \n                Rahim pun akan meluruh menjadi darah menstruasi. \n                Sebaliknya jika terbuahi maka akan terjadi kehamilan. \n                Fase ini terjadi di pertengahan siklus yaitu sekitar 2 \n                minggu atau lebih sebelum mulai menstruasi. Saat \n                ovulasi, biasanya wanita akan mengalami \n                keputihan kental, lengket berwarna bening seperti putih \n                telur dan suhu basal tubuh juga akan meningkat menjadi \n                37-38⁰C.\n"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="11dp" />-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="left"-->
+        <!--            android:layout_marginTop="5dp"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="11dp"-->
+        <!--            android:text="\n            c.	Fase luteal (hari  15-28)-->
+        <!--            \n                Saat folikel melepaskan telurnya, bentuknya \n                berubah menjadi korpus luteum.Korpus luteum \n                melepaskan hormon progesteron dan estrogen \n                yang berfungsi untuk menjaga lapisan Rahim \n                tetap tebal dan siap sebagai tempat \n                menempelnya sel telur yang telah dibuahi sel \n                sperma.\n" />-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="left"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="11dp"-->
+        <!--            android:text="\n            d.	Fase menstruasi (hari ke 28-3)-->
+        <!--            \n                Fase ini teradi jika sel telur \n                (ovum) tidak dibuahi sperma, sehingga korpus \n                luteum menghentikan produksi hormone \n                ekstrogen dan progesterone. Turunnya kadar \n                hormon ekstrogen dan progesterone \n                menyebabkan lepasnya sel telur dari serta \n                meluruhnya dinding Rahim sehingga terjadi \n                perdarahan. Dalam satu siklus menstruasi, \n                rata-rata berlangsung selama 3-7 hari namum \n                terkadang sebagian wanita mengalami lebih dari \n                7 hari\n" />-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="left"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="11dp"-->
+        <!--            android:text="\n            e.	Fase regenerasi/pasca menstruasi (hari 1-5 \n                setelah menstruasi)-->
+        <!--            \n                Pada fase ini terjadi proses pemulihan dan \n                pembentukan kembali lapisan dinding \n                Rahim, sedangkan ovarium mulai membentuk \n                kembali folikel-folikel yang terkandung \n                didalamnya melalui pengaruh hormone FSH \n                dan estrogen yang sebelumnya telah dihasilkan \n                kembali didalam ovarium." />-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_gravity="left"-->
+        <!--                android:layout_marginTop="15dp"-->
+        <!--                android:fontFamily="@font/comic_sans_ms"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="11dp"-->
+        <!--                android:text="      3.3	Proses Terjadinya Menstruasi-->
+        <!--\n                Setiap bulannya akan terjadi pelepasan 1 sel \n            telur yang matang, dikenal dengan ovulasi. Kelenjar \n            Hipofisis bekerja dibawa kendali di otak kecil yang \n            dikenal hypothalamus.Siklus mentsruasi dimulai \n            ketika sel saraf-saraf hypothalamus mengeluarkan \n            hormone GNRH ke pembuluh dalah yang \n            mengelilingi kelenjar Hipofisis. Akibat adanya \n            simulasi rangsangan dari hormone GNRH \n            mengakibatkan kelenjar  hipofisis mengeluarkan \n            hormone lain yaitu FSH (follicle stimulating \n            hormone). FSH melakukan perjalanan \n            dalam aliran darah \n            untuk mencapai ke ovarium untuk merangsang \n            pembentukan folikel sel \n            telur.di dalam folikel sel telur mengahsilkan \n            hormone ekstrogen dan cairan. Hormon FSH \n            membantu sel telur dalam mempersiapkan proses \n            pelepasannya. folikel telur  terus meningkatkan \n            produksi GNRH yang akan merangsang hipofisis \n            untuk mengeluarkan hormon ke dua yaitu hormon \n            LH (luteinizing hormone). hormon LH akan bertugas \n            dalam pelepasan sel telur (Ovulasi) melalui ujung \n            saluran telur (Tuba Fallopi) hingga akhirnya tiba \n            pada rongga rahim(uterus).-->
+        <!--\n                Setelah sel telur lepas, tempat bekas \n            perlengketan sel telur berubah menjadi kekuningan \n            yang biasa disebut sebagai Corpus luteum. Sel-sel \n            yang di corpus luteum mengeluarkan hormon \n            progesterone  untuk menebalkan lapisan dinding \n            Rahim sebagai persiapan jika terjadinya kehamilan. \n            Lapisan dinding Rahim dikenal dengan \n            endometrium, mengalami perubahan sebagai \n            respon terhadap tingkat hormon selama siklus  \n            menstruasi yang disebut fase folikuler.  Folikuler \n            yang berkembang meningkatkan jumlah \n            pengeluaran hormone ekstrogen yang mendorong \n            regenerasi endometrium,-->
+        <!--\n                Setelah ovulasi (pelepasan sel telur) terdapat \n            perubahan penting didalam dinding \n            Rahim (endometrium) menjadi tebal yang berguna \n            agar sel telur dapat cocok tinggal ditempat \n            tersebut selama kehamilan yang di pengaruhi oleh \n            adanya hormone progesterone di corpus luteum.-->
+        <!--\n                Sel telur yang telah bersarang di rongga Rahim \n            menunggu sel sperma dari laki-laki untuk \n            dibuahi.Hari inilah yang disebut puncak dari masa \n            subur yang ditandai dengan perubahan suhu tubuh \n            menjadi hangat.  Jika sel sperma dan sel telur \n            bertemu dan terjadi pembuahan maka akan terjadi \n            kehamilan. Sebaliknya, akibat tidak ada \n            pembuahan dari sel sperma, maka pada saat \n            itu terjadi penurunan kadar hormone progesterone \n            dan ekstogen yang memicu lapisan dinding Rahim \n            yang sebelumnya menebal persiapan kehamilan \n            menjadi luruh menjadi darah menstruasi.  Siklus ini \n            akan terus berulang  hingga tiba ke masa menopause.-->
+        <!--" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:text="      3.4	Masalah-masalah yang dialami perempuan saat \n            menstruasia-->
+        <!--\n            a) PMS / pra mesnstruasi sindrom (mengalami \n                perasaan tak menentu seperti gelisah, \n                gampang marah, mudah tersinggung dan sensitif. \n                Ada pula yang merasakan sampai sakit kepala, \n                mual, perut kembung, cepat lelah, rasa nyeri atau \n                bengkak di payudara dan wajah berjerawat)-->
+        <!--\n            b)	Dismenorhea (nyeri pada daerah perut, pinggang, \n                tembus ke belakang sampai menjalar ke paha)-->
+        <!--\n            c)	Amenorea (tidak haid)-->
+        <!--\n            d)	Menoragia (pengeluaran darah menstruasi yang \n                terlalu banyak)-->
+        <!--\n            e)	Metroragia (siklus haid yang tidak teratur berupa \n                perdarahan bercak yang terjadi diluar siklus \n                menstruasi)-->
+        <!--"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="11dp" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView2"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:text="      3.5	Tips Mengatasi Nyeri Selama Menstruasi-->
+        <!--\n            a)	Kompres perut dengan air hangat.-->
+        <!--\n            b)	Hindari makanan tinggi garam, gula dan lemak.-->
+        <!--\n            c)	Hindari minuman bersoda dan alkohol.-->
+        <!--\n            d)	Konsumsi ramuan herbal ( jahe,madu, kunyit)-->
+        <!--\n            e)	Tetap beraktifitas normal / olahraga ringan-->
+        <!--\n            f)	Hindari stress-->
+        <!--\n            g)	Bila keluhan tidak teratasi dapat meminum obat \n                penghilang rasa nyeri dan berkonsultasi dengan \n                dokter.-->
+        <!--\n"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="11dp"-->
+        <!--            tools:layout_editor_absoluteX="3dp"-->
+        <!--            tools:layout_editor_absoluteY="339dp" />-->
+
+
+        <ImageView
+            android:id="@+id/mmens1"
+            android:layout_width="match_parent"
+            android:layout_height="371dp"
+            android:src="@drawable/mmens1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bt_materi" />
+
+        <Button
+            android:id="@+id/bt_materi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="20dp"
-            android:justificationMode="inter_word"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="      3.1	Pengertian
-		\n                  Menstruasi adalah proses pelepasan dinding rahim \n            yang disertai dengan pendarahan yang terjadi secara \n            berulang setiap bulan, kecuali pada saat terjadi kehamilan. \n            Menstruasi merupakan salah satu ciri kedewasaan \n            perempuan yang biasanya diawali pada usia remaja 9-12 \n            tahun walaupun terkadang ada yang lebih cepat atau \n            lambat dari umur tersebut. Umumnya siklus menstruasi\n             terjadi selama 28 hari. Hari pertama terjadinya \n            menstruasi dihitung sebagai awal dari setiap siklus.\n             Menstruasi akan terjadi 3-7 hari.
-\n\n      3.2 Fase dalam menstruasi
-\n            Dalam Siklus Menstruasi Terdapat Beberapa Fase Yaitu:
-\n            a.	Fase Proliferasi/folikuler/ pra ovulasi (hari ke 5 pasca \n                menstruasi hari ke 14)
-\n                Fase terjadinya pertumbuhan folikel didalam ovarium. \n                Pada fase pertengahan fase folikuler, kadar hormone \n                FSH sedikit meningkat sehingga merangsang \n                pertumbuhan sekitar 3-30 folikel yang masing-masing \n                terdapat 1 sel telur. Tetapi hanya 1 folikel saja yang \n                nantinya akan terus tumbuh sedangkan yang lainnya \n                akan hancur.
-"
-            android:textColor="#000000"
-            android:textSize="11dp" />
+            android:background="@color/white"
+            android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
+            android:text="Menstruasi"
+            android:textColor="#F44336"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView3"-->
+<!--            android:layout_width="350dp"-->
+<!--            android:layout_height="1124dp"-->
+<!--            android:visibility="invisible"-->
+<!--            tools:layout_editor_absoluteX="21dp"-->
+<!--            tools:layout_editor_absoluteY="68dp"-->
+<!--            tools:visibility="invisible" />-->
 
         <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="182dp"
-            android:layout_height="37dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="2dp"
-            android:src="@drawable/menss1" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="left"
-                android:layout_marginTop="5dp"
-                android:fontFamily="@font/comic_sans_ms"
-                android:justificationMode="inter_word"
-                android:text="\n            b.	Fase ovulasi (hari 14)
-            \n                Adanya peningkatan kadar estrogen selama fase folikel \n                atau pra ovulasi memicu kelenjar pituitari untuk \n                melepaskan hormone luteinizing hormone (LH). Di fase \n                inilah proses ovulasi dimulai. Ovulasi  adalah proses \n                ketika ovarium melepaskan satu \n                sel telur yang matang sel telur ini kemudian bergerak \n                ke tuba fallopi menuju rahim untuk dibuahi oleh sperma. \n                Masa bertahan hidup sel telur di Rahim biasanya hanya \n                sekitar 24 jam, bertemu sperma untuk dibuahi. Tetapi \n                apabila jika sel telur tidak bertemu dan dibuahi oleh \n                sperma maka  sel telur akan mati dan lapisan dinding \n                Rahim pun akan meluruh menjadi darah menstruasi. \n                Sebaliknya jika terbuahi maka akan terjadi kehamilan. \n                Fase ini terjadi di pertengahan siklus yaitu sekitar 2 \n                minggu atau lebih sebelum mulai menstruasi. Saat \n                ovulasi, biasanya wanita akan mengalami \n                keputihan kental, lengket berwarna bening seperti putih \n                telur dan suhu basal tubuh juga akan meningkat menjadi \n                37-38⁰C.\n"
-                android:textColor="#000000"
-                android:textSize="11dp" />
-
-            <ImageView
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="2dp"
-            android:layout_gravity="center"
-            android:src="@drawable/mens2" />
-
-            <ImageView
-                android:layout_width="268dp"
-                android:layout_height="146dp"
-                android:layout_marginTop="2dp"
-                android:layout_gravity="center"
-                android:src="@drawable/mens3" />
+            android:id="@+id/mmens6"
+            android:layout_width="match_parent"
+            android:layout_height="388dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/mmens6"
+            app:layout_constraintTop_toBottomOf="@+id/youtube_player_mens"
+            tools:layout_editor_absoluteX="5dp" />
 
         <ImageView
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="2dp"
-            android:layout_gravity="center"
-            android:src="@drawable/mens4" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:textSize="11dp"
-            android:text="\n            c.	Fase luteal (hari  15-28)
-            \n                Saat folikel melepaskan telurnya, bentuknya \n                berubah menjadi korpus luteum.Korpus luteum \n                melepaskan hormon progesteron dan estrogen \n                yang berfungsi untuk menjaga lapisan Rahim \n                tetap tebal dan siap sebagai tempat \n                menempelnya sel telur yang telah dibuahi sel \n                sperma.\n" />
+            android:id="@+id/mmens5"
+            android:layout_width="333dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/mmens5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/menstruasi" />
 
         <ImageView
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="2dp"
-            android:src="@drawable/mens5" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:textSize="11dp"
-            android:text="\n            d.	Fase menstruasi (hari ke 28-3)
-            \n                Fase ini teradi jika sel telur \n                (ovum) tidak dibuahi sperma, sehingga korpus \n                luteum menghentikan produksi hormone \n                ekstrogen dan progesterone. Turunnya kadar \n                hormon ekstrogen dan progesterone \n                menyebabkan lepasnya sel telur dari serta \n                meluruhnya dinding Rahim sehingga terjadi \n                perdarahan. Dalam satu siklus menstruasi, \n                rata-rata berlangsung selama 3-7 hari namum \n                terkadang sebagian wanita mengalami lebih dari \n                7 hari\n" />
+            android:id="@+id/mmens55"
+            android:layout_width="328dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/mmens55"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mmens5" />
 
         <ImageView
-            android:layout_width="268dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="2dp"
-            android:layout_gravity="center"
-            android:src="@drawable/mens6" />
+            android:id="@+id/mmens4"
+            android:layout_width="327dp"
+            android:layout_height="116dp"
+            android:src="@drawable/mmens4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gifImageView" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="15dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:textSize="11dp"
-            android:text="\n            e.	Fase regenerasi/pasca menstruasi (hari 1-5 \n                setelah menstruasi)
-            \n                Pada fase ini terjadi proses pemulihan dan \n                pembentukan kembali lapisan dinding \n                Rahim, sedangkan ovarium mulai membentuk \n                kembali folikel-folikel yang terkandung \n                didalamnya melalui pengaruh hormone FSH \n                dan estrogen yang sebelumnya telah dihasilkan \n                kembali didalam ovarium." />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:layout_marginTop="15dp"
-                android:fontFamily="@font/comic_sans_ms"
-                android:textColor="#000000"
-                android:textSize="11dp"
-                android:text="      3.3	Proses Terjadinya Menstruasi
-\n                Setiap bulannya akan terjadi pelepasan 1 sel \n            telur yang matang, dikenal dengan ovulasi. Kelenjar \n            Hipofisis bekerja dibawa kendali di otak kecil yang \n            dikenal hypothalamus.Siklus mentsruasi dimulai \n            ketika sel saraf-saraf hypothalamus mengeluarkan \n            hormone GNRH ke pembuluh dalah yang \n            mengelilingi kelenjar Hipofisis. Akibat adanya \n            simulasi rangsangan dari hormone GNRH \n            mengakibatkan kelenjar  hipofisis mengeluarkan \n            hormone lain yaitu FSH (follicle stimulating \n            hormone). FSH melakukan perjalanan \n            dalam aliran darah \n            untuk mencapai ke ovarium untuk merangsang \n            pembentukan folikel sel \n            telur.di dalam folikel sel telur mengahsilkan \n            hormone ekstrogen dan cairan. Hormon FSH \n            membantu sel telur dalam mempersiapkan proses \n            pelepasannya. folikel telur  terus meningkatkan \n            produksi GNRH yang akan merangsang hipofisis \n            untuk mengeluarkan hormon ke dua yaitu hormon \n            LH (luteinizing hormone). hormon LH akan bertugas \n            dalam pelepasan sel telur (Ovulasi) melalui ujung \n            saluran telur (Tuba Fallopi) hingga akhirnya tiba \n            pada rongga rahim(uterus).
-\n                Setelah sel telur lepas, tempat bekas \n            perlengketan sel telur berubah menjadi kekuningan \n            yang biasa disebut sebagai Corpus luteum. Sel-sel \n            yang di corpus luteum mengeluarkan hormon \n            progesterone  untuk menebalkan lapisan dinding \n            Rahim sebagai persiapan jika terjadinya kehamilan. \n            Lapisan dinding Rahim dikenal dengan \n            endometrium, mengalami perubahan sebagai \n            respon terhadap tingkat hormon selama siklus  \n            menstruasi yang disebut fase folikuler.  Folikuler \n            yang berkembang meningkatkan jumlah \n            pengeluaran hormone ekstrogen yang mendorong \n            regenerasi endometrium,
-\n                Setelah ovulasi (pelepasan sel telur) terdapat \n            perubahan penting didalam dinding \n            Rahim (endometrium) menjadi tebal yang berguna \n            agar sel telur dapat cocok tinggal ditempat \n            tersebut selama kehamilan yang di pengaruhi oleh \n            adanya hormone progesterone di corpus luteum.
-\n                Sel telur yang telah bersarang di rongga Rahim \n            menunggu sel sperma dari laki-laki untuk \n            dibuahi.Hari inilah yang disebut puncak dari masa \n            subur yang ditandai dengan perubahan suhu tubuh \n            menjadi hangat.  Jika sel sperma dan sel telur \n            bertemu dan terjadi pembuahan maka akan terjadi \n            kehamilan. Sebaliknya, akibat tidak ada \n            pembuahan dari sel sperma, maka pada saat \n            itu terjadi penurunan kadar hormone progesterone \n            dan ekstogen yang memicu lapisan dinding Rahim \n            yang sebelumnya menebal persiapan kehamilan \n            menjadi luruh menjadi darah menstruasi.  Siklus ini \n            akan terus berulang  hingga tiba ke masa menopause.
-" />
-
-            <Button android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <Button
             android:id="@+id/youtube_player_mens"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_width="337dp"
+            android:layout_height="60dp"
             android:fontFamily="@font/comic_sans_ms"
-            android:text="Video Proses Terjadinya Menstruasi" />
+            android:text="Video Proses Terjadinya Menstruasi"
+            app:layout_constraintTop_toBottomOf="@+id/mmens55"
+            tools:layout_editor_absoluteX="7dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:textSize="11dp"
-            android:text="      3.4	Masalah-masalah yang dialami perempuan saat \n            menstruasia
-\n            a) PMS / pra mesnstruasi sindrom (mengalami \n                perasaan tak menentu seperti gelisah, \n                gampang marah, mudah tersinggung dan sensitif. \n                Ada pula yang merasakan sampai sakit kepala, \n                mual, perut kembung, cepat lelah, rasa nyeri atau \n                bengkak di payudara dan wajah berjerawat)
-\n            b)	Dismenorhea (nyeri pada daerah perut, pinggang, \n                tembus ke belakang sampai menjalar ke paha)
-\n            c)	Amenorea (tidak haid)
-\n            d)	Menoragia (pengeluaran darah menstruasi yang \n                terlalu banyak)
-\n            e)	Metroragia (siklus haid yang tidak teratur berupa \n                perdarahan bercak yang terjadi diluar siklus \n                menstruasi)
-" />
+        <ImageView
+            android:id="@+id/mmens3"
+            android:layout_width="326dp"
+            android:layout_height="147dp"
+            android:src="@drawable/mmens3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ovulasi" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginTop="25dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:textSize="11dp"
-            android:text="      3.5	Tips Mengatasi Nyeri Selama Menstruasi
-\n            a)	Kompres perut dengan air hangat.
-\n            b)	Hindari makanan tinggi garam, gula dan lemak.
-\n            c)	Hindari minuman bersoda dan alkohol.
-\n            d)	Konsumsi ramuan herbal ( jahe,madu, kunyit)
-\n            e)	Tetap beraktifitas normal / olahraga ringan
-\n            f)	Hindari stress
-\n            g)	Bila keluhan tidak teratasi dapat meminum obat \n                penghilang rasa nyeri dan berkonsultasi dengan \n                dokter.
-\n" />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView"
+            android:layout_width="334dp"
+            android:layout_height="240dp"
+            android:gravity="center"
+            android:src="@drawable/luteal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mmens3" />
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="266dp"
+                    android:layout_height="147dp"
+                    android:gravity="center"
+                    android:id="@+id/menstruasi"
+                    android:src="@drawable/menstruasi"
+                    tools:layout_editor_absoluteX="42dp"
+                    tools:layout_editor_absoluteY="523dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/mmens4" />
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="266dp"
+                    android:layout_height="147dp"
+                    android:gravity="center"
+                    android:id="@+id/ovulasi"
+                    android:src="@drawable/ovulasi"
+                    tools:layout_editor_absoluteX="42dp"
+                    tools:layout_editor_absoluteY="523dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/mmens2" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/polifer"
+            android:layout_width="266dp"
+            android:layout_height="147dp"
+            android:gravity="center"
+            android:src="@drawable/poliferasi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mmens1" />
+
+        <ImageView
+            android:id="@+id/mmens2"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:src="@drawable/mmens2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/polifer" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/bt_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="38dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginEnd="25dp"
-            android:layout_marginBottom="25dp"
             android:adjustViewBounds="true"
             android:backgroundTint="#FFFFFF"
             android:longClickable="false"
             android:rotation="180"
-            android:src="@drawable/arrow1" />
+            android:src="@drawable/arrow1"
+            app:layout_constraintTop_toBottomOf="@+id/mmens6"
+            tools:layout_editor_absoluteX="21dp" />
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

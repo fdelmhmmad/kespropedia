@@ -1,85 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:fillViewport="false"
     android:background="@drawable/fb">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="30dp"
-        android:background="@color/white"
-        android:orientation="vertical"
-        android:paddingBottom="30dp">
+        android:background="@color/white">
+
         <Button
             android:id="@+id/bt_materi"
-            android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_width="231dp"
+            android:layout_height="40dp"
             android:background="@color/white"
             android:fontFamily="@font/gill_sans_ultra_bold_condensed_ms"
             android:text="Aborsi"
-            android:textColor="#F44336" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:textSize="11.5dp"
-            android:text="      8.1	Pengertian
-\n                 Aborsi adalah berakhirnya kehamilan dengan \n            dikeluarkannya janin atau emrio sebelum minggu \n            ke 20 dan belum memiliki kemampuan untuk \n            bertahan hidup diluar rahim, sehingga \n            menyebabkan kematian. Aborsi terjadi secara :
-\n            a.	sadar/sengaja melalui bantuan tenaga yang \n               tidak terlatih
-\n            b.	indikasi medis karena adanya masalah, atau \n               gangguan selama kehamilan yang jika tidak \n               dilakukan pengeluaran hasil konsepsi(janin) akan \n               beresiko
-\n            c.	spontan ( keguguran yang terjadi akibat \n               pertumbuhan kehamilan yang tidak normal)
-"
-            android:textColor="#000000"
-            android:fontFamily="@font/comic_sans_ms"
-            android:layout_gravity="left"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/comic_sans_ms"
-            android:textColor="#000000"
-            android:textSize="11.5dp"
-            android:text="      8.2	Resiko kesehatan akibat melakukan aborsi:
-\n            a.	Perdarahan  hebat
-\n            b.	Anemia bahkan syok
-\n            c.	Infeksi disekitar kandungan/rahim
-\n            d.	dapat mengakibatkan kerobekanRahim atau \n               lapisannya
-\n            e.	Peradangan panggul
-\n            f.	Sepsis( infeksi penyebaran bakteri yang melaus \n               ke bagian tubuh lainnya melalui aliran darah)
-\n            g.	kanker
-\n            h.	Kerusakan pada leher rahim
-\n            i.	Gangguan psikologis ( trauma, merasa bersalah, \n               cemas, stress hingga depresi)
-\n            j.	Kematian
-"
-            android:layout_gravity="left"/>
+            android:textColor="#F44336"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-        <Button android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="Play Video" />
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="692dp"
+            android:layout_gravity="left"
+            android:fontFamily="@font/comic_sans_ms"
+            android:text="android:textColor="
+            android:textSize="12dp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="40dp"
+            tools:visibility="invisible" />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginBottom="5dp"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:text="      8.1	Pengertian-->
+        <!--\n                 Aborsi adalah berakhirnya kehamilan dengan \n            dikeluarkannya janin atau emrio sebelum minggu \n            ke 20 dan belum memiliki kemampuan untuk \n            bertahan hidup diluar rahim, sehingga \n            menyebabkan kematian. Aborsi terjadi secara :-->
+        <!--\n            a.	sadar/sengaja melalui bantuan tenaga yang \n               tidak terlatih-->
+        <!--\n            b.	indikasi medis karena adanya masalah, atau \n               gangguan selama kehamilan yang jika tidak \n               dilakukan pengeluaran hasil konsepsi(janin) akan \n               beresiko-->
+        <!--\n            c.	spontan ( keguguran yang terjadi akibat \n               pertumbuhan kehamilan yang tidak normal)-->
+        <!--"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="11.5dp"-->
+        <!--            app:layout_constraintBottom_toTopOf="@+id/textView2"-->
+        <!--            app:layout_constraintStart_toStartOf="@+id/textView2"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/bt_materi" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView2"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginEnd="12dp"-->
+        <!--            android:layout_marginRight="12dp"-->
+        <!--            android:layout_marginBottom="21dp"-->
+        <!--            android:fontFamily="@font/comic_sans_ms"-->
+        <!--            android:text="      8.2	Resiko kesehatan akibat melakukan aborsi:-->
+        <!--\n            a.	Perdarahan  hebat-->
+        <!--\n            b.	Anemia bahkan syok-->
+        <!--\n            c.	Infeksi disekitar kandungan/rahim-->
+        <!--\n            d.	dapat mengakibatkan kerobekanRahim atau \n               lapisannya-->
+        <!--\n            e.	Peradangan panggul-->
+        <!--\n            f.	Sepsis( infeksi penyebaran bakteri yang melaus \n               ke bagian tubuh lainnya melalui aliran darah)-->
+        <!--\n            g.	kanker-->
+        <!--\n            h.	Kerusakan pada leher rahim-->
+        <!--\n            i.	Gangguan psikologis ( trauma, merasa bersalah, \n               cemas, stress hingga depresi)-->
+        <!--\n            j.	Kematian-->
+        <!--"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="11.5dp"-->
+        <!--            app:layout_constraintBottom_toTopOf="@+id/button5"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+        <!--        <Button-->
+        <!--            android:id="@+id/button5"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginStart="31dp"-->
+        <!--            android:layout_marginLeft="31dp"-->
+        <!--            android:text="Play Video"-->
+        <!--            app:layout_constraintBottom_toTopOf="@+id/bt_back"-->
+        <!--            app:layout_constraintStart_toEndOf="@+id/bt_back"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/textView2" />-->
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ab1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bt_materi" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="398dp"
+            android:src="@drawable/ab2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/bt_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="38dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginEnd="25dp"
-            android:layout_marginBottom="25dp"
             android:adjustViewBounds="true"
             android:backgroundTint="#FFFFFF"
             android:longClickable="false"
             android:rotation="180"
-            android:src="@drawable/arrow1" />
+            android:src="@drawable/arrow1"
+            app:layout_constraintTop_toBottomOf="@+id/imageView1"
+            tools:layout_editor_absoluteX="-7dp" />
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

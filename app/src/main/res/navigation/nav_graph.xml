@@ -559,6 +559,9 @@
         <action
             android:id="@+id/action_pubertasFragment_to_materiFragment"
             app:destination="@id/materiFragment" />
+        <action
+            android:id="@+id/action_pubertasFragment_to_ytPuber"
+            app:destination="@id/ytPuber" />
     </fragment>
     <fragment
         android:id="@+id/mensFragment"
@@ -578,6 +581,9 @@
         <action
             android:id="@+id/action_hygieneFragment_to_materiFragment"
             app:destination="@id/materiFragment" />
+        <action
+            android:id="@+id/action_hygieneFragment_to_ytHygi"
+            app:destination="@id/ytHygi" />
     </fragment>
     <fragment
         android:id="@+id/infeksiFragment"
@@ -617,6 +623,9 @@
         <action
             android:id="@+id/action_pranikahFragment_to_materiFragment"
             app:destination="@id/materiFragment" />
+        <action
+            android:id="@+id/action_pranikahFragment_to_ytPra"
+            app:destination="@id/ytPra" />
     </fragment>
     <fragment
         android:id="@+id/fakta1Fragment"
@@ -888,4 +897,16 @@
             android:id="@+id/action_kehamilanFragment_to_materiFragment"
             app:destination="@id/materiFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/ytPra"
+        android:name="com.example.kespropedia.YtPra"
+        android:label="YtPra" />
+    <fragment
+        android:id="@+id/ytPuber"
+        android:name="com.example.kespropedia.YtPuber"
+        android:label="YtPuber" />
+    <fragment
+        android:id="@+id/ytHygi"
+        android:name="com.example.kespropedia.YtHygi"
+        android:label="YtHygi" />
 </navigation>
