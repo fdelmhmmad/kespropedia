@@ -60,6 +60,17 @@
         android:textSize="34sp"
         android:textStyle="bold" />
 
+    <!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="216dp"-->
+<!--        android:layout_below="@+id/text1"-->
+<!--        android:layout_marginTop="33dp"-->
+<!--        android:src="@drawable/antar"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/text2" />-->
+
     <TextView
         android:id="@+id/text2"
         android:layout_width="match_parent"
@@ -72,25 +83,16 @@
         android:textSize="28sp"
         android:textStyle="bold" />
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="216dp"-->
-<!--        android:layout_below="@+id/text1"-->
-<!--        android:layout_marginTop="33dp"-->
-<!--        android:src="@drawable/antar"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/text2" />-->
-
     <TextView
         android:id="@+id/text3"
-        android:layout_width="316dp"
+        android:layout_width="match_parent"
         android:layout_height="91dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="235dp"
         android:fontFamily="@font/comic_sans_ms"
         android:gravity="left|fill"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
         android:text='  Kesehatan reproduksi adalah keadaan sehat secara fisik, mental, dan sosial secara utuh, tidak semata-mata bebas dari penyakit atau kecacatan yang berkaitan dengan sistem, fungsi dan proses reproduksi.'
         android:textColor="#000000"
         android:textSize="12sp" />
@@ -98,36 +100,42 @@
 
     <TextView
         android:id="@+id/text4"
-        android:layout_width="317dp"
+        android:layout_width="match_parent"
         android:layout_height="112dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="325dp"
         android:fontFamily="@font/comic_sans_ms"
         android:gravity="left|fill"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
         android:text='  Remaja sering disebut masa pubertas adalah peralihan atau transisi antara masa kanak-kanak ke dewasa yang relatif mental dan sosialnya belum cukup matang. Masa pubertas ditandai dengan terjadinya perubahan fisik, fungsi fisiologis seperti kematangan organ-organ reproduksi dan fungsi psikologis.'
         android:textColor="#000000"
         android:textSize="12sp" />
 
     <TextView
         android:id="@+id/text5"
-        android:layout_width="335dp"
+        android:layout_width="match_parent"
         android:layout_height="123dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="393dp"
         android:fontFamily="@font/comic_sans_ms"
         android:gravity="left|fill"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
         android:text='  Perbedaan rentang usia/umur anak remaja :'
         android:textColor="#000000"
         android:textSize="12sp" />
 
     <TextView
         android:id="@+id/text6"
-        android:layout_width="319dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="465dp"
         android:fontFamily="@font/comic_sans_ms"
         android:gravity="left|fill"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
         android:text='>> Menurut WHO remaja adalah penduduk dalam rentang usia 10-19 tahun.\n
 >> Menurut menteri kesehatan RI tahun 2014, remaja adalah penduduk dalam rentang usia 10-18 tahun.\n
 >> Menurut BKKBN remaja adalah rentang usia 10-24 tahun dan belum menikah.'

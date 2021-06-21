@@ -28,7 +28,7 @@ public class PreTest extends AppCompatActivity {
         // Baris di bawah untuk menambahkan scrollbar di dalam WebView-nya
         webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://docs.google.com/forms/d/e/1FAIpQLSeA-tt0idZvj6i_DcjxrnC7yWeOKEfe4StO8c3AlAoHdpECVQ/viewform");
+        webView.loadUrl("https://docs.google.com/forms/d/e/1FAIpQLSeA-tt0idZvj6i_DcjxrnC7yWeOKEfe4StO8c3AlAoHdpECVQ/viewform?usp=sf_link");
 
     }
 }

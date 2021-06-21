@@ -16,14 +16,15 @@
         android:orientation="horizontal"
         android:padding="5dp">
 
-                <TextView
-                    android:id="@+id/correctText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Jawaban Anda Benar"
-                    android:textColor="@color/green"
-                    android:gravity="center"
-                    android:textSize="30sp"/>
+        <TextView
+            android:id="@+id/correctText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Jawaban Anda Benar"
+            android:textColor="@color/backgroundColor"
+            android:textSize="30sp" />
+
     </LinearLayout>
 
 <!--    <TextView-->
@@ -34,6 +35,17 @@
 <!--        android:textColor="@color/green"-->
 <!--        android:gravity="center"-->
 <!--        android:textSize="30sp"/>-->
+
+    <TextView
+        android:id="@+id/correctText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#F3F0F0"
+        android:gravity="center"
+        android:text="Jawaban Anda Benar"
+        android:textColor="@color/backgroundColor"
+        android:textSize="18sp" />
 
     <View
 

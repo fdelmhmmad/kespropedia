@@ -8,6 +8,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -154,6 +155,8 @@ public class Kuis1Fragment extends AppCompatActivity {
 
     //Onclick listener for first button
     public void buttonA(View view) {
+        Log.e("myTag", "This is my message"+currentQuestion.getOptA()+"/"+currentQuestion.toString());
+//        gameWon();
         //compare the option with the ans if yes then make button color green
         if (currentQuestion.getOptA().equals(currentQuestion.getAnswer())) {
             buttonA.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.lightGreen));
@@ -165,7 +168,7 @@ public class Kuis1Fragment extends AppCompatActivity {
                 disableButton();
 
                 //Show the dialog that ans is correct
-                correctDialog();
+                correctDialog(currentQuestion.getFact());
             }
             //If user has exceeds the que limit just navigate him to GameWon activity
             else {
@@ -184,11 +187,12 @@ public class Kuis1Fragment extends AppCompatActivity {
 
     //Onclick listener for sec button
     public void buttonB(View view) {
+//        gameWon();
         if (currentQuestion.getOptB().equals(currentQuestion.getAnswer())) {
             buttonB.setButtonColor(ContextCompat.getColor(getApplicationContext(),R.color.lightGreen));
             if (qid < list.size() - 1) {
                 disableButton();
-                correctDialog();
+                correctDialog(currentQuestion.getFact());
             } else {
                 gameWon();
             }
@@ -297,7 +301,7 @@ public class Kuis1Fragment extends AppCompatActivity {
     }
 
     //This dialog is show to the user after he ans correct
-    public void correctDialog() {
+    public void correctDialog(String fact) {
         final Dialog dialogCorrect = new Dialog(Kuis1Fragment.this);
         dialogCorrect.requestWindowFeature(Window.FEATURE_NO_TITLE);
         if (dialogCorrect.getWindow() != null) {
@@ -313,6 +317,8 @@ public class Kuis1Fragment extends AppCompatActivity {
 
 
         TextView correctText = (TextView) dialogCorrect.findViewById(R.id.correctText);
+        TextView correctText2 = (TextView) dialogCorrect.findViewById(R.id.correctText2);
+        correctText2.setText(fact);
 //        TextView factText = (TextView) dialogCorrect.findViewById(R.id.factText);
         FButton buttonNext = (FButton) dialogCorrect.findViewById(R.id.dialogNext);
 

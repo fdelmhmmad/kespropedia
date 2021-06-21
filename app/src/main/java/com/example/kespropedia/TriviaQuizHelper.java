@@ -6,6 +6,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -153,7 +154,6 @@ class TriviaQuizHelper extends SQLiteOpenHelper {
                 values.put(OPTA, question.getOptA());
                 values.put(OPTB, question.getOptB());
                 values.put(FACT, question.getFact());
-//                values.put(OPTD, question.getOptD());
                 values.put(ANSWER, question.getAnswer());
                 db.insert(TABLE_NAME, null, values);
             }
@@ -182,7 +182,7 @@ class TriviaQuizHelper extends SQLiteOpenHelper {
             question.setOptB(cursor.getString(3));
             question.setFact(cursor.getString(4));
 //            question.setOptD(cursor.getString(5));
-            question.setAnswer(cursor.getString(4));
+            question.setAnswer(cursor.getString(5));
             questionsList.add(question);
         }
 

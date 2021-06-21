@@ -12,9 +12,7 @@
         android:id="@+id/linearLayout6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
-        android:layout_marginRight="30dp"
         android:layout_marginBottom="30dp"
         android:background="@color/white"
         android:orientation="vertical"
@@ -31,17 +29,6 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:layout_editor_absoluteX="142dp" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="63dp"
-            android:layout_height="448dp"
-            android:layout_gravity="left"
-            android:fontFamily="@font/comic_sans_ms"
-            android:text="android:textColor="
-            android:textSize="12dp"
-            android:visibility="invisible"
-            tools:layout_editor_absoluteX="44dp"
-            tools:visibility="invisible" />
         <!--<TextView-->
         <!--            android:layout_width="wrap_content"-->
         <!--            android:layout_height="wrap_content"-->
@@ -132,13 +119,14 @@
             android:id="@+id/bt_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="196dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="188dp"
             android:adjustViewBounds="true"
             android:backgroundTint="#FFFFFF"
             android:longClickable="false"
             android:rotation="180"
             android:src="@drawable/arrow1"
-            app:layout_constraintTop_toBottomOf="@+id/textView"
-            tools:layout_editor_absoluteX="-16dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youtube_player_pra" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

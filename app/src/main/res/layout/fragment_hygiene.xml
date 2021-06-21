@@ -11,9 +11,7 @@
         android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
-        android:layout_marginRight="30dp"
         android:layout_marginBottom="30dp"
         android:background="@color/white">
 
@@ -71,8 +69,8 @@
             android:text=""
             android:textColor="#F44336"
             android:visibility="invisible"
-            tools:layout_editor_absoluteX="-3dp"
-            tools:layout_editor_absoluteY="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:visibility="invisible" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
